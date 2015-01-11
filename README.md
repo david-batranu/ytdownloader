@@ -15,9 +15,9 @@ For Android 4+
 
 `versionCode="75"`
 
-`versionName="3.5.4"`
+`versionName="3.5.4-david"`
 
-MD5 checksum: `486a4299a4b1bb7330a7c488a93d3d1d` dentex.youtube.downloader_v3.5.4.apk
+SHA1SUM: `ae40a0e7df9b669a8733db64c8ada26ff237c866` dentex.youtube.downloader_v3.5.4-david.apk
 
 DISCLAIMER
 ================================================================
