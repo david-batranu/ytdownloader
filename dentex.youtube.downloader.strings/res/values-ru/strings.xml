@@ -1,0 +1,385 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="title_activity_settings">Настройки</string>
+    <string name="title_activity_upgrade_apk">Обновление</string>
+    <string name="title_activity_about">О программе</string>
+    <string name="title_activity_donate">Пожертвования</string>
+    <string name="title_activity_tutorials">Руководства</string>
+    <string name="title_activity_translators_show">Переводчики</string>
+    <string name="title_activity_dashboard">Инструментальная панель</string>
+
+    <!-- ### ShareActivity ### -->
+
+    <string name="tutorial_title">Общее руководство</string>
+	<string name="tutorial_msg_new">Вам будет предложен список со всеми доступными кодеками и качеством выбранного видео. Вы можете:
+\n\n*) Нажать на элемент списка для локальной загрузки (на устройство) или отправки через SSH на удалённый компьютер.
+\nТребования к компьютеру: Bash и Wget. Дополнительная информация о SSH далее;
+\n\n*) Удерживать нажатие на элементе и выбрать между копированием в буфер обмена и отправкой текстовой ссылки (например, в другое приложение) .
+\nПожалуйста, имейте в виду, что эта ссылка (отличная от той, какую Вы отправляете через SSH) может быть использована только с того же устройства, на котором была создана  ИЛИ с той же LAN, если вы передаете её на другое устройство.\n</string>
+    <string name="loading">Загрузка&#8230;</string>
+    <string name="error">Ошибка!</string>
+    <string name="information">Информация</string>
+    <string name="dialogs_negative">Отмена</string>
+    <string name="wait">Пожалуйста, подождите&#8230;</string>
+    <string name="no_downloads_sys_app">Системное приложение \"Загрузки\" не найдено.</string>
+    <string name="invalid_url">Невозможно открыть веб-страницу. Возможно, неверный адрес.</string>
+    <string name="invalid_url_short">Невозможно открыть веб-страницу. </string>
+    <string name="invalid_response">Неверный ответ HTTP-сервера.</string>
+    <string name="rtmpe_streams">Неверный ответ HTTP-сервера.</string>
+    <string name="bad_link">Проверьте ссылку.</string>
+    <string name="bad_link_dialog_msg">Неверная ссылка YouTube.</string>
+    <string name="no_net">Нет соединения.</string>
+    <string name="no_net_dialog_msg">Пожалуйста, сперва включите соединение с сетью.</string>
+    <string name="no_market">Нет маркета.</string>
+    <string name="no_market_dialog_msg">Пожалуйста, установите Google Play</string>
+    <string name="list_click_dialog_title">Подтвердите закачку для:</string>
+    <string name="list_click_download_local">Загрузить сюда</string>
+    <string name="list_click_download_ssh">Отправить через SSH</string>
+    <string name="rename_dialog_title">Новое имя файла:</string>
+    <string name="rename_dialog_msg">Не вводите расширение файла (как .mp4 или .flv).</string>
+    <string name="unable_save">Невозможно сохранить видео!</string>
+    <string name="unable_save_dialog_msg">Папка назначения НЕДОСТУПНА и/или НЕТ разрешения на запись в эту папку.</string>
+    <string name="ssh_info_tutorial_title">Руководство по отправке через SSH</string>
+    <string name="ssh_info_tutorial_msg">Команда была загружена в буфер обмена.
+\n\nВыберите профиль в  ConnectBot, с удалённого расположения зайдите в нужную 
+папку, ВСТАВЬТЕ команду с помощью кнопки меню и нажмите ВВОД.</string>
+    <string name="callConnectBot_dialog_title">%1$s не установлено!</string>
+    <string name="callConnectBot_dialog_msg">Для отправки видео через SSH необходимо это бесплатное приложение.</string>
+    <string name="callConnectBot_dialog_positive">Загрузка</string>
+    <string name="download_complete_dialog_msg1">Видео YouTube:\n</string>
+    <string name="download_complete_dialog_msg2">\nУспешно загружено.</string>
+    <string name="download_complete_dialog_positive">Открыть</string>
+    <string name="downloading">Загрузка&#8230;</string>
+    <string name="cancel_download_dialog_title">Отменить загрузку?</string>
+    <string name="video_list_error_toast">Ошибка в списке видео.</string>
+    <string name="codec">\n\n\tКодек:</string>
+    <string name="quality">\n\tКачество:</string>
+    <string name="size">\n\tРазмер:</string>
+    <string name="notification_downloading_pt1">Загрузка</string>
+    <string name="notification_downloading_pt2">видео файлы</string>
+    <string name="notification_no_downloads">Отсутствуют активные загрузки</string>
+    <string name="long_click_title">Обработать выбранную ссылку:</string>
+    <string name="ffmpeg_ready">FFmpeg готов.</string>
+    <string name="login_required">Может потребоваться войти в аккаунт YouTube.</string>
+    <string name="encrypted_streams">Закодированный поток видео</string>
+    <string name="no_video_available">Нет доступных видео.</string>
+    <string name="retry_button_text">Повторить</string>
+    
+    <string-array name="long_click_entries">
+        <item>Скопировать в буфер обмена</item>
+        <item>Поделиться текстовой ссылкой</item>
+    </string-array>
+    
+    <string-array name="long_click_entries2">
+        <item>Копировать в буфер обмена</item>
+        <item>Поделиться текстовой ссылкой</item>
+        <item>Отправить через SSH</item>
+    </string-array>
+    
+    <string name="link_copied">Ссылка скопирована в буфер</string>
+    <string name="share_link_via">Поделиться ссылкой через:</string>
+    
+    <string name="filter_header_reset">Сбросить фильтры</string>
+    <string name="filter_view_all">Смотреть все</string>
+    <string name="filter_header_format">Фильтр по формату</string>
+    <string name="filter_header_quality">Фильтр по качеству</string>
+    <string name="filter_header_others">Другие фильтры</string>
+
+    <string name="filter_ld">Большие</string>
+    <string name="filter_md">Средние</string>
+    <string name="filter_sd">Маленькие</string>
+    <string name="filter_vo">Только видео</string>
+    <string name="filter_ao">Только аудио</string>
+    
+    <!-- ### SettingsActivity ### -->
+
+    <string name="attention">Внимание!</string>
+    <string name="system_warning_title">Это системная папка</string>
+    <string name="system_warning_msg">Выбранный путь будет сброшен и изменён на стандартную папку загрузок карты памяти.</string>
+    <string name="sdcard_unmounted_warning">Карта памяти НЕ подключена</string>
+    <string name="update_disabled_summary">Найдена другая подпись (F-Droid?)</string>
+    <string name="failed_download">Неудачная загрузка перемещена</string>
+    <string name="new_v_download">найдено. Загрузка&#8230;</string>
+    <string name="new_v_install">загружено. Нажать для установки.</string>
+    <string name="ffmpeg_download_dialog_title">Необходим дополнительный файл. Загрузить сейчас?</string>
+    <string name="ffmpeg_download_dialog_msg">Веб-ссылка:</string>
+    <string name="ffmpeg_device_not_supported">Устройство ещё не поддерживается.</string>
+    <string name="ffmpeg_support_mail">Отправить сообщение разработчику?
+\nОбзор информации будет доступен в Вашем почтовом приложении перед отправкой данных.</string>
+    <string name="ffmpeg_download_notification">Загрузка FFmpeg</string>
+    <string name="ffmpeg_install">Установка бинарного файла FFmpeg&#8230;</string>
+    <string name="email_via">Отправить сообщение через:</string>
+    <string name="file_already_added">Файл уже добавлен.</string>
+    
+    <!-- ### UpgradeApkActivity ### -->
+    
+    <string name="upgrade_button_init">Обновить</string>
+    <string name="upgrade_button_download">Загрузить\nи установить</string>
+    <string name="upgrade_uppertext_searching">Поиск&#8230;</string>
+    <string name="upgrade_uppertext_init">Установленная версия:\n</string>
+
+    <string name="upgrade_latest">Последняя:\t</string>
+    <string name="upgrade_installed">\nУстановленная:\t</string>
+    <string name="upgraded_dialog_msg">Новая версия сохранена в стандартной папке \'Download\' Вашей карты памяти.\n\nУстановить сейчас?</string>
+    <string name="upgraded_dialog_negative">Позже\n(вручную)</string>
+    <string name="upgrade_latest_installed">Последняя версия уже установлена!</string>
+    <string name="upgrade_network_error">Невозможно получить данные об обновлении.\nПопытайтесь позже.</string>
+    <string name="upgrade_bad_md5_dialog_msg">Загруженный пакет повреждён.\nСейчас он будет удалён.\nНажмите OK для повторной загрузки.</string>
+    
+    <!-- ### ### -->
+    
+    <string name="ytd_video">Видео YTD</string>
+    <string name="copy_error">Ошибка при копировании.</string>
+    <string name="copy_progress">Копирование файла в процессе&#8230;</string>
+    <string name="copy_ok">Копирование файла выполнено.</string>
+    <string name="download_remove_failed">Ошибка: временно загруженный файл не удалён!</string>
+    <string name="download_failed">Загрузка не удалась!</string>
+    <string name="audio_extr_progress">Извлечение аудио в процессе&#8230;</string>
+    <string name="audio_conv_progress">Кодирование в mp3 в процессе&#8230;</string>
+    <string name="audio_extr_completed">Извлечение аудио завершено.</string>
+    <string name="audio_conv_completed">Кодирование в mp3 завершено.</string>
+    <string name="audio_extr_error">Ошибка при извлечении аудио.</string>
+    <string name="audio_conv_error">Ошибка при кодировании в mp3.</string>
+    <string name="auto_audio_extr_progress">%1$s из %2$s извлечений аудио завершено</string>
+    <string name="auto_audio_extr_completed">Все извлечения аудио завершены</string>
+    
+    <!-- ### DonateActivity ### -->
+    
+    <string name="paypal_item_name">Пожертвование YTD</string>
+	<string name="paypal_summary">Поддержать разработчика YTD пожертвованием</string>
+	<string name="flattr_summary">Пожертвовать через Flattr</string>
+	
+	<!-- ### FfmpegDownloadService ### -->
+	<string name="ffmpeg_install_failed">Установка FFmpeg не удалась.</string>
+	
+	<!-- ### DashboardActivity ### -->
+	<string name="json_status_completed">Выполнено</string>
+	<string name="json_status_failed">Не удалось</string>
+	<string name="json_status_in_progress">В процессе</string>
+	<string name="json_status_paused">Пауза</string>
+	<string name="json_status_imported">Импортировано</string>
+	<string name="json_status_queued">В очереди</string>
+	<string name="menu_search">поиск&#8230;</string>
+	<string name="menu_backup">Резервное копирование</string>
+	<string name="menu_restore">Восстановление</string>
+	<string name="menu_import_file">Импорт файлов</string>
+	<string name="menu_import_file_double">%1$s уже добавлен.</string>
+	<string name="menu_backup_info">Выбрать папку для резервного копирования данных инстр. панели</string>
+	<string name="menu_restore_info">Восстановить данные инстр. панели из файла</string>
+	<string name="menu_restore_info_msg">Текущие данные будут переписаны.</string>
+	<string name="menu_import_file_info">Импорт файлов и управление ими с инструментальной панели</string>
+	<string name="menu_import_in_progress">Осуществляется импорт: %1$s</string>
+	<string name="menu_backup_result_ok">Копия данных инстр. панели ОК.</string>
+	<string name="menu_backup_result_failed">Ошибка рез. копирования.</string>
+	<string name="menu_restore_result_ok">Данные инстр. панели восстановлены.</string>
+	<string name="menu_restore_result_failed">Ошибка восстановления.</string>
+	<string name="unsupported_operation">Неподдерж. операция</string>
+	<string name="ffmpeg_already_running">FFmpeg уже запущен.</string>
+	<string name="invalid_data">Неверные данные.</string>
+	<string name="open_chooser_title">Открыть с помощью:</string>
+	
+	<string-array name="dashboard_click_entries">
+	    <item>Oткрыть</item>
+	    <item>Извлечь аудио</item>
+        <item>Извлечь и кодировать аудио в mp3</item>
+    </string-array>
+    
+	<string-array name="dashboard_click_entries_audio">
+	    <item>Oткрыть</item>
+        <item>Извлечь и кодировать аудио в mp3</item>
+    </string-array>
+    
+	<string-array name="dashboard_click_entries_flv">
+	    <item>Открыть</item>
+        <item>Извлечь и кодировать аудио в mp3</item>
+    </string-array>
+    
+	<string-array name="dashboard_click_entries_vo">
+	    <item>Открыть</item>
+        <item>Добавить поток аудио (уже загруженный)</item>
+    </string-array>
+    
+	<string name="ao_not_found">Подходящих аудиопотоков не найдено</string>
+	<string name="remove_ao_vo">Удалить потом только видео и только аудио файлыn(без подтверждения!)</string>
+	<string name="ffmpeg_new_v_required">Необходима новая версия FFmpeg. Загрузить сейчас?</string>
+    <string name="share_file_via">Поделиться файлом с помощью:</string>
+	<string name="ffmpeg_not_enabled_title">FFmpeg не установлен или не включён:</string>
+	<string name="ffmpeg_not_enabled_msg">Открыть настройки?</string>
+	<string name="remove_video">Удалить видео после извлечения аудио (без подтверждения)</string>
+	<string name="remove_original_audio">Удалить аудио после конвертирования (без подтверждения!)</string>
+	<string name="edit_id3_tags">Редактировать тэги ID3</string>
+	<string name="id3_album">Альбом</string>
+	<string name="id3_artist">Исполнитель</string>
+	<string name="id3_title">Название</string>
+	<string name="id3_year">Год</string>
+	<string name="id3_genre">Жанр</string>
+	<string name="audio_extr_info">Включённый поток аудио:</string>
+	
+	<string-array name="dashboard_long_click_entries">
+	    <item>Копировать</item>
+	    <item>Переместить</item>
+        <item>Переименовать</item>
+        <item>Повторная загрузка видео</item>
+        <item>Отправить</item>
+        <item>Убрать с панели</item>
+        <item>Убрать и удалить файл</item>
+        <item>Пауза/возобновить</item>
+    </string-array>
+    
+	<string name="operation_standby">Ожидание: запущена другая операция.</string>
+	<string name="dashboard_delete_data_cb">Удалить также все видео/аудио файлы</string>
+    
+	<string name="move_error">Ошибка при перемещении.</string>
+    <string name="move_progress">Перемещение файла в процессе&#8230;</string>
+    <string name="move_ok">Перемещение файла выполнено.</string>
+    <string name="long_press_warning_title">Операция не выполнена:</string>
+    <string name="long_press_warning_msg">Папки источника и назначения совпадают.</string>
+    <string name="long_press_warning_msg2">Копия уже существует в этой папке.</string>
+    <string name="audio_extr_warning_msg">Такой файл аудио уже извлечён.</string>
+
+	<string name="delete_video_confirm">Подтвердить удаление видео?</string>
+	<string name="remove_video_confirm">Подтвердить перемещение видео?</string>
+	<string name="delete_video_ok">%1$s успешно удалено.</string>
+	<string name="delete_video_failed">Ошибка: %1$s не удалено.</string>
+	
+	<string name="empty_dashboard">Нет элементов</string>
+	<string name="status_text_in_progress">Элементов: %1$d (выполняются: %2$d)</string>
+	<string name="status_text">Элементов: %d</string>
+	
+    <!-- ### preferences ### -->
+
+    <!-- -->
+    <string name="dashboard_summary">Открыть инструментальную панель YTD</string>
+
+    <!-- -->
+    <string name="settings_cat_ui">Пользовательский интерфейс</string>
+    <string name="lang_title">Язык</string>
+    <string name="lang_dialog_title">Выбрать язык интерфейса:</string>
+    <string name="choose_theme_title">Выбрать тему</string>
+    <string-array name="choose_theme_entries">
+        <item>Тёмная</item>
+        <item>Светлая</item>
+    </string-array>
+    
+    <!-- -->
+    <string name="quick_start_title">Быстрый запуск</string>
+    <string name="quick_start_summ">Открыть руководство по быстрому запуску</string>
+    <string name="quick_start_text">Это настройки \'YouTube Downloader\'.
+\n\nЗапуск приложения осуществляется кнопкой  \'поделиться\' в приложении YouTube, при просмотре видео.
+\n\nПосле этого выберите \'YouTube Downloader\' и получите информацию по дальнейшему использованию.
+\n\nМожете также использовать текстовую ссылку YouTube в любом другом приложении, например, в браузере.</string>
+    <string name="general_info_title">Общее руководство</string>
+    <string name="general_info_summary">Показывать общее руководство при запуске</string>
+    <string name="show_again_checkbox">Показать в следующий раз</string>
+    <string name="ssh_info_title">Руководство по SSH</string>
+    <string name="ssh_info_summary">Показывать быстрый совет об удалённой загрузке через SSH</string>
+    <string name="audio_tutorial_title">Руководство по извлечению аудио</string>
+    <string name="audio_tutorial_summary">Открыть краткое руководство по извлечению аудио</string>
+    
+    <!-- -->
+    <string name="settings_cat_folder">Папка загрузок</string>
+    <string name="standard_location_title">Выбрать стандартную папку</string>
+    <string name="chooser_swap_title">Проводник</string>
+    <string name="chooser_location_title">Открыть файл-менеджер</string>
+    <string name="chooser_location_summary">Длительное нажатие для выбора папки</string>
+	
+    <!-- -->
+    <string name="settings_cat_files">Видео файлы</string>
+    <string name="enable_rename_title">Разрешить переименование</string>
+    <string name="enable_rename_summary">Переименовать видео перед загрузкой (только при локальной загрузке)</string>
+	<string name="show_thumb_title">Включить предпросмотр</string>
+    <string name="show_thumb_summary">Загружать изображение предварительного просмотра вместе со списком видео</string>
+
+    <!-- -->
+    <string name="settings_cat_advanced">Дополнительно</string>
+    <string name="enable_advanced_features_title">Дополнительные функции</string>
+    <string name="enable_advanced_features_summary">Скачать \"плагин\" FFmpeg</string>
+    <string name="mp3_bitrate_title">Битрейт кодирования mp3:</string>
+    
+    <string name="ffmpeg_auto_title">Автоизвлечение аудио</string>
+    <string name="ffmpeg_auto_summary">Извлекать или конвертировать аудио в mp3 после каждой загрузки</string>
+    <string name="ffmpeg_auto_cb_title">Включить автоматическое извлечение</string>
+    <string name="ffmpeg_auto_cb_summary">Выберите параметры ниже</string>
+    
+    <string name="audio_extraction_type_title">Тип извлечения</string>
+    <string-array name="audio_extraction_type_entries">
+	    <item>Только извлечь аудио</item>
+        <item>Извлечь и кодировать аудио в mp3</item>
+    </string-array>
+    
+    <string name="remove_video_title">Удаление видео</string>
+    
+    <string name="enable_adaptive_title">Дополнительные потоки</string>
+    <string name="enable_adaptive_summary">Добавить только видео и/или только аудио потоки (если доступно) к списку видео</string>
+    
+    <!-- -->
+    <string name="settings_cat_notifications">Уведомления</string>
+    
+    <string name="notification_defaults_title">Умолчания для уведомлений</string>
+    <string name="notification_defaults_dialog_title">Умолчания для уведомлений YTD</string>
+    <string-array name="notification_defaults_entries">
+        <item>Звук и вибрация</item>
+        <item>Звук и свет</item>
+        <item>Вибрация и свет</item>
+        <item>Звук, вибрация и свет</item>
+        <item>Звук</item>
+        <item>Вибрация</item>
+        <item>Свет</item>
+        <item>Ничего</item>
+    </string-array>
+    
+    <string name="launcher_title">Начальное действие</string>
+    
+    <!-- -->
+    <string name="settings_cat_updates">Обновления</string>
+    <string name="update_title">Проверить обновления</string>
+    <string name="autoupdate_title">Включить авто-обновление</string>
+    <string name="autoupdate_summary">Проверять обновления при первом за день запуске приложения (новый пакет будет автоматически загружен)</string>
+
+    <!-- -->
+    <string name="settings_cat_app">Приложение</string>
+    <string name="settings_cat_about_condensed">О программе</string>
+    <string name="title_changelog">История изменений</string>
+    <string name="settings_cat_licenses">Лицензии</string>
+
+    <string name="credits_title">Благодарности</string>
+    <string name="title_activity_credits_show">Другие лицензии и переводы</string>
+        
+    <!-- -->
+    <string name="settings_cat_code">Исходный код</string>
+    <string name="ytd_code_git_title">YTD на GitHub</string>
+    <string name="ytd_code_hg_title">YTD на Sourceforge</string>
+
+    <!-- -->
+    <string name="settings_cat_social">Социальные сети</string>
+    <string name="share_title">Поделиться приложением</string>
+    <string name="share_summary">через Twitter, Facebook, Gmail, и др&#8230;</string>
+    <string name="share_warning">Подходящих приложений не найдено</string>
+    <string name="share_message">#YouTubeDownloader
+\nБесплатное приложение Андроид с открытым исходным кодом зля загрузки видео с You Tube!
+\nhttps://sourceforge.net/projects/ytdownloader/files/</string>
+	<string name="help_translate_title">Помогите с переводом</string>
+    <string name="xda_title">Тема на XDA</string>
+    
+    <!-- -->
+    <string name="settings_cat_ssh">SSH</string>
+    <string name="connectbot_flavour_title">Версия ConnectBot</string>
+	<string name="connectbot_flavour_dialog_title">Выбрать адрес ConnectBot для отправки видео через SSH</string>
+	<string name="enable_connectbot_short_cmd_title">Короткие команды SSH</string>
+	<string name="enable_connectbot_short_cmd_summary">Использовать более короткие, но быстрые команды для
+вставки в удалённую оболочку (работает ТОЛЬКО если компьютер получателя пользуется той же LAN)</string>
+	<string name="ssh_to_longpress_menu_title">Отправка через SSH в меню</string>
+	<string name="ssh_to_longpress_menu_summary">Поместить действие \"Отправить через SSH\" в меню длительного нажатия в списке видео</string>
+	
+    <!-- -->
+	<string name="settings_cat_system">Система</string>
+	<string name="enable_logging_title">Включить журнал</string>
+	<string name="enable_logging_summary">Включать сообщения YTD в журнал системы. Обязательно при отправке логката разработчику.</string>
+	<string name="clear_dashboard_title">Очистить инстр. панель</string>
+	<string name="clear_dashboard_summary">Очистить все ссылки инструментальной панели (может исправить некоторые сбои)</string>
+	<string name="clear_dashboard_msg">Вы уверены?\nЭто очистит весь список инстр. панели.</string>
+	<string name="clear_dashboard_ok">Инструм. панель очищена.</string>
+	<string name="clear_dashboard_failed">Очистка инстр. панели не удалась.</string>
+	
+</resources>

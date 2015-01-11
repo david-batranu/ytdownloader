@@ -1,0 +1,68 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".UpgradeApkActivity" >
+
+    <LinearLayout
+        android:id="@+id/hor"
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" 
+        android:padding="6dip">
+
+        <TextView
+            android:id="@+id/upgrade_upper_text"
+			android:layout_weight="1"
+			android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:minHeight="58dp"
+            android:layout_gravity="center_horizontal"
+            android:paddingLeft="6dp"
+            android:paddingRight="6dp"
+            android:background="@drawable/grad_bg_gray"
+            android:textColor="@android:color/white"
+            android:textAlignment="center"
+            android:textIsSelectable="false" 
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+        
+        <View
+            android:layout_width="5dp" 
+            android:layout_height="58dp" />
+
+        <Button
+            android:id="@+id/upgrade_button"
+            android:layout_width="100dp"
+            android:layout_height="58dp"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/upgrade_button_init"
+            android:enabled="true"
+            android:onClick="upgradeButtonClick"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+        
+    </LinearLayout>
+
+    <ProgressBar
+        android:id="@+id/progressBar2"
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center" />
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" 
+        android:padding="6dip">
+
+        <TextView
+            android:id="@+id/upgrade_textview2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textIsSelectable="true"
+            android:typeface="monospace" />
+        
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2012 Hai Bison
+
+    See the file LICENSE at the root directory of this project for copying
+    permission.
+-->
+
+<resources>
+
+    <string name="afc_lib_name">Průzkumník souborů</string>
+    <string name="afc_cmd_advanced_selection_all">Vše</string>
+    <string name="afc_cmd_advanced_selection_invert">Invertovat výběr</string>
+    <string name="afc_cmd_advanced_selection_none">Žádný</string>
+    <string name="afc_cmd_clear">Vyčistit</string>
+    <string name="afc_cmd_grid_view">Zobrazit v mřížce</string>
+    <string name="afc_cmd_home">Domů</string>
+    <string name="afc_cmd_list_view">Zobrazit seznam</string>
+    <string name="afc_cmd_new_folder">Nová složka&#8230;</string>
+    <string name="afc_cmd_reload">Obnovit</string>
+    <string name="afc_cmd_remove_from_list">Odstranit ze seznamu</string>
+    <string name="afc_cmd_select_all_files">Vybrat všechny soubory</string>
+    <string name="afc_cmd_select_all_folders">Vybrat všechny složky</string>
+    <string name="afc_cmd_sort">Seřadit&#8230;</string>
+    <string name="afc_cmd_switch_viewmode">Přepnout zobrazení</string>
+    <string name="afc_ellipsize">&#8230;</string>
+    <string name="afc_file">soubor</string>
+    <string name="afc_folder">složka</string>
+    <string name="afc_hint_double_tap_to_select_file">Dvojité klepnutí pro označení souboru/ složky</string>
+    <string name="afc_hint_folder_name">název složky</string>
+    <string name="afc_hint_save_as_filename">název souboru</string>
+    <string name="afc_msg_app_doesnot_have_permission_to_create_files">Tato aplikace nemá povolení vytvářet soubory/ adresáře</string>
+    <string name="afc_msg_app_doesnot_have_permission_to_delete_files">Tato aplikace nemá povolení mazat soubory/ adresáře</string>
+    <string name="afc_msg_cancelled">Zrušené</string>
+    <string name="afc_msg_cannot_connect_to_file_provider_service">Nedá se připojit k souboru poskytovatele</string>
+    <string name="afc_msg_done">Hotovo</string>
+    <string name="afc_msg_empty">&#8230;prázdné</string>
+    <string name="afc_msg_filename_is_empty">Název souboru je prázdný</string>
+    <string name="afc_msg_loading">Načítání&#8230;</string>
+    <string name="afc_pmsg_cannot_access_dir">Nelze získat přístup k \"%1$s\"</string>
+    <string name="afc_pmsg_cannot_create_folder">Nelze vytvořit složku \"%1$s\"</string>
+    <string name="afc_pmsg_cannot_delete_file">Nelze vymazat %1$s \"%2$s\"</string>
+    <string name="afc_pmsg_confirm_delete_file">Jste si jistý, že chcete vymazat %1$s \"%2$s\"?</string>
+    <string name="afc_pmsg_confirm_replace_file">Soubor \"%1$s\" již existuje.\n\nChcete ho nahradit?</string>
+    <string name="afc_pmsg_deleting_file">Mazání %1$s \"%2$s\"&#8230;</string>
+    <string name="afc_pmsg_file_has_been_deleted">&#8230;%1$s \"%2$s\" vymazáno</string>
+    <string name="afc_pmsg_filename_is_directory">\"%1$s\" je složka</string>
+    <string name="afc_pmsg_filename_is_invalid">Název souboru \"%1$s\" je neplatný</string>
+    <string name="afc_pmsg_max_file_count_allowed">&#8230;má víc souborů, max. počet: %1$,d</string>
+    <string name="afc_pmsg_unknown_error">Neznámá chyba: %1$s</string>
+    <string name="afc_pmsg_xxx_items">%1$,d položek</string>
+    <string name="afc_root">Root</string>
+    <string name="afc_title_advanced_selection">Označit&#8230;</string>
+    <string name="afc_title_alert">Upozornění</string>
+    <string name="afc_title_choose_directories">Zvolte složku</string>
+    <string name="afc_title_choose_files">Vyberte soubory&#8230;</string>
+    <string name="afc_title_choose_files_and_directories">Vyberte soubory/ složky&#8230;</string>
+    <string name="afc_title_confirmation">Potvrzení</string>
+    <string name="afc_title_date">Datum</string>
+    <string name="afc_title_error">Chyba</string>
+    <string name="afc_title_history">Historie</string>
+    <string name="afc_title_info">Info</string>
+    <string name="afc_title_name">Název</string>
+    <string name="afc_title_save_as">Uložit jako&#8230;</string>
+    <string name="afc_title_size">Velikost</string>
+    <string name="afc_title_sort_by">Řadit dle&#8230;</string>
+    <string name="afc_yesterday">Včera</string>
+
+</resources>

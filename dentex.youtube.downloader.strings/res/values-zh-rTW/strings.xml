@@ -1,0 +1,382 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="title_activity_settings">設定</string>
+    <string name="title_activity_upgrade_apk">升級</string>
+    <string name="title_activity_about">關於</string>
+    <string name="title_activity_donate">捐贈</string>
+    <string name="title_activity_tutorials">教學</string>
+    <string name="title_activity_translators_show">翻譯者</string>
+    <string name="title_activity_dashboard">Dashboard</string>
+
+    <!-- ### ShareActivity ### -->
+
+    <string name="tutorial_title">一般程式教學</string>
+	<string name="tutorial_msg_new">現在你會看到一個目錄列出了影片支援的解碼器和影片素質。你可以：
+\n\n*) 按一個項目以下載影片至裝置上或者透過 SSH 傳送下載至遠程電腦。
+\n目的地機器需求：Bash and Wget。更多 SSH 資訊;
+\n\n*) 長按一個項目並選擇複製至剪貼版或用文字形式分享連結（傳送至其他程式）。
+\n請注意這個連結（與 SSH 傳送的不同）只能在同一個裝置上或者同一個網路上使用，如果你分享它至其他機器。\n</string>
+    <string name="loading">載入中&#8230;</string>
+    <string name="error">錯誤！</string>
+    <string name="information">資訊</string>
+    <string name="dialogs_negative">取消</string>
+    <string name="wait">請稍後&#8230;</string>
+    <string name="no_downloads_sys_app">找不到\"下載\"系統程式。</string>
+    <string name="invalid_url">無法取得網站頁面。連結可能無效。</string>
+    <string name="invalid_url_short">無法取得網站頁面。</string>
+    <string name="invalid_response">無效的 HTTP 伺服器回應。</string>
+    <string name="rtmpe_streams">Invalid HTTP server response.</string>
+    <string name="bad_link">檢查提供的連結。</string>
+    <string name="bad_link_dialog_msg">YouTube 連結無效。</string>
+    <string name="no_net">沒有可用的網路連線。</string>
+    <string name="no_net_dialog_msg">請先允許網路連接。</string>
+    <string name="no_market">市場程式不可用。</string>
+    <string name="no_market_dialog_msg">請安裝 Google Play</string>
+    <string name="list_click_dialog_title">確定下載：</string>
+    <string name="list_click_download_local">在此下載</string>
+    <string name="list_click_download_ssh">透過 SSH 寄送</string>
+    <string name="rename_dialog_title">新檔案名稱：</string>
+    <string name="rename_dialog_msg">請勿輸入附檔名（像是 .mp4 或 .flv）</string>
+    <string name="unable_save">無法儲存影片！</string>
+    <string name="unable_save_dialog_msg">目的地資料夾不存在或無法存取。</string>
+    <string name="ssh_info_tutorial_title">如何透過 SSH 寄送</string>
+    <string name="ssh_info_tutorial_msg">一個很長的指令已經複製至剪貼版。\n\n在 ConnectBot 選擇一個個人資料，並且在你的 remote shell，瀏覽至想要的目的地，貼上指令（使用選項鍵）然後按 ENTER。</string>
+    <string name="callConnectBot_dialog_title">%1$s 未安裝！</string>
+    <string name="callConnectBot_dialog_msg">你需要這個免費程式來透過 SSH 寄送下載影片。</string>
+    <string name="callConnectBot_dialog_positive">下載</string>
+    <string name="download_complete_dialog_msg1">YouTube 影片:\n</string>
+    <string name="download_complete_dialog_msg2">\n成功下載。</string>
+    <string name="download_complete_dialog_positive">開啟</string>
+    <string name="downloading">下載中&#8230;</string>
+    <string name="cancel_download_dialog_title">取消下載？</string>
+    <string name="video_list_error_toast">影片目錄錯誤。</string>
+    <string name="codec">\n\n\t解碼器：</string>
+    <string name="quality">\n\t畫質：</string>
+    <string name="size">\n\t大小：</string>
+    <string name="notification_downloading_pt1">下載中</string>
+    <string name="notification_downloading_pt2">影片檔案</string>
+    <string name="notification_no_downloads">沒有正在進行中的下載</string>
+    <string name="long_click_title">處理選擇的連結：</string>
+    <string name="ffmpeg_ready">已準備 FFmpeg。</string>
+    <string name="login_required">您可能需要登入至 YouTube。</string>
+    <string name="encrypted_streams">Encrypted video stream</string>
+    <string name="no_video_available">影片不可用。</string>
+    <string name="retry_button_text">重試</string>
+    
+    <string-array name="long_click_entries">
+        <item>複製至剪貼板</item>
+        <item>用文字分享</item>
+    </string-array>
+    
+    <string-array name="long_click_entries2">
+        <item>複製至剪貼板</item>
+        <item>用文字分享</item>
+        <item>透過 SSH 傳送</item>
+    </string-array>
+    
+    <string name="link_copied">Link copied into clipboard</string>
+    <string name="share_link_via">Share this link via:</string>
+    
+    <string name="filter_header_reset">Reset filters</string>
+    <string name="filter_view_all">View all</string>
+    <string name="filter_header_format">Filter by format</string>
+    <string name="filter_header_quality">Filter by quality</string>
+    <string name="filter_header_others">Other filters</string>
+
+    <string name="filter_ld">Large</string>
+    <string name="filter_md">Medium</string>
+    <string name="filter_sd">Small</string>
+    <string name="filter_vo">Video-only</string>
+    <string name="filter_ao">Audio-only</string>
+    
+    <!-- ### SettingsActivity ### -->
+
+    <string name="attention">注意！</string>
+    <string name="system_warning_title">這是系統資料夾</string>
+    <string name="system_warning_msg">選擇的路徑將會回到標準 SD 卡的下載資料夾。</string>
+    <string name="sdcard_unmounted_warning">SD 卡未掛載</string>
+    <string name="update_disabled_summary">找到不同的簽名（F-Droid?）</string>
+    <string name="failed_download">移除失敗的下載</string>
+    <string name="new_v_download">已找到。下載中&#8230;</string>
+    <string name="new_v_install">已下載。按此安裝。</string>
+    <string name="ffmpeg_download_dialog_title">需要一個額外的檔案。現在下載？</string>
+    <string name="ffmpeg_download_dialog_msg">網路連結：</string>
+    <string name="ffmpeg_device_not_supported">裝置未被支援。</string>
+    <string name="ffmpeg_support_mail">寄送 email 至開發者？
+\n你會在寄送任何資料之前審查 email 程式的所有資訊。</string>
+    <string name="ffmpeg_download_notification">正在下載 FFmpeg</string>
+    <string name="ffmpeg_install">正在安裝 FFmpeg binary&#8230;</string>
+    <string name="email_via">寄送 email 透過：</string>
+    <string name="file_already_added">File already added.</string>
+    
+    <!-- ### UpgradeApkActivity ### -->
+    
+    <string name="upgrade_button_init">更新</string>
+    <string name="upgrade_button_download">下載\n和安裝</string>
+    <string name="upgrade_uppertext_searching">搜尋中&#8230;</string>
+    <string name="upgrade_uppertext_init">安裝版本：\n</string>
+
+    <string name="upgrade_latest">最新：\t</string>
+    <string name="upgrade_installed">\n已安裝：\t</string>
+    <string name="upgraded_dialog_msg">新版本存至標準 SD 卡 \'下載\' 資料夾。\n\n現在安裝？</string>
+    <string name="upgraded_dialog_negative">以後再說\n（手動）</string>
+    <string name="upgrade_latest_installed">最新版本已經安裝！</string>
+    <string name="upgrade_network_error">無法取得更新資料。\n稍後重試。</string>
+    <string name="upgrade_bad_md5_dialog_msg">下載包裝已損毀。\n它現在將被刪除。\n按 OK 重新下載。</string>
+    
+    <!-- ### ### -->
+    
+    <string name="ytd_video">YTD 影片</string>
+    <string name="copy_error">複製時錯誤。</string>
+    <string name="copy_progress">正在複製檔案&#8230;</string>
+    <string name="copy_ok">檔案複製完成。</string>
+    <string name="download_remove_failed">錯誤：臨時下載檔案未移除！</string>
+    <string name="download_failed">下載失敗！</string>
+    <string name="audio_extr_progress">正在提取音效&#8230;</string>
+    <string name="audio_conv_progress">正在編碼至 mp3&#8230;</string>
+    <string name="audio_extr_completed">音效提取完畢。</string>
+    <string name="audio_conv_completed">音效編碼至 mp3 完成。</string>
+    <string name="audio_extr_error">音效提取時錯誤。</string>
+    <string name="audio_conv_error">音效編碼至 mp3 時錯誤。</string>
+    <string name="auto_audio_extr_progress">%1$s of %2$s audio extractions completed</string>
+    <string name="auto_audio_extr_completed">All audio extractions completed</string>
+    
+    <!-- ### DonateActivity ### -->
+    
+    <string name="paypal_item_name">YTD 捐贈</string>
+	<string name="paypal_summary">用捐贈支持 YTD 的開發者</string>
+	<string name="flattr_summary">Flattr this App</string>
+	
+	<!-- ### FfmpegDownloadService ### -->
+	<string name="ffmpeg_install_failed">FFmpeg 安裝失敗。</string>
+	
+	<!-- ### DashboardActivity ### -->
+	<string name="json_status_completed">完成</string>
+	<string name="json_status_failed">失敗</string>
+	<string name="json_status_in_progress">執行中</string>
+	<string name="json_status_paused">Paused</string>
+	<string name="json_status_imported">Imported</string>
+	<string name="json_status_queued">Queued</string>
+	<string name="menu_search">搜尋&#8230;</string>
+	<string name="menu_backup">Backup</string>
+	<string name="menu_restore">Restore</string>
+	<string name="menu_import_file">Import files</string>
+	<string name="menu_import_file_double">%1$s already added.</string>
+	<string name="menu_backup_info">Choose a folder to Backup Dashboard\'s data</string>
+	<string name="menu_restore_info">Restore Dashboard\'s data from file</string>
+	<string name="menu_restore_info_msg">Present data will be overwritten.</string>
+	<string name="menu_import_file_info">Import files and manage them from the Dashboard</string>
+	<string name="menu_import_in_progress">Files import in progress: %1$s</string>
+	<string name="menu_backup_result_ok">Dashboard data backup OK.</string>
+	<string name="menu_backup_result_failed">Error during backup.</string>
+	<string name="menu_restore_result_ok">Dashboard data restored.</string>
+	<string name="menu_restore_result_failed">Error during restore.</string>
+	<string name="unsupported_operation">Unsupported operation.</string>
+	<string name="ffmpeg_already_running">FFmpeg is already running.</string>
+	<string name="invalid_data">Invalid data.</string>
+	<string name="open_chooser_title">Open with:</string>
+	
+	<string-array name="dashboard_click_entries">
+	    <item>開啟</item>
+	    <item>Extract audio</item>
+        <item>Extract audio and encode to mp3</item>
+    </string-array>
+    
+	<string-array name="dashboard_click_entries_audio">
+	    <item>開啟</item>
+        <item>編碼至 MP3</item>
+    </string-array>
+    
+	<string-array name="dashboard_click_entries_flv">
+	    <item>Open</item>
+        <item>Extract audio and encode to mp3</item>
+    </string-array>
+    
+	<string-array name="dashboard_click_entries_vo">
+	    <item>Open</item>
+        <item>Add audio stream (already downloaded)</item>
+    </string-array>
+    
+	<string name="ao_not_found">No suitable audio-only stream found</string>
+	<string name="remove_ao_vo">Delete video-only and audio-only files afterwards\n(no confirmation!)</string>
+	<string name="ffmpeg_new_v_required">New FFmpeg version required. Download it now?</string>
+    <string name="share_file_via">Share this file via:</string>
+	<string name="ffmpeg_not_enabled_title">FFmpeg 未安裝或開啟。</string>
+	<string name="ffmpeg_not_enabled_msg">開啟設定？</string>
+	<string name="remove_video">音效提取後刪除影片（沒有確認！）</string>
+	<string name="remove_original_audio">轉換完成後刪除影片（沒有確認！）</string>
+	<string name="edit_id3_tags">編輯 ID3 標籤</string>
+	<string name="id3_album">專輯</string>
+	<string name="id3_artist">演出者</string>
+	<string name="id3_title">標題</string>
+	<string name="id3_year">年份</string>
+	<string name="id3_genre">類型</string>
+	<string name="audio_extr_info">裝載的音頻流：</string>
+	
+	<string-array name="dashboard_long_click_entries">
+	    <item>複製</item>
+	    <item>移動</item>
+        <item>重新命名</item>
+        <item>Re-download the video</item>
+        <item>Send</item>
+        <item>Remove from Dashboard</item>
+        <item>Remove and delete file</item>
+        <item>Pause/Resume</item>
+    </string-array>
+    
+	<string name="operation_standby">Stand-by: another operation is already in progress.</string>
+	<string name="dashboard_delete_data_cb">Delete also all listed video/audio files</string>
+    
+	<string name="move_error">移動時錯誤。</string>
+    <string name="move_progress">檔案移動中&#8230;</string>
+    <string name="move_ok">檔案移動完成。</string>
+    <string name="long_press_warning_title">作業未執行：</string>
+    <string name="long_press_warning_msg">資源和目的地資料夾被覆蓋。</string>
+    <string name="long_press_warning_msg2">一個拷貝已經存在於這資料夾。</string>
+    <string name="audio_extr_warning_msg">同樣的音效檔已經提取。</string>
+
+	<string name="delete_video_confirm">確認：要刪除此影片嗎？</string>
+	<string name="remove_video_confirm">確認：要移除此影片嗎？</string>
+	<string name="delete_video_ok">%1$s 已刪除。</string>
+	<string name="delete_video_failed">錯誤：%1$s 未被刪除。</string>
+	
+	<string name="empty_dashboard">No entries</string>
+	<string name="status_text_in_progress">Entries: %1$d (in progress: %2$d)</string>
+	<string name="status_text">Entries: %d</string>
+	
+    <!-- ### preferences ### -->
+
+    <!-- -->
+    <string name="dashboard_summary">Open YTD\'s Dashboard</string>
+
+    <!-- -->
+    <string name="settings_cat_ui">使用者介面</string>
+    <string name="lang_title">語言</string>
+    <string name="lang_dialog_title">選擇 UI 語言：</string>
+    <string name="choose_theme_title">選擇主題</string>
+    <string-array name="choose_theme_entries">
+        <item>黑暗</item>
+        <item>明亮</item>
+    </string-array>
+    
+    <!-- -->
+    <string name="quick_start_title">快速開始</string>
+    <string name="quick_start_summ">開啟快速開始教學</string>
+    <string name="quick_start_text">這裡是 YouTube 下載器的偏好設定。
+\n\n實際程式可以從 YouTube 程式的分享按鈕存取，當你在看影片的時候。
+\n\n然後選擇 YouTube 下載器，您就能進一步獲的使用資訊。
+\n\n您也可以透過任何程式分享任何 YouTube 連結：也就是您的瀏覽器。</string>
+    <string name="general_info_title">允許一般教學</string>
+    <string name="general_info_summary">在開啟時顯示一般程式教學</string>
+    <string name="show_again_checkbox">下次再次顯示</string>
+    <string name="ssh_info_title">允許 SSH 教學</string>
+    <string name="ssh_info_summary">顯示快速提示關於從 SSH 控制下載</string>
+    <string name="audio_tutorial_title">音效提取教學</string>
+    <string name="audio_tutorial_summary">開啟一個關於音效提取功能的簡略指南</string>
+    
+    <!-- -->
+    <string name="settings_cat_folder">下載資料夾</string>
+    <string name="standard_location_title">選擇標準資料夾</string>
+    <string name="chooser_swap_title">交換選擇器</string>
+    <string name="chooser_location_title">開啟檔案選擇器</string>
+    <string name="chooser_location_summary">長按以選擇資料夾</string>
+	
+    <!-- -->
+    <string name="settings_cat_files">影片檔案</string>
+    <string name="enable_rename_title">允許修改檔案名稱</string>
+    <string name="enable_rename_summary">在下載之前更改影片檔案名稱（只限手機下載）</string>
+	<string name="show_thumb_title">顯示預覽相片</string>
+    <string name="show_thumb_summary">同時下載預覽相片和影片目錄</string>
+
+    <!-- -->
+    <string name="settings_cat_advanced">進階</string>
+    <string name="enable_advanced_features_title">開啟進階功能</string>
+    <string name="enable_advanced_features_summary">下載 FFmpeg \"插件\"</string>
+    <string name="mp3_bitrate_title">MP3 編碼頻率：</string>
+    
+    <string name="ffmpeg_auto_title">Auto-extract audio</string>
+    <string name="ffmpeg_auto_summary">Extract or convert audio to mp3 automatically after every download</string>
+    <string name="ffmpeg_auto_cb_title">Enable automatic extraction</string>
+    <string name="ffmpeg_auto_cb_summary">Choose parameters below</string>
+    
+    <string name="audio_extraction_type_title">提取類型</string>
+    <string-array name="audio_extraction_type_entries">
+	    <item>Extract audio only</item>
+        <item>Extract and encode audio to mp3</item>
+    </string-array>
+    
+    <string name="remove_video_title">移除影片</string>
+    
+    <string name="enable_adaptive_title">Get secondary streams</string>
+    <string name="enable_adaptive_summary">Add video-only and/or audio-only streams (if available) to the video list</string>
+    
+    <!-- -->
+    <string name="settings_cat_notifications">通知</string>
+    
+    <string name="notification_defaults_title">預設通知</string>
+    <string name="notification_defaults_dialog_title">YTD 自行的預設通知</string>
+    <string-array name="notification_defaults_entries">
+        <item>聲音和震動</item>
+        <item>聲音和燈光</item>
+        <item>震動和燈光</item>
+        <item>聲音、震動和燈光</item>
+        <item>聲音</item>
+        <item>震動</item>
+        <item>燈光</item>
+        <item>無</item>
+    </string-array>
+    
+    <string name="launcher_title">Entry-point activity</string>
+    
+    <!-- -->
+    <string name="settings_cat_updates">更新</string>
+    <string name="update_title">檢查更新</string>
+    <string name="autoupdate_title">允許自動更新</string>
+    <string name="autoupdate_summary">在每日第一次開啟程式時檢查更新（新包裝將會自動下載）</string>
+
+    <!-- -->
+    <string name="settings_cat_app">應用程式</string>
+    <string name="settings_cat_about_condensed">關於</string>
+    <string name="title_changelog">更新紀錄</string>
+    <string name="settings_cat_licenses">執照</string>
+
+    <string name="credits_title">感謝</string>
+    <string name="title_activity_credits_show">其他執照和翻譯</string>
+        
+    <!-- -->
+    <string name="settings_cat_code">原始碼</string>
+    <string name="ytd_code_git_title">在 GitHub 找 YTD</string>
+    <string name="ytd_code_hg_title">在 Sourceforge 找 YTD</string>
+
+    <!-- -->
+    <string name="settings_cat_social">社交</string>
+    <string name="share_title">分享此程式</string>
+    <string name="share_summary">透過 Twitter, Facebook, Gmail 等&#8230;</string>
+    <string name="share_warning">找不到合適的程式</string>
+    <string name="share_message">#YouTubeDownloader
+\n下載 YouTube 影片的免費、開放原始碼 Android 程式！
+\nhttps://sourceforge.net/projects/ytdownloader/files/</string>
+	<string name="help_translate_title">幫忙翻譯此程式</string>
+    <string name="xda_title">Thread on XDA forum</string>
+    
+    <!-- -->
+    <string name="settings_cat_ssh">SSH</string>
+    <string name="connectbot_flavour_title">ConnectBot 使用版本</string>
+	<string name="connectbot_flavour_dialog_title">選擇 ConnectBot fork 以透過 SSH 傳送影片</string>
+	<string name="enable_connectbot_short_cmd_title">允許 SSH 縮短 cmd</string>
+	<string name="enable_connectbot_short_cmd_summary">使用稍微縮短但是更快速的指令來貼上至遠程外殼（只能當目的地電腦位於同樣的區域網路）</string>
+	<string name="ssh_to_longpress_menu_title">將透過SSH傳送移至長按選項</string>
+	<string name="ssh_to_longpress_menu_summary">將\"透過SSH傳送\"移至影片目錄的長按選項</string>
+	
+    <!-- -->
+	<string name="settings_cat_system">系統</string>
+	<string name="enable_logging_title">允許紀錄</string>
+	<string name="enable_logging_summary">包括 YTD 的資訊進入系統紀錄。強制傳送 logcat 至開發者。</string>
+	<string name="clear_dashboard_title">Empty the Dashboard</string>
+	<string name="clear_dashboard_summary">Clear all dashboard\'s references (may fix some crashes)</string>
+	<string name="clear_dashboard_msg">Are you sure?\nThis will clear all the list in the Dashboard.</string>
+	<string name="clear_dashboard_ok">Dashboard cleared.</string>
+	<string name="clear_dashboard_failed">Dashboard emptying failed.</string>
+	
+</resources>

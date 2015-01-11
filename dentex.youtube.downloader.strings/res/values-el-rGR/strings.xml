@@ -1,0 +1,385 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="title_activity_settings">Ρυθμίσεις</string>
+    <string name="title_activity_upgrade_apk">Αναβάθμιση</string>
+    <string name="title_activity_about">Σχετικά</string>
+    <string name="title_activity_donate">Δωρεές</string>
+    <string name="title_activity_tutorials">Οδηγοί</string>
+    <string name="title_activity_translators_show">Μεταφραστές</string>
+    <string name="title_activity_dashboard">Πίνακας Ελέγχου</string>
+
+    <!-- ### ShareActivity ### -->
+
+    <string name="tutorial_title">Γενικός οδηγός εφαρμογής</string>
+	<string name="tutorial_msg_new">Τώρα θα δείτε μια λίστα με όλους τους διαθέσιμους κωδικοποιητές και τις ποιότητες του επιλεγμένου βίντεο. Μπορείτε να:
+\n\n1) Επιλέξετε ένα αντικείμενο για τοπική λήψη του βίντεο (στη συσκευή) ή να το στείλετε μέσω SSH σε έναν απομακρυσμένο υπολογιστή.
+\nΑπαιτήσεις συσκευής προορισμού: Bash και Wget. Επιπλέον πληροφορίες SSH στη συνέχεια.
+\n\n2)Πιέστε παρατεταμένα ένα αντικείμενο και επιλέξτε μεταξύ αντιγραφής στο πρόχειρο ή κοινής χρήσης του συνδέσμου ως κείμενο (π.χ. αποστολή σε άλλη εφαρμογή).
+\nΣημειώστε ότι ένας τέτοιος σύνδεσμος (διαφορετικός από αυτόν που στέλνετε μέσω SSH) μπορεί να χρησιμοποιηθεί μόνο στην ίδια συσκευή στην οποία δημιουργήθηκε Ή στο ίδιο δίκτυο LAN, αν την μοιράζεστε με άλλη συσκευή.\n</string>
+    <string name="loading">Φόρτωση&#8230;</string>
+    <string name="error">Σφάλμα!</string>
+    <string name="information">Πληροφορίες</string>
+    <string name="dialogs_negative">&#913;&#954;&#973;&#961;&#969;&#963;&#951;</string>
+    <string name="wait">Παρακαλώ περιμένετε&#8230;</string>
+    <string name="no_downloads_sys_app">Δε βρέθηκε η εφαρμογή συστήματος \"Λήψεις\".</string>
+    <string name="invalid_url">Αδυναμία ανάκτησης ιστοσελίδας. Η URL μπορεί να μην είναι έγκυρη.</string>
+    <string name="invalid_url_short">Αδυναμία ανάκτησης ιστοσελίδας.</string>
+    <string name="invalid_response">Μη έγκυρη απόκριση διακομιστή HTTP.</string>
+    <string name="rtmpe_streams">Μη έγκυρη απόκριση διακομιστή HTTP.</string>
+    <string name="bad_link">Ελέγξτε τον παρεχόμενο σύνδεσμο.</string>
+    <string name="bad_link_dialog_msg">Μη έγκυρος σύνδεσμος YouTube.</string>
+    <string name="no_net">Δεν υπάρχει σύνδεση.</string>
+    <string name="no_net_dialog_msg">Παρακαλώ, ενεργοποιήστε πρώτα μια σύνδεση δικτύου.</string>
+    <string name="no_market">Δεν υπάρχει εφαρμογή στο market.</string>
+    <string name="no_market_dialog_msg">Παρακαλώ, εγκαταστήστε το Google Play.</string>
+    <string name="list_click_dialog_title">Επιβεβαίωση λήψης για:</string>
+    <string name="list_click_download_local">Λήψη εδώ</string>
+    <string name="list_click_download_ssh">Αποστολή μέσω SSH</string>
+    <string name="rename_dialog_title">Νέο όνομα αρχείου:</string>
+    <string name="rename_dialog_msg">Μην εισάγετε την κατάληξη του αρχείου (π.χ. .mp4 ή .flv).</string>
+    <string name="unable_save">Αδυναμία αποθήκευσης του βίντεο!</string>
+    <string name="unable_save_dialog_msg">Ο φάκελος προορισμού ΔΕΝ είναι διαθέσιμος και/ή εγγράψιμος.</string>
+    <string name="ssh_info_tutorial_title">Πώς να αποστείλετε μέσω SSH</string>
+    <string name="ssh_info_tutorial_msg">Μια μοναδική μακροεντολή φορτώθηκε στο πρόχειρο.
+\n\nΕπιλέξτε ένα προφίλ στο ConnectBot και μόλις εισέλθετε στην απομακρυσμένη γραμμή εντολών, 
+επιλέξτε τον επιθυμητό φάκελο, αντιγράψτε την εντολή (χρησιμοποιήστε το μενού) και πατήστε ENTER.</string>
+    <string name="callConnectBot_dialog_title">%1$s δεν είναι εγκατεστημένο!</string>
+    <string name="callConnectBot_dialog_msg">Χρειάζεστε αυτή τη δωρεάν εφαρμογή για να αποστείλετε τη λήψη του βίντεο μέσω SSH.</string>
+    <string name="callConnectBot_dialog_positive">Λήψη</string>
+    <string name="download_complete_dialog_msg1">Βίντεο YouTube:\n</string>
+    <string name="download_complete_dialog_msg2">\nΕπιτυχής λήψη.</string>
+    <string name="download_complete_dialog_positive">Άνοιγμα</string>
+    <string name="downloading">Λήψη&#8230;</string>
+    <string name="cancel_download_dialog_title">Ακύρωση λήψης;</string>
+    <string name="video_list_error_toast">Σφάλμα στη λίστα βίντεο.</string>
+    <string name="codec">\n\n\tΚωδικοποιητής:</string>
+    <string name="quality">\n\tΠοιότητα:</string>
+    <string name="size">\n\tΜέγεθος:</string>
+    <string name="notification_downloading_pt1">Λήψη</string>
+    <string name="notification_downloading_pt2">αρχείων βίντεο</string>
+    <string name="notification_no_downloads">Καμία λήψη σε εξέλιξη</string>
+    <string name="long_click_title">Χειρισμός επιλεγμένου συνδέσμου:</string>
+    <string name="ffmpeg_ready">FFmpeg έτοιμος.</string>
+    <string name="login_required">Μπορεί να χρειάζεται σύνδεση στο YouTube.</string>
+    <string name="encrypted_streams">Κρυπτογραφημένη ροή βίντεο</string>
+    <string name="no_video_available">Κανένα βίντεο διαθέσιμο.</string>
+    <string name="retry_button_text">Επανάληψη</string>
+    
+    <string-array name="long_click_entries">
+        <item>Αντιγραφή στο πρόχειρο</item>
+        <item>Κοινή χρήση ως κείμενο</item>
+    </string-array>
+    
+    <string-array name="long_click_entries2">
+        <item>Αντιγραφή στο πρόχειρο</item>
+        <item>Κοινή χρήση ως κείμενο</item>
+        <item>Αποστολή μέσω SSH</item>
+    </string-array>
+    
+    <string name="link_copied">Ο σύνδεσμος αντιγράφτηκε στο πρόχειρο</string>
+    <string name="share_link_via">Αποστολή αυτού του συνδέσμου μέσω:</string>
+    
+    <string name="filter_header_reset">Επαναφορά φίλτρων</string>
+    <string name="filter_view_all">Εμφάνιση όλων</string>
+    <string name="filter_header_format">Φιλτράρισμα κατά φορμάτ</string>
+    <string name="filter_header_quality">Φιλτράρισμα κατά ποιότητα</string>
+    <string name="filter_header_others">Άλλα φίλτρα</string>
+
+    <string name="filter_ld">Μεγάλη</string>
+    <string name="filter_md">Μεσαία</string>
+    <string name="filter_sd">Μικρή</string>
+    <string name="filter_vo">Μόνο-βίντεο</string>
+    <string name="filter_ao">Μόνο-ήχος</string>
+    
+    <!-- ### SettingsActivity ### -->
+
+    <string name="attention">Προσοχή!</string>
+    <string name="system_warning_title">Αυτός είναι ένας φάκελος συστήματος</string>
+    <string name="system_warning_msg">Η επιλεγμένη διαδρομή θα επιστρέψει στο φάκελο λήψεων της τυπικής κάρτας μνήμης.</string>
+    <string name="sdcard_unmounted_warning">Η κάρτα μνήμης ΔΕΝ έχει τοποθετηθεί</string>
+    <string name="update_disabled_summary">Βρέθηκε διαφορετική υπογραφή (F-Droid;)</string>
+    <string name="failed_download">Η αποτυχημένη λήψη διαγράφηκε</string>
+    <string name="new_v_download">βρέθηκε. Λήψη&#8230;</string>
+    <string name="new_v_install">λήφθηκε. Κλικ για εγκατάσταση.</string>
+    <string name="ffmpeg_download_dialog_title">Χρειάζεται ένα επιπλέον αρχείο. Λήψη τώρα;</string>
+    <string name="ffmpeg_download_dialog_msg">Ιστοσελίδα:</string>
+    <string name="ffmpeg_device_not_supported">Η συσκευή δεν υποστηρίζεται ακόμα.</string>
+    <string name="ffmpeg_support_mail">Αποστολή email στον προγραμματιστή; 
+\nΘα δείτε όλες τις πληροφορίες στην εφαρμογή email σας πριν την αποστολή.</string>
+    <string name="ffmpeg_download_notification">Λήψη FFmpeg</string>
+    <string name="ffmpeg_install">Εγκατάσταση πακέτου FFmpeg&#8230;</string>
+    <string name="email_via">Αποστολή email μέσω:</string>
+    <string name="file_already_added">Το αρχείο έχει ήδη προστεθεί.</string>
+    
+    <!-- ### UpgradeApkActivity ### -->
+    
+    <string name="upgrade_button_init">Αναβάθμιση</string>
+    <string name="upgrade_button_download">Λήψη\nκαι εγκατάσταση</string>
+    <string name="upgrade_uppertext_searching">Αναζήτηση&#8230;</string>
+    <string name="upgrade_uppertext_init">Εγκατεστημένη έκδοση:\n</string>
+
+    <string name="upgrade_latest">Πιο πρόσφατη:\t</string>
+    <string name="upgrade_installed">\nΕγκατεστημένη:\t</string>
+    <string name="upgraded_dialog_msg">Νέα έκδοση στον τυπικό φάκελο λήψεων της κάρτας μνήμης.\n\nΕγκατάσταση τώρα;</string>
+    <string name="upgraded_dialog_negative">Αργότερα\n(χειροκίνητα)</string>
+    <string name="upgrade_latest_installed">Η πιο πρόσφατη έκδοση είναι ήδη εγκατεστημένη!</string>
+    <string name="upgrade_network_error">Αδυναμία ανάκτησης δεδομένων αναβάθμισης.\nΔοκιμάστε αργότερα.</string>
+    <string name="upgrade_bad_md5_dialog_msg">Το ληφθέν πακέτο είναι φθαρμένο.\nΘα διαγραφεί τώρα.\nΠατήστε ΟΚ για να το κατεβάσετε ξανά.</string>
+    
+    <!-- ### ### -->
+    
+    <string name="ytd_video">Βίντεο YTD</string>
+    <string name="copy_error">Σφάλμα κατά την αντιγραφή.</string>
+    <string name="copy_progress">Αντιγραφή αρχείου σε εξέλιξη&#8230;</string>
+    <string name="copy_ok">Η αντιγραφή αρχείων ολοκληρώθηκε.</string>
+    <string name="download_remove_failed">Σφάλμα: το προσωρινά ληφθέν αρχείο δε διαγράφηκε!</string>
+    <string name="download_failed">Αποτυχία λήψης!</string>
+    <string name="audio_extr_progress">Εξαγωγή ήχου σε εξέλιξη&#8230;</string>
+    <string name="audio_conv_progress">Κωδικοποίηση ήχου σε mp3 σε εξέλιξη&#8230;</string>
+    <string name="audio_extr_completed">Η εξαγωγή ήχου ολοκληρώθηκε.</string>
+    <string name="audio_conv_completed">Η κωδικοποίηση σε mp3 ολοκληρώθηκε.</string>
+    <string name="audio_extr_error">Σφάλμα κατά την εξαγωγή ήχου.</string>
+    <string name="audio_conv_error">Σφάλμα κατά την κωδικοποίηση ήχου σε mp3.</string>
+    <string name="auto_audio_extr_progress">%1$s από %2$s εξαγωγές ήχου ολοκληρώθηκαν</string>
+    <string name="auto_audio_extr_completed">Όλες οι εξαγωγές ήχων ολοκληρώθηκαν</string>
+    
+    <!-- ### DonateActivity ### -->
+    
+    <string name="paypal_item_name">Δωρεά YTD</string>
+	<string name="paypal_summary">Υποστήριξη προγραμματιστή του YTD με μια δωρεά</string>
+	<string name="flattr_summary">Flattr αυτή την εφαρμογή</string>
+	
+	<!-- ### FfmpegDownloadService ### -->
+	<string name="ffmpeg_install_failed">Αποτυχία εγκατάστασης FFmpeg.</string>
+	
+	<!-- ### DashboardActivity ### -->
+	<string name="json_status_completed">Ολοκληρώθηκε</string>
+	<string name="json_status_failed">Αποτυχία</string>
+	<string name="json_status_in_progress">Σε εξέλιξη</string>
+	<string name="json_status_paused">Παύση</string>
+	<string name="json_status_imported">Εισήχθη</string>
+	<string name="json_status_queued">Στην ουρά</string>
+	<string name="menu_search">αναζήτηση&#8230;</string>
+	<string name="menu_backup">Λήψη αντιγράφου ασφαλείας</string>
+	<string name="menu_restore">Επαναφορά</string>
+	<string name="menu_import_file">Εισαγωγή αρχείων</string>
+	<string name="menu_import_file_double">Το %1$s έχει ήδη εισαχθεί.</string>
+	<string name="menu_backup_info">Επιλέξτε ένα φάκελο για αποθήκευση των δεδομένων του Πίνακα Ελέγχου</string>
+	<string name="menu_restore_info">Επαναφορά των δεδομένων του Πίνακα Ελέγχου από αρχείο</string>
+	<string name="menu_restore_info_msg">Τα υπάρχοντα δεδομένα θα διαγραφούν.</string>
+	<string name="menu_import_file_info">Εισαγωγή αρχείων και διαχείριση τους από τον Πίνακα Ελέγχου</string>
+	<string name="menu_import_in_progress">Εισαγωγή αρχείων σε εξέλιξη: %1$s</string>
+	<string name="menu_backup_result_ok">Η λήψη αντιγράφου ασφαλείας του Πίνακα Ελέγχου ολοκληρώθηκε.</string>
+	<string name="menu_backup_result_failed">Σφάλμα κατά τη λήψη αντιγράφου ασφαλείας.</string>
+	<string name="menu_restore_result_ok">Τα δεδομένα του Πίνακα Ελέγχου ανακτήθηκαν.</string>
+	<string name="menu_restore_result_failed">Σφάλμα κατά την ανάκτηση.</string>
+	<string name="unsupported_operation">Μη υποστηριζόμενη λειτουργία.</string>
+	<string name="ffmpeg_already_running">Ο FFmpeg ήδη τρέχει.</string>
+	<string name="invalid_data">Μη έγκυρα δεδομένα.</string>
+	<string name="open_chooser_title">Άνοιγμα με:</string>
+	
+	<string-array name="dashboard_click_entries">
+	    <item>Άνοιγμα</item>
+	    <item>Εξαγωγή ήχου</item>
+        <item>Εξαγωγή και κωδικοποίηση ήχου σε mp3</item>
+    </string-array>
+    
+	<string-array name="dashboard_click_entries_audio">
+	    <item>Άνοιγμα</item>
+        <item>Κωδικοποίηση σε mp3</item>
+    </string-array>
+    
+	<string-array name="dashboard_click_entries_flv">
+	    <item>Άνοιγμα</item>
+        <item>Εξαγωγή και κωδικοποίηση ήχου σε mp3</item>
+    </string-array>
+    
+	<string-array name="dashboard_click_entries_vo">
+	    <item>Άνοιγμα</item>
+        <item>Προσθήκη ροής ήχου (ήδη κατεβασμένης)</item>
+    </string-array>
+    
+	<string name="ao_not_found">Δε βρέθηκε κατάλληλη ροή ήχου</string>
+	<string name="remove_ao_vo">Διαγραφή μόνο-βίντεο και μόνο-ήχου αρχείων μετά\n(χωρίς επιβεβαίωση!)</string>
+	<string name="ffmpeg_new_v_required">Χρειάζεται νέα έκδοση του FFmpeg. Κατέβασμα τώρα;</string>
+    <string name="share_file_via">Κοινή χρήση αρχείου με:</string>
+	<string name="ffmpeg_not_enabled_title">Το FFmpeg δεν είναι εγκατεστημένο ή ενεργοποιημένο:</string>
+	<string name="ffmpeg_not_enabled_msg">Άνοιγμα ρυθμίσεων;</string>
+	<string name="remove_video">Διαγραφή βίντεο μετά την εξαγωγή ήχου (χωρίς επιβεβαίωση!)</string>
+	<string name="remove_original_audio">Διαγραφή ήχου μετά την μετατροπή (χωρίς επιβεβαίωση!)</string>
+	<string name="edit_id3_tags">Τροποποίηση ετικετών ID3</string>
+	<string name="id3_album">Άλμπουμ</string>
+	<string name="id3_artist">Καλλιτέχνης</string>
+	<string name="id3_title">Τίτλος</string>
+	<string name="id3_year">Έτος</string>
+	<string name="id3_genre">Είδος</string>
+	<string name="audio_extr_info">Περιεχόμενη ροή ήχου:</string>
+	
+	<string-array name="dashboard_long_click_entries">
+	    <item>Αντιγραφή</item>
+	    <item>Μετακίνηση</item>
+        <item>Μετονομασία</item>
+        <item>Εκ νέου λήψη του βίντεο</item>
+        <item>Αποστολή</item>
+        <item>Απομάκρυνση από τον Πίνακα Ελέγχου</item>
+        <item>Απομάκρυνση και διαγραφή αρχείου</item>
+        <item>Παύση/Συνέχιση</item>
+    </string-array>
+    
+	<string name="operation_standby">Αναμονή: μια άλλη εργασία είναι σε εξέλιξη.</string>
+	<string name="dashboard_delete_data_cb">Διαγραφή και όλων των αρχείων βίντεο/ήχου της λίστας</string>
+    
+	<string name="move_error">Σφάλμα κατά τη μετακίνηση.</string>
+    <string name="move_progress">Μετακίνηση αρχείου σε εξέλιξη&#8230;</string>
+    <string name="move_ok">Η μετακίνηση αρχείων ολοκληρώθηκε.</string>
+    <string name="long_press_warning_title">Η διεργασία δεν εκτελέστηκε:</string>
+    <string name="long_press_warning_msg">Οι φάκελοι προέλευσης και προορισμού συμπίπτουν.</string>
+    <string name="long_press_warning_msg2">Υπάρχει ήδη ένα αντίγραφο σε αυτό το φάκελο.</string>
+    <string name="audio_extr_warning_msg">Το ίδιο αρχείο ήχου έχει ήδη εξαχθεί.</string>
+
+	<string name="delete_video_confirm">Είστε σίγουρος ότι θέλετε να διαγράψετε αυτό το βίντεο;</string>
+	<string name="remove_video_confirm">Είστε σίγουρος ότι θέλετε να απομακρύνετε αυτό το βίντεο;</string>
+	<string name="delete_video_ok">%1$s διαγράφτηκε επιτυχώς.</string>
+	<string name="delete_video_failed">Σφάλμα: %1$s δε διαγράφτηκε.</string>
+	
+	<string name="empty_dashboard">Καμία καταχώριση</string>
+	<string name="status_text_in_progress">Καταχωρήσεις: %1$d (σε εξέλιξη: %2$d)</string>
+	<string name="status_text">Καταχωρήσεις: %d</string>
+	
+    <!-- ### preferences ### -->
+
+    <!-- -->
+    <string name="dashboard_summary">Ανοίγει τον Πίνακα Ελέγχου του YTD</string>
+
+    <!-- -->
+    <string name="settings_cat_ui">Διεπαφή χρήστη</string>
+    <string name="lang_title">Γλώσσα</string>
+    <string name="lang_dialog_title">Επιλογή γλώσσας UI:</string>
+    <string name="choose_theme_title">Επιλογή θέματος</string>
+    <string-array name="choose_theme_entries">
+        <item>Σκοτεινό</item>
+        <item>Φωτεινό</item>
+    </string-array>
+    
+    <!-- -->
+    <string name="quick_start_title">Άμεση χρήση</string>
+    <string name="quick_start_summ">Άνοιγμα οδηγού άμεσης χρήσης</string>
+    <string name="quick_start_text">Εδώ είναι οι ρυθμίσεις του\'YouTube Downloader\'.
+\n\nΗ ίδια η εφαρμογή μπορεί να χρησιμοποιηθεί μέσω του κουμπιού share στην εφαρμογή YouTube, ενώ βλέπετε ένα βίντεο.
+\n\nΚατόπιν επιλέξτε\'YouTube Downloader\' και θα έχετε περαιτέρω πληροφορίες χρήσης.
+\n\nΜπορείτε επίσης να μοιραστείτε οποιοδήποτε σύνδεσμο YouTube μέσω οποιαδήποτε άλλης εφαρμογής, π.χ. τον περιηγητή διαδικτύου σας.</string>
+    <string name="general_info_title">Ενεργοποίηση Γενικού Οδηγού</string>
+    <string name="general_info_summary">Εμφάνιση γενικού οδηγού εφαρμογής στην εκκίνηση</string>
+    <string name="show_again_checkbox">Επανεμφάνιση την επόμενη φορά</string>
+    <string name="ssh_info_title">Ενεργοποίηση οδηγού SSH</string>
+    <string name="ssh_info_summary">Εμφάνιση σύντομης οδηγίας για λήψη μέσω SSH</string>
+    <string name="audio_tutorial_title">Οδηγός εξαγωγής ήχου</string>
+    <string name="audio_tutorial_summary">Ανοίγει ένας σύντομος οδηγός για την εξαγωγή ήχου</string>
+    
+    <!-- -->
+    <string name="settings_cat_folder">Φάκελος λήψεων</string>
+    <string name="standard_location_title">Επιλογή τυπικού φακέλου</string>
+    <string name="chooser_swap_title">Εναλλαγή επιλογέα</string>
+    <string name="chooser_location_title">Άνοιγμα επιλογέα αρχείων</string>
+    <string name="chooser_location_summary">Πιέστε παρατεταμένα για επιλογή φακέλου</string>
+	
+    <!-- -->
+    <string name="settings_cat_files">Αρχεία βίντεο</string>
+    <string name="enable_rename_title">Ενεργοποίηση μετονομασίας αρχείου</string>
+    <string name="enable_rename_summary">Μετονομασία του αρχείου βίντεο πριν τη λήψη του (μόνο για τοπική λήψη)</string>
+	<string name="show_thumb_title">Εμφάνιση εικόνας προεπισκόπησης </string>
+    <string name="show_thumb_summary">Λήψη εικόνας προεπισκόπησης μαζί με τη λίστα βίντεο</string>
+
+    <!-- -->
+    <string name="settings_cat_advanced">Για προχωρημένους</string>
+    <string name="enable_advanced_features_title">Ενεργοποίηση Προχωρημένων Χαρακτηριστικών</string>
+    <string name="enable_advanced_features_summary">Λήψη \"πρόσθετου\" FFmpeg</string>
+    <string name="mp3_bitrate_title">Bitrate κωδικοποίησης mp3:</string>
+    
+    <string name="ffmpeg_auto_title">Αυτόματη εξαγωγή ήχου</string>
+    <string name="ffmpeg_auto_summary">Εξαγωγή ή μετατροπή ήχου σε mp3 αυτόματα, μετά από κάθε λήψη</string>
+    <string name="ffmpeg_auto_cb_title">Ενεργοποίηση αυτόματης εξαγωγής</string>
+    <string name="ffmpeg_auto_cb_summary">Επιλέξτε τις παρακάτω παραμέτρους</string>
+    
+    <string name="audio_extraction_type_title">Τύπος εξαγωγής</string>
+    <string-array name="audio_extraction_type_entries">
+	    <item>Μόνο εξαγωγή ήχου</item>
+        <item>Εξαγωγή και κωδικοποίηση ήχου σε mp3</item>
+    </string-array>
+    
+    <string name="remove_video_title">Αφαίρεση βίντεο</string>
+    
+    <string name="enable_adaptive_title">Ανάκτηση δευτερευόντων ροών</string>
+    <string name="enable_adaptive_summary">Προσθήκη μόνο-βίντεο και/ή μόνο-ήχου ροών (αν υπάρχουν) στη λίστα βίντεο</string>
+    
+    <!-- -->
+    <string name="settings_cat_notifications">Ειδοποιήσεις</string>
+    
+    <string name="notification_defaults_title">Προεπιλογές ειδοποιήσεων</string>
+    <string name="notification_defaults_dialog_title">Προεπιλογές ειδοποιήσεων του YTD</string>
+    <string-array name="notification_defaults_entries">
+        <item>Ήχος και δόνηση</item>
+        <item>Ήχος και φως</item>
+        <item>Δόνηση και φως</item>
+        <item>Ήχος, δόνηση και φως</item>
+        <item>Ήχος</item>
+        <item>Δόνηση</item>
+        <item>Φως</item>
+        <item>Τίποτα</item>
+    </string-array>
+    
+    <string name="launcher_title">Δραστηριότητα σημείου-εισόδου</string>
+    
+    <!-- -->
+    <string name="settings_cat_updates">Ενημερώσεις</string>
+    <string name="update_title">Έλεγχος για ενημερώσεις</string>
+    <string name="autoupdate_title">Ενεργοποίηση αυτόματης ενημέρωσης</string>
+    <string name="autoupdate_summary">Έλεγχος για αναβαθμίσεις της εφαρμογής στην πρώτη ημερήσια εκτέλεση (θα ληφθεί αυτόματα) </string>
+
+    <!-- -->
+    <string name="settings_cat_app">Εφαρμογή</string>
+    <string name="settings_cat_about_condensed">Σχετικά</string>
+    <string name="title_changelog">Αρχείο αλλαγών</string>
+    <string name="settings_cat_licenses">Άδειες</string>
+
+    <string name="credits_title">Ευχαριστίες</string>
+    <string name="title_activity_credits_show">Άλλες άδειες και μεταφράσεις</string>
+        
+    <!-- -->
+    <string name="settings_cat_code">Πηγαίος Κώδικας</string>
+    <string name="ytd_code_git_title">Το YTD στο GitHub</string>
+    <string name="ytd_code_hg_title">Το YTD στο Sourceforge</string>
+
+    <!-- -->
+    <string name="settings_cat_social">Κοινωνικά</string>
+    <string name="share_title">Μοιραστείτε την εφαρμογή</string>
+    <string name="share_summary">μέσω Twitter, Facebook, Gmail κλπ&#8230;</string>
+    <string name="share_warning">Δε βρέθηκαν κατάλληλες εφαρμογές.</string>
+    <string name="share_message">#YouTubeDownloader
+\nΔωρεάν και Ανοιχτού Κώδικα εφαρμογή Android για λήψη βίντεο του YouTube!
+\nhttps://sourceforge.net/projects/ytdownloader/files/</string>
+	<string name="help_translate_title">Βοηθήστε στη μετάφραση της εφαρμογής</string>
+    <string name="xda_title">Ενότητα στο φόρουμ XDA</string>
+    
+    <!-- -->
+    <string name="settings_cat_ssh">SSH</string>
+    <string name="connectbot_flavour_title">Έκδοση ConnectBot προς χρήση</string>
+	<string name="connectbot_flavour_dialog_title">Επιλογή ConnectBot για αποστολή βίντεο μέσω SSH</string>
+	<string name="enable_connectbot_short_cmd_title">Ενεργοποίηση σύντομης SSH cmd</string>
+	<string name="enable_connectbot_short_cmd_summary">Χρήση μιας ελαφρώς συντομότερης αλλά γρηγορότερης εντολής για
+ αντιγραφή στο απομακρυσμένο shell (θα δουλέψει ΜΟΝΟ αν ο υπολογιστής προορισμού βρίσκεται στο ίδιο δίκτυο LAN)</string>
+	<string name="ssh_to_longpress_menu_title">Αποστολή SSH, στο μενού παρατεταμένης πίεσης</string>
+	<string name="ssh_to_longpress_menu_summary">Μεταφορά της εντολής \"Αποστολή μέσω SSH\" στο μενού παρατεταμένης πίεσης στη λίστα βίντεο</string>
+	
+    <!-- -->
+	<string name="settings_cat_system">Σύστημα</string>
+	<string name="enable_logging_title">Ενεργοποίηση καταγραφής</string>
+	<string name="enable_logging_summary">Συμπερίληψη μηνυμάτων του YTD στο αρχείο καταγραφής συστήματος. Υποχρεωτικό για αποστολή logcat στον προγραμματιστή.</string>
+	<string name="clear_dashboard_title">Άδειασμα του Πίνακα Ελέγχου</string>
+	<string name="clear_dashboard_summary">Καθαρισμός όλων των αναφορών του Πίνακα Ελέγχου (μπορεί να διορθώσει μερικές καταρρεύσεις) </string>
+	<string name="clear_dashboard_msg">Είστε σίγουρος;\nΑυτό θα καθαρίσει όλη τη λίστα του Πίνακα Ελέγχου</string>
+	<string name="clear_dashboard_ok">Ο Πίνακας Ελέγχου άδειασε.</string>
+	<string name="clear_dashboard_failed">Αποτυχία αδειάσματος Πίνακα Ελέγχου.</string>
+	
+</resources>

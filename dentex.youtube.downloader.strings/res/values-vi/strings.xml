@@ -1,0 +1,384 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="title_activity_settings">Cài đặt</string>
+    <string name="title_activity_upgrade_apk">Nâng cấp</string>
+    <string name="title_activity_about">Giới thiệu</string>
+    <string name="title_activity_donate">Đóng góp</string>
+    <string name="title_activity_tutorials">Hướng dẫn</string>
+    <string name="title_activity_translators_show">Người dịch</string>
+    <string name="title_activity_dashboard">Bảng điều khiển</string>
+
+    <!-- ### ShareActivity ### -->
+
+    <string name="tutorial_title">Hướng dẫn</string>
+	<string name="tutorial_msg_new">Now you will see a list with all the codecs and qualities available for the selected video. You can:
+		\n\n*) Press an item to download the video locally (on the device) or to send the download via SSH to a remote PC.
+		\nDestination machine requirements: Bash and Wget. Additional SSH info further on;
+		\n\n*) Long-press an item and choose between copy to clipboard or share link as text (i.e. send to another app).
+		\nPlease note that such a link (differently from when you send it via SSH) can be only used from the same device where it has been created OR from the same LAN, if you share it to another machine.\n</string>
+    <string name="loading">Đang tải &#8230;</string>
+    <string name="error">Lỗi!</string>
+    <string name="information">Thông tin</string>
+    <string name="dialogs_negative">Hủy bỏ</string>
+    <string name="wait">Vui lòng chờ&#8230;</string>
+    <string name="no_downloads_sys_app">\"Tải về\" ứng dụng hệ thống không tìm thấy.</string>
+    <string name="invalid_url">Không kết nối được. URL không hợp lệ</string>
+    <string name="invalid_url_short">Không kết nối được</string>
+    <string name="invalid_response">Phản hồi HTTP không hợp lệ</string>
+    <string name="rtmpe_streams">Invalid HTTP server response.</string>
+    <string name="bad_link">Kiểm tra lại liên kết</string>
+    <string name="bad_link_dialog_msg">Liên kết không hợp lệ</string>
+    <string name="no_net">Không có kết nối</string>
+    <string name="no_net_dialog_msg">Vui lòng kiểm tra kết nối mạng</string>
+    <string name="no_market">Chưa cài đặt GooglePlay</string>
+    <string name="no_market_dialog_msg">Vui lòng cài đặt GooglePlay</string>
+    <string name="list_click_dialog_title">Xác nhận</string>
+    <string name="list_click_download_local">Tải về</string>
+    <string name="list_click_download_ssh">Gửi qua SSH</string>
+    <string name="rename_dialog_title">Tên file mới:</string>
+    <string name="rename_dialog_msg">Không nhập đuôi file</string>
+    <string name="unable_save">Không lưu được video</string>
+    <string name="unable_save_dialog_msg">Thư mục đích không tồn tại hoặc không được quyền ghi</string>
+    <string name="ssh_info_tutorial_title">Hướng dẫn SSH</string>
+    <string name="ssh_info_tutorial_msg">Lệnh gửi file đã được copy vào clipboard.
+\n\nĐăng nhập vào tài khoản trong ConnectBot, sau đó chuyển đến thư mục mong muốn rồi PASTE lệnh gửi(sử dụng nút menu) và ENTER.</string>
+    <string name="callConnectBot_dialog_title">%1$s chưa được cài</string>
+    <string name="callConnectBot_dialog_msg">Bạn cần phần mềm miễn phí này để gửi video qua SSH</string>
+    <string name="callConnectBot_dialog_positive">Tải về</string>
+    <string name="download_complete_dialog_msg1">Youtube Video:\n</string>
+    <string name="download_complete_dialog_msg2">\nTải về thành công</string>
+    <string name="download_complete_dialog_positive">Mở</string>
+    <string name="downloading">Đang tải&#8230;</string>
+    <string name="cancel_download_dialog_title">Hủy bỏ</string>
+    <string name="video_list_error_toast">Lỗi trong danh sách video</string>
+    <string name="codec">\n\n\tCodec:</string>
+    <string name="quality">\n\tChất lượng:</string>
+    <string name="size">\n\tDung lượng</string>
+    <string name="notification_downloading_pt1">Đang tải</string>
+    <string name="notification_downloading_pt2">videos</string>
+    <string name="notification_no_downloads">Không có tiến trình nào</string>
+    <string name="long_click_title">Lựa chọn:</string>
+    <string name="ffmpeg_ready">FFmpeg ready.</string>
+    <string name="login_required">Có thể yêu cầu đăng nhập vào tài khoản Youtube</string>
+    <string name="encrypted_streams">Encrypted video stream</string>
+    <string name="no_video_available">Không có video nào</string>
+    <string name="retry_button_text">Thử lại</string>
+    
+    <string-array name="long_click_entries">
+        <item>Copy vào clipboard</item>
+        <item>Chia sẻ</item>
+    </string-array>
+    
+    <string-array name="long_click_entries2">
+        <item>Copy vào bộ nhớ tạm</item>
+        <item>Chia sẻ theo dạng text</item>
+        <item>Gửi qua SSH</item>
+    </string-array>
+    
+    <string name="link_copied">Link copied into clipboard</string>
+    <string name="share_link_via">Share this link via:</string>
+    
+    <string name="filter_header_reset">Reset filters</string>
+    <string name="filter_view_all">View all</string>
+    <string name="filter_header_format">Filter by format</string>
+    <string name="filter_header_quality">Filter by quality</string>
+    <string name="filter_header_others">Other filters</string>
+
+    <string name="filter_ld">Large</string>
+    <string name="filter_md">Medium</string>
+    <string name="filter_sd">Small</string>
+    <string name="filter_vo">Video-only</string>
+    <string name="filter_ao">Audio-only</string>
+    
+    <!-- ### SettingsActivity ### -->
+
+    <string name="attention">Chú ý</string>
+    <string name="system_warning_title">Thư mục hệ thống</string>
+    <string name="system_warning_msg">Chọn đường dẫn dự phòng cho thư mục download trên thẻ nhớ mặc định</string>
+    <string name="sdcard_unmounted_warning">Thẻ nhớ chưa được mount</string>
+    <string name="update_disabled_summary">Tìm thấy chữ kĩ khác(F-Droid?)</string>
+    <string name="failed_download">File download hỏng đã bị xoá</string>
+    <string name="new_v_download">Tìm thấy. Đang tải&#8230;</string>
+    <string name="new_v_install">Tải xong. Click để cài đặt.</string>
+    <string name="ffmpeg_download_dialog_title">Cần thêm 1 tệp tin để chạy. Tải xuống bây giờ?</string>
+    <string name="ffmpeg_download_dialog_msg">Liên kết web:</string>
+    <string name="ffmpeg_device_not_supported">Thiết bị không được hỗ trợ.</string>
+    <string name="ffmpeg_support_mail">Gửi email cho nhà phát triển?
+\nBạn sẽ xem qua tất cả thông tin trong ứng dụng email trước khi gửi bất kỳ dữ liệu nào.</string>
+    <string name="ffmpeg_download_notification">Đang tải FFmpeg</string>
+    <string name="ffmpeg_install">Installing FFmpeg binary&#8230;</string>
+    <string name="email_via">Gửi email qua:</string>
+    <string name="file_already_added">File already added.</string>
+    
+    <!-- ### UpgradeApkActivity ### -->
+    
+    <string name="upgrade_button_init">Cập nhật</string>
+    <string name="upgrade_button_download">Tải\nvà cài đặt</string>
+    <string name="upgrade_uppertext_searching">Đang tìm kiếm&#8230;</string>
+    <string name="upgrade_uppertext_init">Phiên bản:\n</string>
+
+    <string name="upgrade_latest">Mới nhất:\t</string>
+    <string name="upgrade_installed">\nCài đặt xong:\t</string>
+    <string name="upgraded_dialog_msg">Phiên bản mới được lưu tại sdcard: thư mục \'Download\'.\n\nCài đặt?</string>
+    <string name="upgraded_dialog_negative">Để sau\n(Không tự động)</string>
+    <string name="upgrade_latest_installed">Phiên bản mới nhất đã được cài đặt</string>
+    <string name="upgrade_network_error">Không thể cập nhật.\n Thử lại sau</string>
+    <string name="upgrade_bad_md5_dialog_msg">Lỗi tải file.\nFile hỏng đã được xoá.\nChọn OK để tải lại</string>
+    
+    <!-- ### ### -->
+    
+    <string name="ytd_video">YTD video</string>
+    <string name="copy_error">Lỗi trong quá trình sao chép</string>
+    <string name="copy_progress">Đang sao chép tệp tin&#8230;</string>
+    <string name="copy_ok">Sao chép tệp tin hoàn thành</string>
+    <string name="download_remove_failed">Lỗi: file tạm tải về không thể xóa</string>
+    <string name="download_failed">Tải về lỗi!</string>
+    <string name="audio_extr_progress">Audio extraction in progress&#8230;</string>
+    <string name="audio_conv_progress">Audio encoding to mp3 in progress&#8230;</string>
+    <string name="audio_extr_completed">Audio extraction completed.</string>
+    <string name="audio_conv_completed">Mã hóa âm thanh thành mp3 hoàn thành</string>
+    <string name="audio_extr_error">Error during audio extraction.</string>
+    <string name="audio_conv_error">Error during audio encoding to mp3.</string>
+    <string name="auto_audio_extr_progress">%1$s of %2$s audio extractions completed</string>
+    <string name="auto_audio_extr_completed">All audio extractions completed</string>
+    
+    <!-- ### DonateActivity ### -->
+    
+    <string name="paypal_item_name">Ủng hộ YTD</string>
+	<string name="paypal_summary">Ủng hộ nhà phát triển YTD với 1 khoản tiền nhỏ</string>
+	<string name="flattr_summary">Flattr this App</string>
+	
+	<!-- ### FfmpegDownloadService ### -->
+	<string name="ffmpeg_install_failed">FFmpeg installation failed.</string>
+	
+	<!-- ### DashboardActivity ### -->
+	<string name="json_status_completed">Hoàn thành</string>
+	<string name="json_status_failed">Thất bại</string>
+	<string name="json_status_in_progress">Đang hoạt động</string>
+	<string name="json_status_paused">Dừng</string>
+	<string name="json_status_imported">Đã nhập</string>
+	<string name="json_status_queued">Queued</string>
+	<string name="menu_search">tìm &#8230;</string>
+	<string name="menu_backup">Sao lưu</string>
+	<string name="menu_restore">Khôi phục</string>
+	<string name="menu_import_file">Import files</string>
+	<string name="menu_import_file_double">%1$s already added.</string>
+	<string name="menu_backup_info">Choose a folder to Backup Dashboard\'s data</string>
+	<string name="menu_restore_info">Restore Dashboard\'s data from file</string>
+	<string name="menu_restore_info_msg">Present data will be overwritten.</string>
+	<string name="menu_import_file_info">Import files and manage them from the Dashboard</string>
+	<string name="menu_import_in_progress">Files import in progress: %1$s</string>
+	<string name="menu_backup_result_ok">Dashboard data backup OK.</string>
+	<string name="menu_backup_result_failed">Error during backup.</string>
+	<string name="menu_restore_result_ok">Dashboard data restored.</string>
+	<string name="menu_restore_result_failed">Lỗi khi khôi phục</string>
+	<string name="unsupported_operation">Hoạt động không hỗ trợ</string>
+	<string name="ffmpeg_already_running">FFmpeg is already running.</string>
+	<string name="invalid_data">Dữ liệu không hợp lệ</string>
+	<string name="open_chooser_title">Mở với:</string>
+	
+	<string-array name="dashboard_click_entries">
+	    <item>Mở</item>
+	    <item>Extract audio</item>
+        <item>Extract audio and encode to mp3</item>
+    </string-array>
+    
+	<string-array name="dashboard_click_entries_audio">
+	    <item>Mở</item>
+        <item>Mã hóa âm thanh thành mp3</item>
+    </string-array>
+    
+	<string-array name="dashboard_click_entries_flv">
+	    <item>Open</item>
+        <item>Extract audio and encode to mp3</item>
+    </string-array>
+    
+	<string-array name="dashboard_click_entries_vo">
+	    <item>Open</item>
+        <item>Add audio stream (already downloaded)</item>
+    </string-array>
+    
+	<string name="ao_not_found">No suitable audio-only stream found</string>
+	<string name="remove_ao_vo">Delete video-only and audio-only files afterwards\n(no confirmation!)</string>
+	<string name="ffmpeg_new_v_required">New FFmpeg version required. Download it now?</string>
+    <string name="share_file_via">Share this file via:</string>
+	<string name="ffmpeg_not_enabled_title">FFmpeg chưa được cài hoặc cho phép:</string>
+	<string name="ffmpeg_not_enabled_msg">Mở Cài đặt?</string>
+	<string name="remove_video">Delete video after audio extraction (no confirmation!)</string>
+	<string name="remove_original_audio">Delete audio after conversion (no confirmation!)</string>
+	<string name="edit_id3_tags">Edit ID3 tags</string>
+	<string name="id3_album">Album</string>
+	<string name="id3_artist">Nghệ sĩ</string>
+	<string name="id3_title">Tiêu đề</string>
+	<string name="id3_year">Năm</string>
+	<string name="id3_genre">Thể loại</string>
+	<string name="audio_extr_info">Có chứa âm thanh</string>
+	
+	<string-array name="dashboard_long_click_entries">
+	    <item>Sao chép</item>
+	    <item>Di chuyển</item>
+        <item>Đổi tên</item>
+        <item>Re-download the video</item>
+        <item>Send</item>
+        <item>Remove from Dashboard</item>
+        <item>Remove and delete file</item>
+        <item>Pause/Resume</item>
+    </string-array>
+    
+	<string name="operation_standby">Stand-by: another operation is already in progress.</string>
+	<string name="dashboard_delete_data_cb">Delete also all listed video/audio files</string>
+    
+	<string name="move_error">Lỗi trong quá trình di chuyển</string>
+    <string name="move_progress">Tệp tin đang được di chuyển &#8230;</string>
+    <string name="move_ok">Di chuyển tệp tin hoàn thành</string>
+    <string name="long_press_warning_title">Hành động không được thực thi</string>
+    <string name="long_press_warning_msg">Thư mục đích và thư mục nguồn trùng nhau</string>
+    <string name="long_press_warning_msg2">Một bản sao đã có trong thư mục này</string>
+    <string name="audio_extr_warning_msg">Tệp âm thanh tương tự đã trích xuất</string>
+
+	<string name="delete_video_confirm">Bạn chắc chắn muốn xóa video này?</string>
+	<string name="remove_video_confirm">Bạn chắc chắn muốn xóa video này?</string>
+	<string name="delete_video_ok">%1$s đã được xóa.</string>
+	<string name="delete_video_failed">Lỗi: %1$s không được xóa.</string>
+	
+	<string name="empty_dashboard">No entries</string>
+	<string name="status_text_in_progress">Entries: %1$d (in progress: %2$d)</string>
+	<string name="status_text">Entries: %d</string>
+	
+    <!-- ### preferences ### -->
+
+    <!-- -->
+    <string name="dashboard_summary">Mở bảng điều khiển YTD</string>
+
+    <!-- -->
+    <string name="settings_cat_ui">Giao diện người dùng</string>
+    <string name="lang_title">Ngôn ngữ</string>
+    <string name="lang_dialog_title">Chọn ngôn ngữ giao diện</string>
+    <string name="choose_theme_title">Chọn giao diện</string>
+    <string-array name="choose_theme_entries">
+        <item>Tối</item>
+        <item>Sáng</item>
+    </string-array>
+    
+    <!-- -->
+    <string name="quick_start_title">Hướng dẫn nhanh</string>
+    <string name="quick_start_summ">Mở hướng dẫn sử dụng</string>
+    <string name="quick_start_text">Đây chỉ là phần tuỳ chỉnh của \'YouTube Downloader\'.
+\n\nChương trình thực sự có thể được truy cập qua nút chia sẻ trong ứng dụng YouTube, khi bạn xem video.
+\n\nSau đó chọn \'YouTube Donwloader\' để thêm tuỳ chọn
+\n\nBạn cũng có thể chia sẻ bất kì link Youtube nào cho các ứng dụng khác: vd. trình duyệt.</string>
+    <string name="general_info_title">Bật hướng dẫn sử dụng</string>
+    <string name="general_info_summary">Hiển thị hướng dẫn sử dụng khi khởi động</string>
+    <string name="show_again_checkbox">Hiển thị lần sau</string>
+    <string name="ssh_info_title">Bật hướng dẫn sử dụng SSH</string>
+    <string name="ssh_info_summary">Hiển thị hướng dẫn nhanh sử dụng SSh</string>
+    <string name="audio_tutorial_title">Hướng dẫn xuất ra âm thanh</string>
+    <string name="audio_tutorial_summary">Open a brief guide about the audio extraction feature</string>
+    
+    <!-- -->
+    <string name="settings_cat_folder">Thư mục download</string>
+    <string name="standard_location_title">Chọn thư mục mặc định</string>
+    <string name="chooser_swap_title">Chuyển đổi</string>
+    <string name="chooser_location_title">Mở file-chooser</string>
+    <string name="chooser_location_summary">Click và giữ để chọn thư mục</string>
+	
+    <!-- -->
+    <string name="settings_cat_files">Videos</string>
+    <string name="enable_rename_title">Cho phép đổi tên</string>
+    <string name="enable_rename_summary">Đổi tên video trước khi tải</string>
+	<string name="show_thumb_title">Hiện ảnh xem trước</string>
+    <string name="show_thumb_summary">Hiện ảnh xem trước cùng với danh sách video</string>
+
+    <!-- -->
+    <string name="settings_cat_advanced">Nâng cao</string>
+    <string name="enable_advanced_features_title">Bật tính năng nâng cao</string>
+    <string name="enable_advanced_features_summary">Tải về giải mã FFmpeg \"plugin\"</string>
+    <string name="mp3_bitrate_title">Mp3 encoding bitrate:</string>
+    
+    <string name="ffmpeg_auto_title">Auto-extract audio</string>
+    <string name="ffmpeg_auto_summary">Extract or convert audio to mp3 automatically after every download</string>
+    <string name="ffmpeg_auto_cb_title">Enable automatic extraction</string>
+    <string name="ffmpeg_auto_cb_summary">Choose parameters below</string>
+    
+    <string name="audio_extraction_type_title">Loại xuất</string>
+    <string-array name="audio_extraction_type_entries">
+	    <item>Extract audio only</item>
+        <item>Extract and encode audio to mp3</item>
+    </string-array>
+    
+    <string name="remove_video_title">Gỡ bỏ video</string>
+    
+    <string name="enable_adaptive_title">Get secondary streams</string>
+    <string name="enable_adaptive_summary">Add video-only and/or audio-only streams (if available) to the video list</string>
+    
+    <!-- -->
+    <string name="settings_cat_notifications">Thông báo</string>
+    
+    <string name="notification_defaults_title">Notification defaults</string>
+    <string name="notification_defaults_dialog_title">YTD\'s own notification defaults</string>
+    <string-array name="notification_defaults_entries">
+        <item>Âm thanh và rung</item>
+        <item>Sound and Lights</item>
+        <item>Rung và Ánh sáng</item>
+        <item>Âm thanh, rung và ánh sáng</item>
+        <item>Âm thanh</item>
+        <item>Rung</item>
+        <item>Ánh sáng</item>
+        <item>Không</item>
+    </string-array>
+    
+    <string name="launcher_title">Entry-point activity</string>
+    
+    <!-- -->
+    <string name="settings_cat_updates">Cập nhật</string>
+    <string name="update_title">Kiểm tra phiên bản</string>
+    <string name="autoupdate_title">Bật tự động cập nhật</string>
+    <string name="autoupdate_summary">Kiểm tra cập nhật tự động (1 lần 1 ngày và bản mới tự động được tải về)</string>
+
+    <!-- -->
+    <string name="settings_cat_app">Ứng dụng</string>
+    <string name="settings_cat_about_condensed">Giới thiệu</string>
+    <string name="title_changelog">Changelog</string>
+    <string name="settings_cat_licenses">Bản quyền</string>
+
+    <string name="credits_title">Công trạng</string>
+    <string name="title_activity_credits_show">Bản quyền và bản dịch khác</string>
+        
+    <!-- -->
+    <string name="settings_cat_code">Mã nguồn</string>
+    <string name="ytd_code_git_title">YTD github</string>
+    <string name="ytd_code_hg_title">YTD sourceforge</string>
+
+    <!-- -->
+    <string name="settings_cat_social">Mạng xã hội</string>
+    <string name="share_title">Chia sẻ ứng dụng</string>
+    <string name="share_summary">qua Twitter, Facebook, Gmail, etc&#8230;</string>
+    <string name="share_warning">Không có ứng dụng phù hợp</string>
+    <string name="share_message">#YouTubeDownloader
+\nỨng dụng miễn phí và mã mở cho phép tải video từ YouTube
+\nhttps://sourceforge.net/projects/ytdownloader/files/</string>
+	<string name="help_translate_title">Trợ giúp dịch</string>
+    <string name="xda_title">Bài viết trên forum XDA</string>
+    
+    <!-- -->
+    <string name="settings_cat_ssh">SSH</string>
+    <string name="connectbot_flavour_title">ConnectBot version to use</string>
+	<string name="connectbot_flavour_dialog_title">Choose ConnectBot fork to send video via SSH</string>
+	<string name="enable_connectbot_short_cmd_title">Enable SSH short cmd</string>
+	<string name="enable_connectbot_short_cmd_summary">Use a slightly shorter but faster command to 
+	    paste into the remote shell (will ONLY work if the destination PC resides within the same LAN)</string>
+	<string name="ssh_to_longpress_menu_title">SSH-send to long-press menu</string>
+	<string name="ssh_to_longpress_menu_summary">Move \"Send via SSH\" action into the long-press menu available from the video list</string>
+	
+    <!-- -->
+	<string name="settings_cat_system">Hệ thống</string>
+	<string name="enable_logging_title">Cho phép ghi lại lịch sử</string>
+	<string name="enable_logging_summary">Include YTD\'s messages into the system log. Mandatory for sending a logcat to the developer.</string>
+	<string name="clear_dashboard_title">Làm trống Bảng điều khiển</string>
+	<string name="clear_dashboard_summary">Clear all dashboard\'s references (may fix some crashes)</string>
+	<string name="clear_dashboard_msg">Are you sure?\nThis will clear all the list in the Dashboard.</string>
+	<string name="clear_dashboard_ok">Dashboard cleared.</string>
+	<string name="clear_dashboard_failed">Dashboard emptying failed.</string>
+	
+</resources>

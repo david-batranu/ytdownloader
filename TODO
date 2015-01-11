@@ -1,0 +1,10 @@
+	[ ] implement other FFmpeg functions
+	[ ] compile FFmpeg to support x86 Android ABI [wip]
+	[ ] support subtitles download
+	[ ] use icon/logo to identify codecs available 
+        (expand the custom ShareActivity adapter)
+	[ ] make the App tablet friendly
+	[ ] use custom DM for other download tasks 
+        (apk update, ffmpeg binary [wip - on hold])
+	[ ] dashboard option to include downloaded videos into backups 
+        (or make menu entry "archive")

@@ -1,0 +1,385 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="title_activity_settings">Asetukset</string>
+    <string name="title_activity_upgrade_apk">Päivitä maksulliseen</string>
+    <string name="title_activity_about">Tietoja</string>
+    <string name="title_activity_donate">Lahjoitukset</string>
+    <string name="title_activity_tutorials">Oppaat</string>
+    <string name="title_activity_translators_show">Kääntäjät</string>
+    <string name="title_activity_dashboard">Dashboard</string>
+
+    <!-- ### ShareActivity ### -->
+
+    <string name="tutorial_title">Yleinen sovelluksen opas</string>
+	<string name="tutorial_msg_new">Nyt näet listan valitulle videolle kaikista saatavilla olevista kodeekeista ja laaduista. Voit:
+\n\n*) Paina kohdetta lataaksesi video paikallisesti (laitteessa) tai lähettääksesi lataus SSH:lla etä-PC:hen.
+\nKohdelaitteen vaatimukset: Bash ja Wget.  Lisätietoa SSH:sta myöhemmin;
+\n\n*) Pitkä painallus kohteeseen ja valitse kopioi leikepöydälle tai jaa linkki tekstinä (esim. lähetä toiseen sovellukseen).
+\nHuomaathan että tällaista linkkiä voidaan käyttää ainoastaan samassa laitteessa missä se on luotu TAI samassa LAN:ssa, jos jaat sen toiselle koneelle.\n</string>
+    <string name="loading">Ladataan&#8230;</string>
+    <string name="error">Virhe!</string>
+    <string name="information">Tiedot</string>
+    <string name="dialogs_negative">Peruuta</string>
+    <string name="wait">Odota&#8230;</string>
+    <string name="no_downloads_sys_app">\"Downloads\" järjestelmäsovellusta ei löytynyt.</string>
+    <string name="invalid_url">Ei voitu hakea sivua. URL-osoite voi olla virheellinen.</string>
+    <string name="invalid_url_short">Ei voitu hakea sivua.</string>
+    <string name="invalid_response">Virheellinen HTTP-palvelimen vastaus.</string>
+    <string name="rtmpe_streams">Virheellinen HTTP-palvelimen vastaus.</string>
+    <string name="bad_link">Tarkista annettua linkkiä.</string>
+    <string name="bad_link_dialog_msg">Virheellinen Youtube-linkki.</string>
+    <string name="no_net">Yhteys ei ole saatavilla.</string>
+    <string name="no_net_dialog_msg">Salli verkkoyhteys ensin.</string>
+    <string name="no_market">Markettisovellusta ei ole saatavilla.</string>
+    <string name="no_market_dialog_msg">Asenna Google Play</string>
+    <string name="list_click_dialog_title">Vahvista lataus: </string>
+    <string name="list_click_download_local">Lataa tähän</string>
+    <string name="list_click_download_ssh">Lähettää SSH:lla</string>
+    <string name="rename_dialog_title">Uusi Tiedoston nimi</string>
+    <string name="rename_dialog_msg">Älä anna tiedostopäätteitä (kuten .mp4 tai .flv).</string>
+    <string name="unable_save">Videota ei voitu tallentaa!</string>
+    <string name="unable_save_dialog_msg">Kohdekansio EI ole käytettävissä ja/tai kirjoitettavissa.</string>
+    <string name="ssh_info_tutorial_title">Lähetä SSH:lla How-to</string>
+    <string name="ssh_info_tutorial_msg">Yksittäinen pitkä komento on ladattu leikepöydälle.
+\n\nValitse profiili ConnectBotista ja kun olet remote shellissä, valitse haluamasi 
+hakemisto, LIITÄ komento (käytä valikon nappia) ja paina ENTER.</string>
+    <string name="callConnectBot_dialog_title">%1$s ei ole asennettu!</string>
+    <string name="callConnectBot_dialog_msg">Tarvitset tämän ilmaisen sovelluksen lähettääksesi ladatun videon SSH:lla.</string>
+    <string name="callConnectBot_dialog_positive">Lataa</string>
+    <string name="download_complete_dialog_msg1">YouTube video:\n</string>
+    <string name="download_complete_dialog_msg2">\nLadattu onnistuneesti</string>
+    <string name="download_complete_dialog_positive">Avaa</string>
+    <string name="downloading">Ladataan&#8230;</string>
+    <string name="cancel_download_dialog_title">Peruuta lataus?</string>
+    <string name="video_list_error_toast">Virhe videolistalla.</string>
+    <string name="codec">\n\n\tKodeekki:</string>
+    <string name="quality">\n\tLaatu:</string>
+    <string name="size">\n\tKoko:</string>
+    <string name="notification_downloading_pt1">Ladataan</string>
+    <string name="notification_downloading_pt2">videotiedostot</string>
+    <string name="notification_no_downloads">Ei latauksia käynnissä</string>
+    <string name="long_click_title">Käsittele valittu linkki:</string>
+    <string name="ffmpeg_ready">FFmpeg valmis.</string>
+    <string name="login_required">Kirjautuminen YouTubeen voidaan vaatia.</string>
+    <string name="encrypted_streams">Enkryptattu videovirta</string>
+    <string name="no_video_available">Videota ei ole saatavilla.</string>
+    <string name="retry_button_text">Yritä uudelleen</string>
+    
+    <string-array name="long_click_entries">
+        <item>Kopioi leikepöydälle</item>
+        <item>Jaa tekstinä</item>
+    </string-array>
+    
+    <string-array name="long_click_entries2">
+        <item>Kopioi leikepöydälle</item>
+        <item>Jaa tekstinä</item>
+        <item>Lähetä SSH:lla</item>
+    </string-array>
+    
+    <string name="link_copied">Link copied into clipboard</string>
+    <string name="share_link_via">Share this link via:</string>
+    
+    <string name="filter_header_reset">Reset filters</string>
+    <string name="filter_view_all">View all</string>
+    <string name="filter_header_format">Filter by format</string>
+    <string name="filter_header_quality">Filter by quality</string>
+    <string name="filter_header_others">Other filters</string>
+
+    <string name="filter_ld">Large</string>
+    <string name="filter_md">Medium</string>
+    <string name="filter_sd">Small</string>
+    <string name="filter_vo">Video-only</string>
+    <string name="filter_ao">Audio-only</string>
+    
+    <!-- ### SettingsActivity ### -->
+
+    <string name="attention">Huomio!</string>
+    <string name="system_warning_title">Tämä on järjestelmäkansio</string>
+    <string name="system_warning_msg">Valittu polku johtaa takaisin standardiin sdcard\in Download-kansioon.</string>
+    <string name="sdcard_unmounted_warning">Muistikorttia EI ole liitetty</string>
+    <string name="update_disabled_summary">Erilainen allekirjoitus löydetty (F-Droid?)</string>
+    <string name="failed_download">Epäonnistunut lataus poistettu</string>
+    <string name="new_v_download">löytyi. Ladataan&#8230;</string>
+    <string name="new_v_install">Ladattu. Klikkaa asentaaksesi.</string>
+    <string name="ffmpeg_download_dialog_title">Ylimääräistä tiedostoa tarvitaan. Lataa se nyt?</string>
+    <string name="ffmpeg_download_dialog_msg">Web-osoite:</string>
+    <string name="ffmpeg_device_not_supported">Laitetta ei tueta vielä.</string>
+    <string name="ffmpeg_support_mail">Lähetä sähköposti kehittäjälle?
+ \nNäet viestin sisällön email-sovelluksessa ennen viestin lähettämistä.</string>
+    <string name="ffmpeg_download_notification">Ladataan FFmpeg</string>
+    <string name="ffmpeg_install">Asennetaan FFmpeg binääri&#8230;</string>
+    <string name="email_via">Lähetä sähköpostia käyttäen:</string>
+    <string name="file_already_added">File already added.</string>
+    
+    <!-- ### UpgradeApkActivity ### -->
+    
+    <string name="upgrade_button_init">Päivitä</string>
+    <string name="upgrade_button_download">Lataa\nja asenna</string>
+    <string name="upgrade_uppertext_searching">Etsitään&#8230;</string>
+    <string name="upgrade_uppertext_init">Asennettu versio:\n</string>
+
+    <string name="upgrade_latest">Viimeisin:\t</string>
+    <string name="upgrade_installed">\nAsennettu:\t</string>
+    <string name="upgraded_dialog_msg">Uusi versio tallennettu muistikortin standardiin \'Download\'-kansioon.\n\nAsenna nyt?</string>
+    <string name="upgraded_dialog_negative">Myöhemmin\n(manuaalisesti)</string>
+    <string name="upgrade_latest_installed">Viimeisin versio on jo asennettu!</string>
+    <string name="upgrade_network_error">Päivitysdatan nouto ei onnistu.\nYritä uudelleen myöhemmin.</string>
+    <string name="upgrade_bad_md5_dialog_msg">Ladattu paketti on vioittunut.\nPoistetaan nyt.\nPaina OK ladataksesi se uudelleen.</string>
+    
+    <!-- ### ### -->
+    
+    <string name="ytd_video">YTD video</string>
+    <string name="copy_error">Virhe kopioinnin aikana.</string>
+    <string name="copy_progress">Tiedoston kopiointi käynnissä&#8230;</string>
+    <string name="copy_ok">Tiedoston kopiointi valmistui.</string>
+    <string name="download_remove_failed">Virhe: Tilapäisesti ladattua tiedostoa ei poistettu!</string>
+    <string name="download_failed">Lataus epäonnistui!</string>
+    <string name="audio_extr_progress">Audion irroitus käynnissä&#8230;</string>
+    <string name="audio_conv_progress">Audion enkoodaus mp3:ksi käynnissä&#8230;</string>
+    <string name="audio_extr_completed">Audion irroitus valmistui.</string>
+    <string name="audio_conv_completed">Audion enkoodaus mp3:ksi valmistui.</string>
+    <string name="audio_extr_error">Virhe audion irroituksen aikana.</string>
+    <string name="audio_conv_error">Virhe audion enkoodauksen mp3:ksi aikana.</string>
+    <string name="auto_audio_extr_progress">%1$s of %2$s audio extractions completed</string>
+    <string name="auto_audio_extr_completed">All audio extractions completed</string>
+    
+    <!-- ### DonateActivity ### -->
+    
+    <string name="paypal_item_name">YTD lahjoitukset</string>
+	<string name="paypal_summary">Tue YTD\n tekijää lahjoituksella </string>
+	<string name="flattr_summary">Flattr:ää tätä sovellusta</string>
+	
+	<!-- ### FfmpegDownloadService ### -->
+	<string name="ffmpeg_install_failed">FFmpeg asennus epäonnistui.</string>
+	
+	<!-- ### DashboardActivity ### -->
+	<string name="json_status_completed">Valmis</string>
+	<string name="json_status_failed">Epäonnistui</string>
+	<string name="json_status_in_progress">Käynnissä</string>
+	<string name="json_status_paused">Pysäytetty</string>
+	<string name="json_status_imported">Tuotu</string>
+	<string name="json_status_queued">Queued</string>
+	<string name="menu_search">etsi&#8230;</string>
+	<string name="menu_backup">Varmennus</string>
+	<string name="menu_restore">Palauta</string>
+	<string name="menu_import_file">Import files</string>
+	<string name="menu_import_file_double">%1$s already added.</string>
+	<string name="menu_backup_info">Valitse kansio varmentaaksesi Dashboard\in data</string>
+	<string name="menu_restore_info">Palauta Dashboard\in data tiedostosta</string>
+	<string name="menu_restore_info_msg">Nykyinen data ylikirjoitetaan.</string>
+	<string name="menu_import_file_info">Import files and manage them from the Dashboard</string>
+	<string name="menu_import_in_progress">Files import in progress: %1$s</string>
+	<string name="menu_backup_result_ok">Dashboardin datan varmennus OK.</string>
+	<string name="menu_backup_result_failed">Virhe varmennuksen aikana.</string>
+	<string name="menu_restore_result_ok">Dashboardin data palautettu.</string>
+	<string name="menu_restore_result_failed">Virhe palautuksen aikana.</string>
+	<string name="unsupported_operation">Toimintoa ei tueta.</string>
+	<string name="ffmpeg_already_running">FFmpeg on jo käynnissä.</string>
+	<string name="invalid_data">Virheellinen data.</string>
+	<string name="open_chooser_title">Avaa käyttäen:</string>
+	
+	<string-array name="dashboard_click_entries">
+	    <item>Avaa</item>
+	    <item>Extract audio</item>
+        <item>Extract audio and encode to mp3</item>
+    </string-array>
+    
+	<string-array name="dashboard_click_entries_audio">
+	    <item>Avaa</item>
+        <item>Enkoodaa mp3:ksi</item>
+    </string-array>
+    
+	<string-array name="dashboard_click_entries_flv">
+	    <item>Open</item>
+        <item>Extract audio and encode to mp3</item>
+    </string-array>
+    
+	<string-array name="dashboard_click_entries_vo">
+	    <item>Open</item>
+        <item>Add audio stream (already downloaded)</item>
+    </string-array>
+    
+	<string name="ao_not_found">No suitable audio-only stream found</string>
+	<string name="remove_ao_vo">Delete video-only and audio-only files afterwards\n(no confirmation!)</string>
+	<string name="ffmpeg_new_v_required">New FFmpeg version required. Download it now?</string>
+    <string name="share_file_via">Share this file via:</string>
+	<string name="ffmpeg_not_enabled_title">FFmpegia ei ole asennettu tai sallittu:</string>
+	<string name="ffmpeg_not_enabled_msg">Avaa asetukset?</string>
+	<string name="remove_video">Tuhoa video audion irroituksen jälkeen (ei vahvistusta!)</string>
+	<string name="remove_original_audio">Tuhoa audio konvertoinnin jälkeen (ei vahvistusta!)</string>
+	<string name="edit_id3_tags">Muokkaa ID3 tageja</string>
+	<string name="id3_album">Albumi</string>
+	<string name="id3_artist">Esittäjä</string>
+	<string name="id3_title">Nimi</string>
+	<string name="id3_year">Vuosi</string>
+	<string name="id3_genre">Tyyli</string>
+	<string name="audio_extr_info">Sisältyvä audiovirta:</string>
+	
+	<string-array name="dashboard_long_click_entries">
+	    <item>Kopioi</item>
+	    <item>Siirrä</item>
+        <item>Nimeä uudelleen</item>
+        <item>Lataa video uudelleen</item>
+        <item>Send</item>
+        <item>Remove from Dashboard</item>
+        <item>Remove and delete file</item>
+        <item>Pause/Resume</item>
+    </string-array>
+    
+	<string name="operation_standby">Stand-by: another operation is already in progress.</string>
+	<string name="dashboard_delete_data_cb">Delete also all listed video/audio files</string>
+    
+	<string name="move_error">Virhe siirron aikana.</string>
+    <string name="move_progress">Tiedoston siirto käynnissä&#8230;</string>
+    <string name="move_ok">Tiedoston siirto valmistui.</string>
+    <string name="long_press_warning_title">Toimintoa ei suoritettu:</string>
+    <string name="long_press_warning_msg">Lähde- ja kohdekansiot ovat päällekäin.</string>
+    <string name="long_press_warning_msg2">Kopio sijaitsee jo tässä kansiossa.</string>
+    <string name="audio_extr_warning_msg">Sama audiotiedosto on jo irroitettu.</string>
+
+	<string name="delete_video_confirm">Vahvista tuhotaksesi tämä video?</string>
+	<string name="remove_video_confirm">Vahvista tämän videon poisto?</string>
+	<string name="delete_video_ok">%1$s tuhottu onnistuneesti.</string>
+	<string name="delete_video_failed">Virhe: %1$s ei tuhottu.</string>
+	
+	<string name="empty_dashboard">No entries</string>
+	<string name="status_text_in_progress">Entries: %1$d (in progress: %2$d)</string>
+	<string name="status_text">Entries: %d</string>
+	
+    <!-- ### preferences ### -->
+
+    <!-- -->
+    <string name="dashboard_summary">Avaa YTD\n Dashboard</string>
+
+    <!-- -->
+    <string name="settings_cat_ui">Käyttöliittymä</string>
+    <string name="lang_title">Kieli</string>
+    <string name="lang_dialog_title">Valitse käyttöliittymän kieli:</string>
+    <string name="choose_theme_title">Valitse teema</string>
+    <string-array name="choose_theme_entries">
+        <item>Tumma</item>
+        <item>Vaalea</item>
+    </string-array>
+    
+    <!-- -->
+    <string name="quick_start_title">Pika-aloitus</string>
+    <string name="quick_start_summ">Avaa pikaopas</string>
+    <string name="quick_start_text">Tässä ovat asetukset \'YouTube Downloader\'lle.
+\n\nItse sovellusta käytetään "Jaa"-napilla YouTube-sovelluksessa videota katsoessa.
+\n\nSitten valitse \'YouTube Downloader\' ja saat tarkempaa tietoa käytöstä.
+\n\nVoit myös jakaa minkä tahansa YouTube-tekstilinkin muille sovelluksille: esim. selaimellesi.</string>
+    <string name="general_info_title">Salli yleinen how-to</string>
+    <string name="general_info_summary">Näytä yleinen sovelluksen opas käynnistyksessä</string>
+    <string name="show_again_checkbox">Näytä uudelleen ensi kerralla</string>
+    <string name="ssh_info_title">Salli SSH how-to</string>
+    <string name="ssh_info_summary">Näytä pikavihje etälatauksesta SSH:lla</string>
+    <string name="audio_tutorial_title">Audion irroituksen opas</string>
+    <string name="audio_tutorial_summary">Avaa lyhyt opas audion irroituksesta</string>
+    
+    <!-- -->
+    <string name="settings_cat_folder">Latauskansio</string>
+    <string name="standard_location_title">Valitse standardi kansio</string>
+    <string name="chooser_swap_title">Vaihda valitsin</string>
+    <string name="chooser_location_title">Avaa tiedostovalitsin</string>
+    <string name="chooser_location_summary">Paina pitkään valitaksesi kansion</string>
+	
+    <!-- -->
+    <string name="settings_cat_files">Videotiedostot</string>
+    <string name="enable_rename_title">Salli tiedoston uudelleennimeäminen</string>
+    <string name="enable_rename_summary">Nimeä videotiedosto uudelleen ennen latausta (vain paikallisille latauksille)</string>
+	<string name="show_thumb_title">Näytä esikatselukuva</string>
+    <string name="show_thumb_summary">Lataa esikatselukuva yhdessä videolistan kanssa</string>
+
+    <!-- -->
+    <string name="settings_cat_advanced">Lisäasetukset</string>
+    <string name="enable_advanced_features_title">Salli edistyneemmät ominaisuudet</string>
+    <string name="enable_advanced_features_summary">Lataa FFmpeg \"plugin\"</string>
+    <string name="mp3_bitrate_title">Mp3-enkoodauksen bittivirta:</string>
+    
+    <string name="ffmpeg_auto_title">Auto-extract audio</string>
+    <string name="ffmpeg_auto_summary">Extract or convert audio to mp3 automatically after every download</string>
+    <string name="ffmpeg_auto_cb_title">Enable automatic extraction</string>
+    <string name="ffmpeg_auto_cb_summary">Choose parameters below</string>
+    
+    <string name="audio_extraction_type_title">Irroituksen tyyppi</string>
+    <string-array name="audio_extraction_type_entries">
+	    <item>Extract audio only</item>
+        <item>Extract and encode audio to mp3</item>
+    </string-array>
+    
+    <string name="remove_video_title">Videon poisto</string>
+    
+    <string name="enable_adaptive_title">Get secondary streams</string>
+    <string name="enable_adaptive_summary">Add video-only and/or audio-only streams (if available) to the video list</string>
+    
+    <!-- -->
+    <string name="settings_cat_notifications">Ilmoitukset</string>
+    
+    <string name="notification_defaults_title">ilmoituksien oletusarvot</string>
+    <string name="notification_defaults_dialog_title">YTD\n ilmoituksien oletusarvot</string>
+    <string-array name="notification_defaults_entries">
+        <item>Ääni ja värinä</item>
+        <item>Ääni ja valot</item>
+        <item>Värinä ja valot</item>
+        <item>Ääni, värinä ja valot</item>
+        <item>Ääni</item>
+        <item>Värinä</item>
+        <item>Valot</item>
+        <item>Ei mitään</item>
+    </string-array>
+    
+    <string name="launcher_title">Entry-point activity</string>
+    
+    <!-- -->
+    <string name="settings_cat_updates">Päivitykset</string>
+    <string name="update_title">Etsi päivityksiä</string>
+    <string name="autoupdate_title">Salli automaattinen päivitys</string>
+    <string name="autoupdate_summary">Tarkista päivitykset päivän ensimmäisessä sovelluksen käynnistyksessä (uusi paketti ladataan automaattisesti)</string>
+
+    <!-- -->
+    <string name="settings_cat_app">Sovellus</string>
+    <string name="settings_cat_about_condensed">Tietoja</string>
+    <string name="title_changelog">Muutosloki</string>
+    <string name="settings_cat_licenses">Lisenssit</string>
+
+    <string name="credits_title">Tekijät</string>
+    <string name="title_activity_credits_show">Muut lisenssit ja käännökset</string>
+        
+    <!-- -->
+    <string name="settings_cat_code">Lähdekoodi</string>
+    <string name="ytd_code_git_title">YTD GitHubissa</string>
+    <string name="ytd_code_hg_title">YTD Sourceforgessa</string>
+
+    <!-- -->
+    <string name="settings_cat_social">Yhteisöpalvelut</string>
+    <string name="share_title">Jaa tämä sovellus</string>
+    <string name="share_summary">Twitterillä, Facebookilla, Gmaililla, jne.&#8230;</string>
+    <string name="share_warning">Kelvollisia sovelluksia ei löytynyt.</string>
+    <string name="share_message">#YouTubeDownloader 
+\nIlmainen ja avoimen lähdekoodin Android-sovellus Youtube-videoiden lataamiseen! 
+\nhttps://sourceforge.net/projects/ytdownloader/files/</string>
+	<string name="help_translate_title">Auta kääntämään tämä sovellus</string>
+    <string name="xda_title">Viestiketju XDA-foorumilla</string>
+    
+    <!-- -->
+    <string name="settings_cat_ssh">SSH</string>
+    <string name="connectbot_flavour_title">Käytettävä ConnectBot-versio</string>
+	<string name="connectbot_flavour_dialog_title">Valitse ConnectBot-forkki videon lähetykseen SSH:lla</string>
+	<string name="enable_connectbot_short_cmd_title">Salli SSH:n lyhyt komento</string>
+	<string name="enable_connectbot_short_cmd_summary">Käytä hieman lyhyempää, mutta nopeampaa komentoa 
+liittääksesi remote shelliin (toimii AINOASTAAN jos kohde-PC kuuluu samaan LAN:iin)</string>
+	<string name="ssh_to_longpress_menu_title">SSH-lähetys pitkän painalluksen valikkoon</string>
+	<string name="ssh_to_longpress_menu_summary">Siirrä \"Send via SSH\" toiminto pitkän painalluksen valikkoon saataville videolistasta</string>
+	
+    <!-- -->
+	<string name="settings_cat_system">Järjestelmä</string>
+	<string name="enable_logging_title">Hyväksy lokitiedot</string>
+	<string name="enable_logging_summary">Sisällytä YTD\n viestit järjestelmälokiin. Vaatimus lähetettäessä logcatia kehittäjälle.</string>
+	<string name="clear_dashboard_title">Tyhjennä Dashboard</string>
+	<string name="clear_dashboard_summary">Tyhjennä kaikki Dashboard\in viittaukset (voi korjata joitain kaatumisia)</string>
+	<string name="clear_dashboard_msg">Oletko varma?\nTämä tyhjentää koko listan Dashboardista.</string>
+	<string name="clear_dashboard_ok">Dashboard tyhjennetty.</string>
+	<string name="clear_dashboard_failed">Dashboardin tyhjennys epäonnistui.</string>
+	
+</resources>

@@ -1,0 +1,385 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="title_activity_settings">Nastavení</string>
+    <string name="title_activity_upgrade_apk">Aktualizace</string>
+    <string name="title_activity_about">O aplikaci</string>
+    <string name="title_activity_donate">Dary</string>
+    <string name="title_activity_tutorials">Návody</string>
+    <string name="title_activity_translators_show">Překladatelé</string>
+    <string name="title_activity_dashboard">Dashboard</string>
+
+    <!-- ### ShareActivity ### -->
+
+    <string name="tutorial_title">Všeobecný návod</string>
+	<string name="tutorial_msg_new">Nyní vidíte seznam s kodeky a kvalitami dostupnými pro zvolené video. Můžete: 
+\n\n*) Kliknout na položku pro stáhnutí videa do vašeho zařízení, nebo odeslat přes SSH do vzdáleného PC. 
+\nPožadavky pro cílové zařízení: Bash a Wget. Další info o SSH později; 
+\n\n*) Delší podržení na položce pro volbu mezi Kopírovat do schránky nebo Sdílet odkaz jako text (např. odeslat do jiné aplikace). 
+\nVemte prosím na vědomí, že takový odkaz (jiný než při odeslaní přes SSH) může být použitý pouze na stejném zařízení, kde byl vytvořený nebo na stejné síti LAN, pokud ho sdílíte do jiného zařízení.\n</string>
+    <string name="loading">Načítání&#8230;</string>
+    <string name="error">Chyba!</string>
+    <string name="information">Informace</string>
+    <string name="dialogs_negative">Zrušit</string>
+    <string name="wait">Prosím čekejte#8230;</string>
+    <string name="no_downloads_sys_app">Systémová aplikace \"Downloads\" nenalezena.</string>
+    <string name="invalid_url">Nelze načíst webovou stránku. URL adresa může být neplatná.</string>
+    <string name="invalid_url_short">Nelze načíst webovou stránku.</string>
+    <string name="invalid_response">Neplatná odpověď z HTTP serveru.</string>
+    <string name="rtmpe_streams">Neplatná odpověď z HTTP serveru.</string>
+    <string name="bad_link">Zkontrolujte odkaz.</string>
+    <string name="bad_link_dialog_msg">Špatný YouTube odkaz.</string>
+    <string name="no_net">Není k dispozici žádné připojení.</string>
+    <string name="no_net_dialog_msg">Prosím, nejdříve povolte internetové připojení.</string>
+    <string name="no_market">Není dostupná aplikace pro nákup.</string>
+    <string name="no_market_dialog_msg">Prosím nainstalujte Google Play</string>
+    <string name="list_click_dialog_title">Potvrdit stažení pro:</string>
+    <string name="list_click_download_local">Stáhnout zde</string>
+    <string name="list_click_download_ssh">Odeslat přes SSH</string>
+    <string name="rename_dialog_title">Nový název souboru:</string>
+    <string name="rename_dialog_msg">Nezadávejte typ souboru (například .mp4 nebo .flv).</string>
+    <string name="unable_save">Nepodařilo se uložit video!</string>
+    <string name="unable_save_dialog_msg">Cílová složka není dostupná, nebo do ní nelze zapisovat.</string>
+    <string name="ssh_info_tutorial_title">Jak stáhnout přes SSH</string>
+    <string name="ssh_info_tutorial_msg">Jeden dlouhý příkaz byl vložený do schránky.
+\n\nVyberte profil v ConnectBotu a jeden ve vzdáleném shellu, přejděte na požadovaný
+adresář, vložte příkaz (použijte tlačítko menu), a stiskněte ENTER.</string>
+    <string name="callConnectBot_dialog_title">%1$s není nainstalován!</string>
+    <string name="callConnectBot_dialog_msg">Potřebujete tuto aplikaci pro spuštění stahování přes SSH.</string>
+    <string name="callConnectBot_dialog_positive">Stáhnout</string>
+    <string name="download_complete_dialog_msg1">YouTube Video:\n</string>
+    <string name="download_complete_dialog_msg2">\nÚspěšně staženo.</string>
+    <string name="download_complete_dialog_positive">Otevřít</string>
+    <string name="downloading">Stahování&#8230;</string>
+    <string name="cancel_download_dialog_title">Zrušit stahování?</string>
+    <string name="video_list_error_toast">Chyba v seznamu videí.</string>
+    <string name="codec">\n\n\tKodek:</string>
+    <string name="quality">\n\tKvalita:</string>
+    <string name="size">\n\tVelikost:</string>
+    <string name="notification_downloading_pt1">Stahování:</string>
+    <string name="notification_downloading_pt2">video soubor(ů)</string>
+    <string name="notification_no_downloads">Žádné probíhající stahování</string>
+    <string name="long_click_title">Zpracovat vybraný odkaz:</string>
+    <string name="ffmpeg_ready">FFmpeg připraven.</string>
+    <string name="login_required">Je vyžadováno přihlášení do YouTube.</string>
+    <string name="encrypted_streams">Šifrované video</string>
+    <string name="no_video_available">Video není k dispozici.</string>
+    <string name="retry_button_text">Zopakovat</string>
+    
+    <string-array name="long_click_entries">
+        <item>Kopírovat do schránky</item>
+        <item>Sdílet jako text</item>
+    </string-array>
+    
+    <string-array name="long_click_entries2">
+        <item>Kopírovat do schránky</item>
+        <item>Sdílet jako text</item>
+        <item>Odeslat přes SSH</item>
+    </string-array>
+    
+    <string name="link_copied">Odkaz zkopírován do schránky</string>
+    <string name="share_link_via">Sdílet odkaz přes:</string>
+    
+    <string name="filter_header_reset">Obnovit filtry</string>
+    <string name="filter_view_all">Zobrazit vše</string>
+    <string name="filter_header_format">Filtrovat podle formátu</string>
+    <string name="filter_header_quality">Filtrovat podle kvality</string>
+    <string name="filter_header_others">Jiné filtry</string>
+
+    <string name="filter_ld">Velké</string>
+    <string name="filter_md">Střední</string>
+    <string name="filter_sd">Malé</string>
+    <string name="filter_vo">Pouze video</string>
+    <string name="filter_ao">Pouze audio</string>
+    
+    <!-- ### SettingsActivity ### -->
+
+    <string name="attention">Upozornění!</string>
+    <string name="system_warning_title">Toto je systémová složka</string>
+    <string name="system_warning_msg">Zvolená cesta se změní zpátky na standardní složku Download na SD kartě.</string>
+    <string name="sdcard_unmounted_warning">SD karta nepřipojená</string>
+    <string name="update_disabled_summary">Nalezen jiný podpis (F-Droid?)</string>
+    <string name="failed_download">Odstraněno chybné stažení</string>
+    <string name="new_v_download">nalezeno. Stahování&#8230;</string>
+    <string name="new_v_install">staženo. Klikněte pro instalaci.</string>
+    <string name="ffmpeg_download_dialog_title">Je potřeba další soubor. Stáhnout nyní?</string>
+    <string name="ffmpeg_download_dialog_msg">Webový odkaz:</string>
+    <string name="ffmpeg_device_not_supported">Zařízení není podporováno.</string>
+    <string name="ffmpeg_support_mail">Poslat e-mail vývojáři?
+\nZobrazí se vám všechny informace ve vaší e-mailové aplikaci před odesláním jakýchkoliv dat.</string>
+    <string name="ffmpeg_download_notification">Stahování FFmpeg</string>
+    <string name="ffmpeg_install">Instaluji FFmpeg binárku&#8230;</string>
+    <string name="email_via">Odeslat email přes:</string>
+    <string name="file_already_added">Soubor už je přidaný.</string>
+    
+    <!-- ### UpgradeApkActivity ### -->
+    
+    <string name="upgrade_button_init">Aktualizovat</string>
+    <string name="upgrade_button_download">Stáhnout\na nainstalovat</string>
+    <string name="upgrade_uppertext_searching">Vyhledávání&#8230;</string>
+    <string name="upgrade_uppertext_init">Nainstalovaná verze:\n</string>
+
+    <string name="upgrade_latest">Nejnovější:\t</string>
+    <string name="upgrade_installed">\nNainstalována:\t</string>
+    <string name="upgraded_dialog_msg">Nová verze je uložená na interní SD kartě ve složce \'Download\'.\n\nInstalovat nyní?</string>
+    <string name="upgraded_dialog_negative">Později\n(ručně)</string>
+    <string name="upgrade_latest_installed">Nainstalována aktuální verze!</string>
+    <string name="upgrade_network_error">Nelze načíst aktualizaci.\nZkuste později.</string>
+    <string name="upgrade_bad_md5_dialog_msg">Stažený balíček je poškozený.\nNyní bude smazán.\nStiskněte OK k opětovnému stažení.</string>
+    
+    <!-- ### ### -->
+    
+    <string name="ytd_video">YTD video</string>
+    <string name="copy_error">Chyba v průběhu kopírování.</string>
+    <string name="copy_progress">Probíhá kopírování souboru&#8230;</string>
+    <string name="copy_ok">Kopírování dokončeno.</string>
+    <string name="download_remove_failed">Chyba: dočasný soubor nebyl odstraněn!</string>
+    <string name="download_failed">Stahování selhalo!</string>
+    <string name="audio_extr_progress">Probíhá extrahování audia&#8230;</string>
+    <string name="audio_conv_progress">Probíhá konverze audia do mp3&#8230;</string>
+    <string name="audio_extr_completed">Extrahování audia dokončeno.</string>
+    <string name="audio_conv_completed">Konverze audia do mp3 hotova.</string>
+    <string name="audio_extr_error">Chyba při extrahovaní audia.</string>
+    <string name="audio_conv_error">Chyba při konvertovaní audia do mp3.</string>
+    <string name="auto_audio_extr_progress">Extrahování audia %1$s z %2$s dokončeno</string>
+    <string name="auto_audio_extr_completed">Extrahování audia kompletní</string>
+    
+    <!-- ### DonateActivity ### -->
+    
+    <string name="paypal_item_name">Podpořit YTD</string>
+	<string name="paypal_summary">Podpořte YTD vývojáře darem</string>
+	<string name="flattr_summary">Podpořit přes Flattr</string>
+	
+	<!-- ### FfmpegDownloadService ### -->
+	<string name="ffmpeg_install_failed">Instalace FFmpeg selhala.</string>
+	
+	<!-- ### DashboardActivity ### -->
+	<string name="json_status_completed">Dokončeno</string>
+	<string name="json_status_failed">Selhalo</string>
+	<string name="json_status_in_progress">Probíhá</string>
+	<string name="json_status_paused">Pozastaveno</string>
+	<string name="json_status_imported">Importováno</string>
+	<string name="json_status_queued">Ve frontě</string>
+	<string name="menu_search">hledat&#8230;</string>
+	<string name="menu_backup">Zálohovat</string>
+	<string name="menu_restore">Obnovit</string>
+	<string name="menu_import_file">Import souborů</string>
+	<string name="menu_import_file_double">%1$s již přidán.</string>
+	<string name="menu_backup_info">Zvolte složku k záloze Dashboardu</string>
+	<string name="menu_restore_info">Obnovit Dashboard ze souboru</string>
+	<string name="menu_restore_info_msg">Současné údaje budou přepsány.</string>
+	<string name="menu_import_file_info">Importovat a spravovat soubory v Dashboardu</string>
+	<string name="menu_import_in_progress">Probíhá import souborů: %1$s</string>
+	<string name="menu_backup_result_ok">Záloha Dashboard dat je v pořádku.</string>
+	<string name="menu_backup_result_failed">Chyba při zálohování.</string>
+	<string name="menu_restore_result_ok">Dashboard data obnoveny.</string>
+	<string name="menu_restore_result_failed">Chyba při obnově.</string>
+	<string name="unsupported_operation">Nepodporovaná operace.</string>
+	<string name="ffmpeg_already_running">FFmpeg již běží.</string>
+	<string name="invalid_data">Neplatná data.</string>
+	<string name="open_chooser_title">Otevřít v:</string>
+	
+	<string-array name="dashboard_click_entries">
+	    <item>Otevřít</item>
+	    <item>Extrahovat audio</item>
+        <item>Extrahovat a převést audio do mp3</item>
+    </string-array>
+    
+	<string-array name="dashboard_click_entries_audio">
+	    <item>Otevřít</item>
+        <item>Převést do mp3</item>
+    </string-array>
+    
+	<string-array name="dashboard_click_entries_flv">
+	    <item>Otevřít</item>
+        <item>Extrahovat a převést audio do mp3</item>
+    </string-array>
+    
+	<string-array name="dashboard_click_entries_vo">
+	    <item>Otevřít</item>
+        <item>Přidat audio stream (už stáhnutý)</item>
+    </string-array>
+    
+	<string name="ao_not_found">Nenašli se žádné vhodné audio streamy</string>
+	<string name="remove_ao_vo">Vymazat pouze video a pouze audio soubory\n(bez potvrzení!)</string>
+	<string name="ffmpeg_new_v_required">Je potřebná nová verze FFmpeg. Stáhnout nyní?</string>
+    <string name="share_file_via">Sdílet soubor přes:</string>
+	<string name="ffmpeg_not_enabled_title">FFmpeg není nainstalovaný nebo povolený:</string>
+	<string name="ffmpeg_not_enabled_msg">Otevřít nastavení?</string>
+	<string name="remove_video">Smazat video po extrahování audia (bez potvrzení!)</string>
+	<string name="remove_original_audio">Smazat audio po konvertování (bez potvrzení!)</string>
+	<string name="edit_id3_tags">Upravit ID3 tagy</string>
+	<string name="id3_album">Album</string>
+	<string name="id3_artist">Interpret</string>
+	<string name="id3_title">Název</string>
+	<string name="id3_year">Rok</string>
+	<string name="id3_genre">Žánr</string>
+	<string name="audio_extr_info">Obsažené audio streamy:</string>
+	
+	<string-array name="dashboard_long_click_entries">
+	    <item>Kopírovat</item>
+	    <item>Přesunout</item>
+        <item>Přejmenovat</item>
+        <item>Stáhnout znovu video</item>
+        <item>Odeslat</item>
+        <item>Odstranit z Dashboard</item>
+        <item>Odstranit a vymazat soubor</item>
+        <item>Pozastavit/Spustit</item>
+    </string-array>
+    
+	<string name="operation_standby">Počkejte: probíhá jiná operace.</string>
+	<string name="dashboard_delete_data_cb">Vymazat i všechny zobrazené video/audio soubory</string>
+    
+	<string name="move_error">Chyba při přesouvání.</string>
+    <string name="move_progress">Probíhá přesouvání souboru&#8230;</string>
+    <string name="move_ok">Přesouvání hotovo.</string>
+    <string name="long_press_warning_title">Operace není spuštěna:</string>
+    <string name="long_press_warning_msg">Zdrojová a cílová složka se překrývá.</string>
+    <string name="long_press_warning_msg2">Kopie již v této složce existuje.</string>
+    <string name="audio_extr_warning_msg">Stejný audio soubor již extrahován.</string>
+
+	<string name="delete_video_confirm">Potvrďte, že chcete smazat tento soubor?</string>
+	<string name="remove_video_confirm">Potvrďte, že chcete odstranit toto video ze seznamu?</string>
+	<string name="delete_video_ok">%1$s úspěšně smazáno.</string>
+	<string name="delete_video_failed">Chyba: %1$s není smazán.</string>
+	
+	<string name="empty_dashboard">No entries</string>
+	<string name="status_text_in_progress">Entries: %1$d (in progress: %2$d)</string>
+	<string name="status_text">Entries: %d</string>
+	
+    <!-- ### preferences ### -->
+
+    <!-- -->
+    <string name="dashboard_summary">Otevřít YTD Dashboard</string>
+
+    <!-- -->
+    <string name="settings_cat_ui">Uživatelské rozhraní</string>
+    <string name="lang_title">Jazyk</string>
+    <string name="lang_dialog_title">Zvolte jazyk:</string>
+    <string name="choose_theme_title">Vybrat vzhled</string>
+    <string-array name="choose_theme_entries">
+        <item>Tmavý</item>
+        <item>Světlý</item>
+    </string-array>
+    
+    <!-- -->
+    <string name="quick_start_title">Rychlý start.</string>
+    <string name="quick_start_summ">Otevřít rychlou nápovědu</string>
+    <string name="quick_start_text">Zde jsou pouze nastavení pro \'YouTube Downloader\'.
+\n\nSamotná aplikace je přístupná přes tlačítko Sdílet v aplikaci YouTube při sledovaní videa.
+\n\nPotom zvolte \'YouTube Downloader\' a zobrazí se vám další informace.
+\n\nTaké můžete sdílet YouTube odkaz přes jakoukoliv aplikaci, např. internetový prohlížeč.</string>
+    <string name="general_info_title">Zobrazit všeobecný návod</string>
+    <string name="general_info_summary">Při spuštění zobrazit všeobecný návod</string>
+    <string name="show_again_checkbox">Zobrazit i příště</string>
+    <string name="ssh_info_title">Zobrazit SSH návod</string>
+    <string name="ssh_info_summary">Zobrazí rychlý návod jak vzdáleně stahovat přes SSH</string>
+    <string name="audio_tutorial_title">Návod na extrahování audia</string>
+    <string name="audio_tutorial_summary">Otevřít stručný návod o extrahování audia</string>
+    
+    <!-- -->
+    <string name="settings_cat_folder">Složka stahování</string>
+    <string name="standard_location_title">Zvolte standardní složku</string>
+    <string name="chooser_swap_title">Změnit vlastní složku</string>
+    <string name="chooser_location_title">Zvolte vlastní složku</string>
+    <string name="chooser_location_summary">Podržte déle pro výběr složky</string>
+	
+    <!-- -->
+    <string name="settings_cat_files">Video soubory</string>
+    <string name="enable_rename_title">Povolit přejmenování souboru</string>
+    <string name="enable_rename_summary">Přejmenovat video před stažením (pouze při lokálním uložení)</string>
+	<string name="show_thumb_title">Zobrazit obrázek náhledu</string>
+    <string name="show_thumb_summary">Stáhnout obrázek náhledu spolu se seznamem videa</string>
+
+    <!-- -->
+    <string name="settings_cat_advanced">Pokročilé nastavení</string>
+    <string name="enable_advanced_features_title">Povolit pokročilé funkce</string>
+    <string name="enable_advanced_features_summary">Stáhnout FFmpeg \"plugin\"</string>
+    <string name="mp3_bitrate_title">Datový tok (bitrate) mp3:</string>
+    
+    <string name="ffmpeg_auto_title">Automatická extrakce audia</string>
+    <string name="ffmpeg_auto_summary">Automaticky extrahovat nebo převést audio do mp3 po každém stažení</string>
+    <string name="ffmpeg_auto_cb_title">Povolit automatické extrahování</string>
+    <string name="ffmpeg_auto_cb_summary">Zvolte některý parametrů níže</string>
+    
+    <string name="audio_extraction_type_title">Typ extrakce</string>
+    <string-array name="audio_extraction_type_entries">
+	    <item>Extrahovat pouze audio</item>
+        <item>Extrahovat a převést audio do mp3</item>
+    </string-array>
+    
+    <string name="remove_video_title">Odstranění videa</string>
+    
+    <string name="enable_adaptive_title">Získat sekundární streamy</string>
+    <string name="enable_adaptive_summary">Přidat pouze video a/nebo pouze audio streamy (pokud jsou dostupné) do seznamu</string>
+    
+    <!-- -->
+    <string name="settings_cat_notifications">Oznámení</string>
+    
+    <string name="notification_defaults_title">Přednastavení oznámení</string>
+    <string name="notification_defaults_dialog_title">Přednastavení YTD oznámení</string>
+    <string-array name="notification_defaults_entries">
+        <item>Zvuk a vibrace</item>
+        <item>Zvuk a dioda</item>
+        <item>Vibrace a dioda</item>
+        <item>Zvuk, vibrace a dioda</item>
+        <item>Zvuk</item>
+        <item>Vibrace</item>
+        <item>Dioda</item>
+        <item>Nic</item>
+    </string-array>
+    
+    <string name="launcher_title">Zobrazit po startu</string>
+    
+    <!-- -->
+    <string name="settings_cat_updates">Aktualizace</string>
+    <string name="update_title">Zkontrolovat aktualizace.</string>
+    <string name="autoupdate_title">Povolit automatickou aktualizaci</string>
+    <string name="autoupdate_summary">Zkontrolovat aktualizaci při prvním denním spuštění (nový balíček bude automaticky stažen)</string>
+
+    <!-- -->
+    <string name="settings_cat_app">Aplikace</string>
+    <string name="settings_cat_about_condensed">O aplikaci</string>
+    <string name="title_changelog">Seznam změn</string>
+    <string name="settings_cat_licenses">Licence</string>
+
+    <string name="credits_title">Přispěvatelé</string>
+    <string name="title_activity_credits_show">Ostatní licence a překlady</string>
+        
+    <!-- -->
+    <string name="settings_cat_code">Zdrojový kód</string>
+    <string name="ytd_code_git_title">YTD: GitHub</string>
+    <string name="ytd_code_hg_title">YTD: Sourceforge</string>
+
+    <!-- -->
+    <string name="settings_cat_social">Sociální sítě</string>
+    <string name="share_title">Sdílet tuto aplikaci</string>
+    <string name="share_summary">přes Twitter, Facebook, Gmail, atd&#8230;</string>
+    <string name="share_warning">Žádné odpovídající aplikace nenalezeny.</string>
+    <string name="share_message">#YouTubeDownloader
+\nVolná Android aplikace s otevřeným kódem ke stahování YouTube videí!
+\nhttps://sourceforge.net/projects/ytdownloader/files/</string>
+	<string name="help_translate_title">Pomozte s překladem této aplikace</string>
+    <string name="xda_title">Téma na XDA fóru</string>
+    
+    <!-- -->
+    <string name="settings_cat_ssh">SSH</string>
+    <string name="connectbot_flavour_title">Použít verzi ConnectBot</string>
+	<string name="connectbot_flavour_dialog_title">Zvolte verzi ConnectBot pro odeslání videa přes SSH</string>
+	<string name="enable_connectbot_short_cmd_title">Povolit krátký SSH příkaz</string>
+	<string name="enable_connectbot_short_cmd_summary">Použije mírně zkrácený, ale rychlejší příkaz pro 
+vložení do vzdáleného shellu (funguje JEN když je cílové PC na stejné síti LAN)</string>
+	<string name="ssh_to_longpress_menu_title">Funkce \"Odeslat přes SSH\" při dlouhém stisku v seznamu videí</string>
+	<string name="ssh_to_longpress_menu_summary">Přesune akci \"Poslat přes SSH\" do kontextového menu v seznamu videí</string>
+	
+    <!-- -->
+	<string name="settings_cat_system">Systém</string>
+	<string name="enable_logging_title">Povolit záznam</string>
+	<string name="enable_logging_summary">Zahrnout YTD zprávy do systémového záznamu. Povinné pro odeslání \"logcat\" záznamů vývojáři.</string>
+	<string name="clear_dashboard_title">Vyprázdnit Dashboard</string>
+	<string name="clear_dashboard_summary">Vymazat všechny Dashboard záznamy (může odstranit některé chyby)</string>
+	<string name="clear_dashboard_msg">Pokračovat?\nTato akce vymaže všechny záznamy v Dashboardu.</string>
+	<string name="clear_dashboard_ok">Dashboard vyprázdněn.</string>
+	<string name="clear_dashboard_failed">Vyprázdnění Dashboard selhalo.</string>
+	
+</resources>

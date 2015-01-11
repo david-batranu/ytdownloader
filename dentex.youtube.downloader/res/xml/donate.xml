@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+  
+    <Preference 
+        android:key="paypal"
+        android:icon="@drawable/ic_paypal"
+        android:title="@string/paypal_title"
+        android:summary="@string/paypal_summary"/>
+    
+    <Preference 
+        android:key="flattr"
+        android:icon="@drawable/ic_flattr"
+        android:title="@string/flattr_title"
+        android:summary="@string/flattr_summary"/>
+
+</PreferenceScreen>

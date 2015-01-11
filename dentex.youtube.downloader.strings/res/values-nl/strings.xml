@@ -1,0 +1,385 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="title_activity_settings">Instellingen</string>
+    <string name="title_activity_upgrade_apk">Upgrade</string>
+    <string name="title_activity_about">Over</string>
+    <string name="title_activity_donate">Schenkingen</string>
+    <string name="title_activity_tutorials">Tutorials</string>
+    <string name="title_activity_translators_show">Vertalers</string>
+    <string name="title_activity_dashboard">Dashboard</string>
+
+    <!-- ### ShareActivity ### -->
+
+    <string name="tutorial_title">Algemene App handleiding</string>
+	<string name="tutorial_msg_new">Je zal nu een lijst te zien krijgen met alle codecs en beschikbare beeldkwaliteiten voor de gekozen video. Je kan:
+\n\n*) Klikken op een item om de video naar je toestel te downloaden of om het via SSH (Secure Shell) te versturen naar een PC op afstand.
+\nSysteemvereisten voor bestemming:Bash en Wget. Meer informatie over SSH volgt dadelijk;
+\n\n*) Lang drukken op een item om te kiezen tussen kopiëren naar klembord of link delen als tekst (bv. om naar een andere app te sturen).
+\nLet erop dat het delen van een link (anders dan wanneer je het via SSH verstuurd) enkel kan gebruikt worden op hetzelfde toestel als waar de link werd aangemaakt OF op hetzelfde LAN netwerk wanneer je het naar een ander toestel deelt.\n</string>
+    <string name="loading">Laden&#8230;</string>
+    <string name="error">Fout!</string>
+    <string name="information">Informatie</string>
+    <string name="dialogs_negative">Annuleren</string>
+    <string name="wait">Een moment geduld a.u.b. &#8230;</string>
+    <string name="no_downloads_sys_app">\"Downloads\" systeem App niet gevonden.</string>
+    <string name="invalid_url">Niet in staat om de pagina te laden. URL wellicht ongeldig.</string>
+    <string name="invalid_url_short">Niet in staat om de pagina te laden.</string>
+    <string name="invalid_response">Ongeldige HTTP server terugkoppeling.</string>
+    <string name="rtmpe_streams">Invalide HTTP server antwoord.</string>
+    <string name="bad_link">Controleer de opgegeven link.</string>
+    <string name="bad_link_dialog_msg">Ongeldige YouTube link.</string>
+    <string name="no_net">Geen verbinding beschikbaar.</string>
+    <string name="no_net_dialog_msg">Activeer uw netwerk verbinding eerst, alstublieft.</string>
+    <string name="no_market">Geen market App beschikbaar.</string>
+    <string name="no_market_dialog_msg">Installeer Google Play alstublieft</string>
+    <string name="list_click_dialog_title">Bevestig de volgende download:</string>
+    <string name="list_click_download_local">Hier downloaden</string>
+    <string name="list_click_download_ssh">Verzend via SSH</string>
+    <string name="rename_dialog_title">Nieuwe bestandsnaam:</string>
+    <string name="rename_dialog_msg">Vul niet de bestandsextensie in (zoals .mp4 of .flv).</string>
+    <string name="unable_save">Niet in staat om de video op te slaan!</string>
+    <string name="unable_save_dialog_msg">Bestemmingsmap  is niet beschikbaar en/of niet schrijfbaar.</string>
+    <string name="ssh_info_tutorial_title">Hoe te verzenden via SSH </string>
+    <string name="ssh_info_tutorial_msg">Een enkele lange commando is geladen in het klembord.
+\n\nKies een profiel in ConnectBot en een keer in je remote shell, bladert u naar de gewenste
+map, PLAK het commando (gebruik de menuknop) en klik ENTER.</string>
+    <string name="callConnectBot_dialog_title">%1$s niet geinstalleerd</string>
+    <string name="callConnectBot_dialog_msg">Deze gratis App is vereist voor het versturen van de video via het SSH protocol.</string>
+    <string name="callConnectBot_dialog_positive">Downloaden</string>
+    <string name="download_complete_dialog_msg1">YouTube Video:\n</string>
+    <string name="download_complete_dialog_msg2">\nDownload voltooid</string>
+    <string name="download_complete_dialog_positive">Openen</string>
+    <string name="downloading">Downloaden&#8230;</string>
+    <string name="cancel_download_dialog_title">Download annuleren?</string>
+    <string name="video_list_error_toast">Fout in videolijst.</string>
+    <string name="codec">\n\n\tCodec:</string>
+    <string name="quality">\n\tKwaliteit:</string>
+    <string name="size">\n\tGroote:</string>
+    <string name="notification_downloading_pt1">Downloaden</string>
+    <string name="notification_downloading_pt2">video bestanden</string>
+    <string name="notification_no_downloads">Geen downloads in behandeling</string>
+    <string name="long_click_title">Hanteer geselecteerde link:</string>
+    <string name="ffmpeg_ready">FFmpeg klaar.</string>
+    <string name="login_required">Inloggen bij YouTube kan nodig zijn</string>
+    <string name="encrypted_streams">Geencrypteerde video stream</string>
+    <string name="no_video_available">Geen video beschikbaar</string>
+    <string name="retry_button_text">Opnieuw</string>
+    
+    <string-array name="long_click_entries">
+        <item>Kopieer naar klembord</item>
+        <item>Deel als tekst</item>
+    </string-array>
+    
+    <string-array name="long_click_entries2">
+        <item>Kopieer naar klembord</item>
+        <item>Deel als tekst</item>
+        <item>Verzend via SSH</item>
+    </string-array>
+    
+    <string name="link_copied">Link gekopieerd naar het klembord</string>
+    <string name="share_link_via">Deel deze link via:</string>
+    
+    <string name="filter_header_reset">Herstel filters</string>
+    <string name="filter_view_all">Alles weergeven</string>
+    <string name="filter_header_format">Filteren op formaat</string>
+    <string name="filter_header_quality">Filteren op kwaliteit</string>
+    <string name="filter_header_others">Andere filters</string>
+
+    <string name="filter_ld">Groot</string>
+    <string name="filter_md">Gemiddeld</string>
+    <string name="filter_sd">Klein</string>
+    <string name="filter_vo">Enkel-video</string>
+    <string name="filter_ao">Enkel-audio</string>
+    
+    <!-- ### SettingsActivity ### -->
+
+    <string name="attention">Let op!</string>
+    <string name="system_warning_title">Dit is een systeemmap</string>
+    <string name="system_warning_msg">Gekozen pad valt terug op de standaard sdkaart. Download map.</string>
+    <string name="sdcard_unmounted_warning">Sdkaart niet gemonteerd</string>
+    <string name="update_disabled_summary">Verschillen gevonden in de ondertekening (F-Droid?)</string>
+    <string name="failed_download">Mislukte download verwijderd</string>
+    <string name="new_v_download">gevonden. Downloaden&#8230;</string>
+    <string name="new_v_install">Gedownload. Klik om te instaleren.</string>
+    <string name="ffmpeg_download_dialog_title">Een aanvullend bestand is vereist. Nu downloaden?</string>
+    <string name="ffmpeg_download_dialog_msg">Web link:</string>
+    <string name="ffmpeg_device_not_supported">Toestel nog niet ondersteund.</string>
+    <string name="ffmpeg_support_mail">Een email sturen naar de ontwikkelaar?
+\nJe kan alle informatie nog nakijken in je mailapplicatie voordat de gegevens worden verstuurd. </string>
+    <string name="ffmpeg_download_notification">FFmpeg aan het downloaden</string>
+    <string name="ffmpeg_install">FFmpeg binary&#8230; aan het installeren</string>
+    <string name="email_via">Stuur email via;</string>
+    <string name="file_already_added">Bestand reeds toegevoegd.</string>
+    
+    <!-- ### UpgradeApkActivity ### -->
+    
+    <string name="upgrade_button_init">Bijwerken</string>
+    <string name="upgrade_button_download">Download\nen installeren</string>
+    <string name="upgrade_uppertext_searching">Zoeken&#8230;</string>
+    <string name="upgrade_uppertext_init">Installeer versie:\n</string>
+
+    <string name="upgrade_latest">Laatste:\t</string>
+    <string name="upgrade_installed">\nGeïnstalleerd:\t</string>
+    <string name="upgraded_dialog_msg">Nieuwe versie opgeslagen in standaard map sdkaart \'Download\' folder.\n\n Installeer nu?</string>
+    <string name="upgraded_dialog_negative">Later\n(handmatig)</string>
+    <string name="upgrade_latest_installed">Laatste versie is al geïnstalleerd!</string>
+    <string name="upgrade_network_error">Niet in staat om de update data terug te vinden.\nProbeer het later nogmaals.</string>
+    <string name="upgrade_bad_md5_dialog_msg">Gedownloade pakket is ongeldig.\nWordt nu verwijderd.\nKlik OK om opnieuw te downloaden.</string>
+    
+    <!-- ### ### -->
+    
+    <string name="ytd_video">YTD video</string>
+    <string name="copy_error">Fout tijdens kopieren</string>
+    <string name="copy_progress">Bezig met kopiëren van bestand&#8230;</string>
+    <string name="copy_ok">Bestand kopieren compleet</string>
+    <string name="download_remove_failed">Fout: tijdelijk gedownload bestand niet verwijderd!</string>
+    <string name="download_failed">Download mislukt!</string>
+    <string name="audio_extr_progress">Audio extractie bezig&#8230;</string>
+    <string name="audio_conv_progress">Audio encoderen naar mp3 bezig&#8230;</string>
+    <string name="audio_extr_completed">Uitpakken audio voltooid.</string>
+    <string name="audio_conv_completed">Audio coderen naar mp3 compleet</string>
+    <string name="audio_extr_error">Fout tijdens audio extractie.</string>
+    <string name="audio_conv_error">Fout tijdens audio codering naar mp3.</string>
+    <string name="auto_audio_extr_progress">%1$s van %2$s audio extracties compleet</string>
+    <string name="auto_audio_extr_completed">Alle audio extracties compleet</string>
+    
+    <!-- ### DonateActivity ### -->
+    
+    <string name="paypal_item_name">YTD Schenking</string>
+	<string name="paypal_summary">Steun de ontwikkelaar van YTD door een schenking</string>
+	<string name="flattr_summary">Flattr deze App</string>
+	
+	<!-- ### FfmpegDownloadService ### -->
+	<string name="ffmpeg_install_failed">FFmpeg installatie mislukt.</string>
+	
+	<!-- ### DashboardActivity ### -->
+	<string name="json_status_completed">Voltooid</string>
+	<string name="json_status_failed">Mislukt</string>
+	<string name="json_status_in_progress">In Uitvoering</string>
+	<string name="json_status_paused">Gepauzeerd.</string>
+	<string name="json_status_imported">Geimporteerd</string>
+	<string name="json_status_queued">In de wachtrij</string>
+	<string name="menu_search">Zoeken&#8230;</string>
+	<string name="menu_backup">Back-up </string>
+	<string name="menu_restore">Herstellen</string>
+	<string name="menu_import_file">Importeer bestanden</string>
+	<string name="menu_import_file_double">%1$s  reeds toegevoegd.</string>
+	<string name="menu_backup_info">Kies een map om Dashboard\'s date op te slaan.</string>
+	<string name="menu_restore_info">Herstel Dashboard\'s data uit bestand</string>
+	<string name="menu_restore_info_msg">Huidige data wordt overschreven</string>
+	<string name="menu_import_file_info">Importeer bestanden en beheer ze uit het Dashboard</string>
+	<string name="menu_import_in_progress">Bestanden importeren bezig: %1$s</string>
+	<string name="menu_backup_result_ok">Dashboard data backup OK.</string>
+	<string name="menu_backup_result_failed">Fout tijdens back-up</string>
+	<string name="menu_restore_result_ok">Dashboard data hersteld.</string>
+	<string name="menu_restore_result_failed">Fout tijdens herstellen.</string>
+	<string name="unsupported_operation">Niet ondersteunde operatie.</string>
+	<string name="ffmpeg_already_running">FFmpeg is reeds gestart.</string>
+	<string name="invalid_data">Onjuiste gegevens.</string>
+	<string name="open_chooser_title">Open met:</string>
+	
+	<string-array name="dashboard_click_entries">
+	    <item>Openen</item>
+	    <item>Audio uitpakken</item>
+        <item>Audio extracten en coderen naar mp3</item>
+    </string-array>
+    
+	<string-array name="dashboard_click_entries_audio">
+	    <item>Openen</item>
+        <item>Coderen naar mp3</item>
+    </string-array>
+    
+	<string-array name="dashboard_click_entries_flv">
+	    <item>Open</item>
+        <item>Audio extracten en coderen naar mp3</item>
+    </string-array>
+    
+	<string-array name="dashboard_click_entries_vo">
+	    <item>Open</item>
+        <item>Audio stream toevoegen (reeds gedownload)</item>
+    </string-array>
+    
+	<string name="ao_not_found">Geen gepaste enkel-audio stream gevonden</string>
+	<string name="remove_ao_vo">Verwijder enkel-video en enkel-audio bestanden nadien\(geen bevestiging!)</string>
+	<string name="ffmpeg_new_v_required">Nieuwe FFmpeg versie vereist. Nu downloaden?</string>
+    <string name="share_file_via">Deel dit bestand via</string>
+	<string name="ffmpeg_not_enabled_title">FFmpeg niet geïnstalleerd of ingeschakeld:</string>
+	<string name="ffmpeg_not_enabled_msg">Instellingen openen?</string>
+	<string name="remove_video">Video verwijderen na audio extractie (geen bevestiging)</string>
+	<string name="remove_original_audio">Verwijder audio na converteren (geen bevestiging)</string>
+	<string name="edit_id3_tags">Bewerk ID3 tags</string>
+	<string name="id3_album">Album</string>
+	<string name="id3_artist">Artiest</string>
+	<string name="id3_title">Titel</string>
+	<string name="id3_year">Jaar</string>
+	<string name="id3_genre">Genre</string>
+	<string name="audio_extr_info">Ingesloten audio stream:</string>
+	
+	<string-array name="dashboard_long_click_entries">
+	    <item>Kopiëren</item>
+	    <item>Verplaats</item>
+        <item>Hernoem</item>
+        <item>Her download de video</item>
+        <item>Verstuur</item>
+        <item>Verwijder van dashboard</item>
+        <item>Verwijder en delete bestand</item>
+        <item>Pauze/Hervatten</item>
+    </string-array>
+    
+	<string name="operation_standby">Even wachten: er is al een andere operatie bezig</string>
+	<string name="dashboard_delete_data_cb">Verwijder ook alle video/audio bestanden in de lijst</string>
+    
+	<string name="move_error">Fout bij verplaatsen</string>
+    <string name="move_progress">Bestand verplaatsen bezig&#8230;</string>
+    <string name="move_ok">Bestand verplaatsen compleet</string>
+    <string name="long_press_warning_title">Operatie niet uitgevoerd</string>
+    <string name="long_press_warning_msg">Bron en destinatie mappen overlappen</string>
+    <string name="long_press_warning_msg2">Er bestaat al een kopie in deze folder</string>
+    <string name="audio_extr_warning_msg">Zelfde audio bestand is al geextracteerd</string>
+
+	<string name="delete_video_confirm">Bevestig dat je deze video wil verwijderen?</string>
+	<string name="remove_video_confirm">Bevestig dat je deze video wil verwijderen?</string>
+	<string name="delete_video_ok">%1$s succesvol verwijderd.</string>
+	<string name="delete_video_failed">Fout: %1$s niet verwijderd.</string>
+	
+	<string name="empty_dashboard">Geen ingaven</string>
+	<string name="status_text_in_progress">Ingaven: %1$d  (bezig: %2$d)</string>
+	<string name="status_text">Ingaven: %d</string>
+	
+    <!-- ### preferences ### -->
+
+    <!-- -->
+    <string name="dashboard_summary">Open YTD\'s Dashboard</string>
+
+    <!-- -->
+    <string name="settings_cat_ui">Gebruikersinterface</string>
+    <string name="lang_title">Taal</string>
+    <string name="lang_dialog_title">Kies UI taal</string>
+    <string name="choose_theme_title">Kies thema</string>
+    <string-array name="choose_theme_entries">
+        <item>Donker</item>
+        <item>Licht</item>
+    </string-array>
+    
+    <!-- -->
+    <string name="quick_start_title">Snelle start</string>
+    <string name="quick_start_summ">Open de snel start handleiding</string>
+    <string name="quick_start_text">Hier zijn de voorkeuren voor \'\'YouTube Downloader\'.
+\n\nDe App kan tijdens het kijken via de share knop in de YouTube App worden opgeroepen.
+\n\nKies dan \'YouTube Downloader\' en u zult verder video informatie ontvangen.
+\n\nU kunt ook all YouTube eenvoudige tekst links via een andere App (bijv de browser) delen.</string>
+    <string name="general_info_title">Activeer de algemene handleiding</string>
+    <string name="general_info_summary">Toon een algemene App handleiding bij het opstarten</string>
+    <string name="show_again_checkbox">Volgende keer tonen</string>
+    <string name="ssh_info_title">Activeer SSH handleiding</string>
+    <string name="ssh_info_summary">Laat een snelle tip zien over op afstand downloaden via SSH</string>
+    <string name="audio_tutorial_title">Audio extractie handleiding</string>
+    <string name="audio_tutorial_summary">Open een korte gids over audio extractie functies</string>
+    
+    <!-- -->
+    <string name="settings_cat_folder">Download map</string>
+    <string name="standard_location_title">Kies een standaard map</string>
+    <string name="chooser_swap_title">Wissel kiezer</string>
+    <string name="chooser_location_title">Open bestandskiezer</string>
+    <string name="chooser_location_summary">Lang drukken om een map te selecteren</string>
+	
+    <!-- -->
+    <string name="settings_cat_files">Video bestanden</string>
+    <string name="enable_rename_title">Activeer bestand hernoemen</string>
+    <string name="enable_rename_summary">Hernoem het video bestand voor het downloaden (alleen voor lokale download)</string>
+	<string name="show_thumb_title">Toon voorbeeld afbeelding</string>
+    <string name="show_thumb_summary">Download een voorbeeld afbeelding met de videolijst</string>
+
+    <!-- -->
+    <string name="settings_cat_advanced">Geavanceerd</string>
+    <string name="enable_advanced_features_title">Geavanceerde functies inschakelen</string>
+    <string name="enable_advanced_features_summary">Download FFmpeg \"plugin\"</string>
+    <string name="mp3_bitrate_title">Mp3 codering bitrate:</string>
+    
+    <string name="ffmpeg_auto_title">Auto-extract audio</string>
+    <string name="ffmpeg_auto_summary">Audio automatisch uitpakken of converteren naar mp3 na iedere download</string>
+    <string name="ffmpeg_auto_cb_title">Automatisch uitpakken inschakelen</string>
+    <string name="ffmpeg_auto_cb_summary">Kies hieronder de parameters</string>
+    
+    <string name="audio_extraction_type_title">Extractie type</string>
+    <string-array name="audio_extraction_type_entries">
+	    <item>Enkel audio uitpakken</item>
+        <item>Audio extracten en coderen naar mp3</item>
+    </string-array>
+    
+    <string name="remove_video_title">Video verwijdering</string>
+    
+    <string name="enable_adaptive_title">Krijg secundaire streams</string>
+    <string name="enable_adaptive_summary">Voeg enkel-video en/of enkel-audio streams (als beschikbaar) toe aan de video lijst</string>
+    
+    <!-- -->
+    <string name="settings_cat_notifications">Meldingen</string>
+    
+    <string name="notification_defaults_title">Notificatie standaardwaarde</string>
+    <string name="notification_defaults_dialog_title">YTD\'s eigen  notificatie Standaardwaarden</string>
+    <string-array name="notification_defaults_entries">
+        <item>Geluid en Vibratie</item>
+        <item>Geluid en Licht</item>
+        <item>Vibratie en Lichten</item>
+        <item>Geluid, Vibratie en Lichten</item>
+        <item>Geluid</item>
+        <item>Vibratie</item>
+        <item>Lichten</item>
+        <item>Niets</item>
+    </string-array>
+    
+    <string name="launcher_title">Ingangs-punt activiteit</string>
+    
+    <!-- -->
+    <string name="settings_cat_updates">Bijwerken</string>
+    <string name="update_title">Controleren op updates</string>
+    <string name="autoupdate_title">Activeer automatisch bijwerken</string>
+    <string name="autoupdate_summary">Controleer op updates bij het opstarten van de applicatie (het nieuwste bestand wordt automatisch gedownload)</string>
+
+    <!-- -->
+    <string name="settings_cat_app">Applicatie</string>
+    <string name="settings_cat_about_condensed">Over</string>
+    <string name="title_changelog">Lijst met veranderingen</string>
+    <string name="settings_cat_licenses">Licenties</string>
+
+    <string name="credits_title">Credits</string>
+    <string name="title_activity_credits_show">Andere licentie en vertalingen</string>
+        
+    <!-- -->
+    <string name="settings_cat_code">Broncode</string>
+    <string name="ytd_code_git_title">YTD op GitHub</string>
+    <string name="ytd_code_hg_title">YTD op Sourceforge</string>
+
+    <!-- -->
+    <string name="settings_cat_social">Sociaal</string>
+    <string name="share_title">Deze App delen</string>
+    <string name="share_summary">via Twitter, Facebook, Gmail, etc&#8230;</string>
+    <string name="share_warning">Geen geschikte Apps gevonden.</string>
+    <string name="share_message">#YouTubeDownloader
+\nGratis en Open-Source Android App om YouTube videos te downloaden!
+\nhttps://sourceforge.net/projects/ytdownloader/files/</string>
+	<string name="help_translate_title">Help deze App te vertalen</string>
+    <string name="xda_title">Thread op XDA forum</string>
+    
+    <!-- -->
+    <string name="settings_cat_ssh">SSH</string>
+    <string name="connectbot_flavour_title">ConnectBot versie te gebruiken</string>
+	<string name="connectbot_flavour_dialog_title">Kies ConnectBot vork om video te zenden via SSH</string>
+	<string name="enable_connectbot_short_cmd_title">Activeer SSH korte cmd</string>
+	<string name="enable_connectbot_short_cmd_summary">Gebruik een iets korter maar sneller commando om
+te plakken in de shell op afstand (zal ENKEL werken als de doel-PC in hetzelfde LAN zit)</string>
+	<string name="ssh_to_longpress_menu_title">SSH-verzend naar lang drukken menu</string>
+	<string name="ssh_to_longpress_menu_summary">Verplaats \"Zend via SSH"\ aktie naar lang druk-menu beschikbaar in video lijst</string>
+	
+    <!-- -->
+	<string name="settings_cat_system">Systeem</string>
+	<string name="enable_logging_title">Log bijhouden ingeschakeld</string>
+	<string name="enable_logging_summary">YTD berichten opnemen in de systeemlog. Vereist om een logbestand te versturen naar de ontwikkelaar.</string>
+	<string name="clear_dashboard_title">Maak Dashboard leeg</string>
+	<string name="clear_dashboard_summary">Verwijder alle Dashboard referenties (kan crashes herstellen)</string>
+	<string name="clear_dashboard_msg">Bent u het zeker?\n Dit zal de hele lijst wissen in Dashboard.</string>
+	<string name="clear_dashboard_ok">Dashboard leeggemaakt</string>
+	<string name="clear_dashboard_failed">Dashboard leegmaken mislukt</string>
+	
+</resources>

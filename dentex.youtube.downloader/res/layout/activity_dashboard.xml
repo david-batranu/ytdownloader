@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/fl"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    
+<!--     <RelativeLayout -->
+<!--     	android:id="@+id/bkg_rl" -->
+<!--     	android:layout_width="wrap_content" -->
+<!--     	android:layout_height="wrap_content" -->
+<!--     	android:gravity="center" -->
+<!--     	android:alpha="0.5" -->
+<!--     	android:background="@drawable/ic_bkg_gray"> -->
+<!-- 	</RelativeLayout> -->
+	
+    <ImageView
+    	android:id="@+id/bkg_img"
+    	android:contentDescription="@string/bkg_img_descr"
+    	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:layout_gravity="center"
+    	android:padding="15dp"
+    	android:alpha="0.35" />
+
+    <LinearLayout
+        android:id="@+id/dashboard"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:orientation="vertical" >
+
+        <!-- <TextView -->
+        <!-- android:id="@+id/dashboard_activity_info" -->
+        <!-- android:layout_width="fill_parent" -->
+        <!-- android:layout_height="fill_parent" -->
+        <!-- android:gravity="center" -->
+        <!-- android:textAppearance="?android:textAppearanceMedium" -->
+        <!-- android:visibility="gone" /> -->
+
+        <ListView
+            android:id="@+id/dashboard_list"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+
+        <!-- filler -->
+        <!-- <TextView android:layout_height="0dip" -->
+        <!-- android:layout_width="fill_parent" -->
+        <!-- android:layout_weight="1" /> -->
+
+        <TextView
+            android:id="@+id/dashboard_status"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:background="@drawable/grad_bg_gray"
+            android:gravity="center"
+            android:padding="4dp"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@android:color/white"
+            android:textIsSelectable="false" />
+    </LinearLayout>
+
+</FrameLayout>

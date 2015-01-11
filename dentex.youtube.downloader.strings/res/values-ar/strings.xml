@@ -1,0 +1,386 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="title_activity_settings">إعدادات</string>
+    <string name="title_activity_upgrade_apk">ترقية</string>
+    <string name="title_activity_about">حول</string>
+    <string name="title_activity_donate">تبرعات</string>
+    <string name="title_activity_tutorials">تعليم</string>
+    <string name="title_activity_translators_show">المترجمون</string>
+    <string name="title_activity_dashboard">لوحة القياس</string>
+
+    <!-- ### ShareActivity ### -->
+
+    <string name="tutorial_title">البرنامج التعليمي للتطبيق</string>
+	<string name="tutorial_msg_new">الآن سوف يتم رؤية قائمة لكل الترميزات والجودة المتوفرة للفيديو الذي تم اختياره. يمكن:
+\n\n*) الضغط على عنصر لتنزيل الفيديو محلياً (على الجهاز) أو التنزيل عبر SSH إلى جهاز كمبيوتر بعيد.
+\nمتطلبات الجهاز المتلقي: Bash and Wget. معلومات اخرى عن SSH;
+\n\n*) الضغط-المطول على عنصر واختيار بين نسخ إلى الحافظة أو مشاركة الرابط على شكل نص (إرسال إلى تطبيق آخر. الخ.).
+\nالرجاء ملاحظة ان الرابط (خاصة عند الإرسال عبر SSH) يمكن فقط لن يستخدم على نفس الجهاز حيث تم انشاؤه
+أو من نفس شبكة الاتصال، إذا تمت مشاركة الرابط على جهاز آخر.\n
+</string>
+    <string name="loading">تحميل&#8230;</string>
+    <string name="error">خطأ</string>
+    <string name="information">معلومات</string>
+    <string name="dialogs_negative">إلغاء</string>
+    <string name="wait">الرجاء الانتظار&#8230;</string>
+    <string name="no_downloads_sys_app">\"التنزيلات\" تطبيق النظام غير موجود.</string>
+    <string name="invalid_url">غير قادر على جلب صفحة الويب. قد يكون العنوان غير صالح.</string>
+    <string name="invalid_url_short">غير قادر على جلب صفحة الويب.</string>
+    <string name="invalid_response">رد ملقم HTTP غير صالح</string>
+    <string name="rtmpe_streams">رد خادم HTTP غير صالح</string>
+    <string name="bad_link">تأكد من رابط المزود.</string>
+    <string name="bad_link_dialog_msg">رابط يوتيوب غير صالح.</string>
+    <string name="no_net">لايوجد إتصال.</string>
+    <string name="no_net_dialog_msg">الرجاء تمكين إتصال الشبكة اولاً.</string>
+    <string name="no_market">لايوجد تطبيق في الماركت.</string>
+    <string name="no_market_dialog_msg">الرجاء تركيب سوق قوقل بلاي.</string>
+    <string name="list_click_dialog_title">تأكيد تحميل لـ :</string>
+    <string name="list_click_download_local">التنزيل هنا</string>
+    <string name="list_click_download_ssh">إراسل عبر SSH</string>
+    <string name="rename_dialog_title">إسم ملف جديد:</string>
+    <string name="rename_dialog_msg">لاتقم بإضافة صيغة الملف (مثل .mp4 او .flv (.</string>
+    <string name="unable_save">غير قادر على حفظ الفيديو.</string>
+    <string name="unable_save_dialog_msg">المجلد الوجهة غير متوفر / او لايقبل الكتابة عليه.</string>
+    <string name="ssh_info_tutorial_title">كيفية الإرسال عبر SSH</string>
+    <string name="ssh_info_tutorial_msg">امر طويل تم تحويله الى الحافظة.</string>
+    <string name="callConnectBot_dialog_title">%1$s غير مثبت!</string>
+    <string name="callConnectBot_dialog_msg">بحاجة الى هذا التطبيق المجاني لارسال الفيديو المحمل عبر SSH.</string>
+    <string name="callConnectBot_dialog_positive">تنزيل</string>
+    <string name="download_complete_dialog_msg1">فيديو اليوتيوب:\n</string>
+    <string name="download_complete_dialog_msg2">تم تنزيله بنجاح \n</string>
+    <string name="download_complete_dialog_positive">فتح</string>
+    <string name="downloading">تنزيل&#8230;</string>
+    <string name="cancel_download_dialog_title"> إلغاء التنزيل؟</string>
+    <string name="video_list_error_toast">خطأ في قائمة الفيديو</string>
+    <string name="codec">\n\n\tCodec:</string>
+    <string name="quality">\n\tQuality:</string>
+    <string name="size">\n\tSize:</string>
+    <string name="notification_downloading_pt1">جاري التنزيل</string>
+    <string name="notification_downloading_pt2">ملفات الفيديو</string>
+    <string name="notification_no_downloads">لايوجد عمليات تنزيل جارية</string>
+    <string name="long_click_title">التحكم في الرابط الذي تم اختياره:</string>
+    <string name="ffmpeg_ready">FFmpeg جاهز</string>
+    <string name="login_required">قد يتطلب تسجيل الدخول إلى يوتيوب.</string>
+    <string name="encrypted_streams">Encrypted video stream</string>
+    <string name="no_video_available">لايتوفر أي  فيديو.</string>
+    <string name="retry_button_text">إعادة المحاولة</string>
+    
+    <string-array name="long_click_entries">
+        <item>نسخ الى الحافظة</item>
+        <item>مشاركة كـ نص</item>
+    </string-array>
+    
+    <string-array name="long_click_entries2">
+        <item>نسخ الى الحافظة</item>
+        <item>مشاركة كـ نص</item>
+        <item>إرسال عبر SSH</item>
+    </string-array>
+    
+    <string name="link_copied">تم نسخ الرابط إلى الحافظة </string>
+    <string name="share_link_via">مشاركة هذا الرابط عبر:</string>
+    
+    <string name="filter_header_reset">Reset filters</string>
+    <string name="filter_view_all">عرض الكل</string>
+    <string name="filter_header_format">Filter by format</string>
+    <string name="filter_header_quality">تصفية حسب الجودة </string>
+    <string name="filter_header_others">فلاتر تصفية أخرى </string>
+
+    <string name="filter_ld">كبير </string>
+    <string name="filter_md">متوسط </string>
+    <string name="filter_sd">صغير</string>
+    <string name="filter_vo">فيديو فقط </string>
+    <string name="filter_ao">صوت فقط </string>
+    
+    <!-- ### SettingsActivity ### -->
+
+    <string name="attention">تحذير!</string>
+    <string name="system_warning_title">هذا مجلد نظام</string>
+    <string name="system_warning_msg">المسار الذي تم اختياره سيعود إلى الذاكرة الاساسية/ مجلد التنزيل.</string>
+    <string name="sdcard_unmounted_warning">بطاقة الذاكرة غير محملة</string>
+    <string name="update_disabled_summary">وُجد توقيع مختلف (F-Droid?)</string>
+    <string name="failed_download">تم إزالة التنزيلات الفاشلة</string>
+    <string name="new_v_download">وُجد. تحت التنزيل&#8230;</string>
+    <string name="new_v_install">اكتمل التحميل. اضغط للتنصيب.</string>
+    <string name="ffmpeg_download_dialog_title">ملفات اضافية مطلوبة. تنزيل الآن؟</string>
+    <string name="ffmpeg_download_dialog_msg">رابط الويب:</string>
+    <string name="ffmpeg_device_not_supported">الجهاز غير مدعوم حتى الآن.</string>
+    <string name="ffmpeg_support_mail">إرسال بريد الكتروني إلى المطورين؟
+\nسوف تقوم بمراجعة كل البيانات في تطبيق البريد الخاص بك قبل ارسال اي بيانات.</string>
+    <string name="ffmpeg_download_notification">تنزيل FFmpeg</string>
+    <string name="ffmpeg_install">جاري تثبيت FFmpeg الثنائي &#8230;</string>
+    <string name="email_via">إرسال بريد الكتروني عبر:</string>
+    <string name="file_already_added">بالفعل الملف مضاف. </string>
+    
+    <!-- ### UpgradeApkActivity ### -->
+    
+    <string name="upgrade_button_init">تحديث</string>
+    <string name="upgrade_button_download">تحميل\nو تركيب</string>
+    <string name="upgrade_uppertext_searching">بحث&#8230;</string>
+    <string name="upgrade_uppertext_init">النسخة المركبة:\n</string>
+
+    <string name="upgrade_latest">الاخيرة:\t</string>
+    <string name="upgrade_installed">\nتم التركيب:\t</string>
+    <string name="upgraded_dialog_msg">نسخة جديدة تم تحميلها في  \'Download\' مجلد.\n\nهل تود تنصيبها الآن؟</string>
+    <string name="upgraded_dialog_negative">لاحقاً\n(يدوياً)</string>
+    <string name="upgrade_latest_installed">النسخة الاخيرة تم تركيبها!</string>
+    <string name="upgrade_network_error">غير قادر على جلب بيانات التحديث \n عاود المحاولة مرة اخرى لاحقاً</string>
+    <string name="upgrade_bad_md5_dialog_msg">الحزمة التي تم تحميلها تالفة. \n سوف تُحذف الآن. \n اضغط موافق لتحميلها مرة آخرى.</string>
+    
+    <!-- ### ### -->
+    
+    <string name="ytd_video">ملفات فيديو YTD</string>
+    <string name="copy_error">خطأ خلال النسخ.</string>
+    <string name="copy_progress">جاري نسخ الملف&#8230;</string>
+    <string name="copy_ok">اكتمل نسخ الملف.</string>
+    <string name="download_remove_failed">خطأ: لم يتم ازالة ملف التنزيل المؤقت!</string>
+    <string name="download_failed">فشل التحميل!</string>
+    <string name="audio_extr_progress">جاري استخراج الصوت&#8230;</string>
+    <string name="audio_conv_progress">جاري تحويل الصوت إلى MP3 &#8230;</string>
+    <string name="audio_extr_completed">تم استخراج الصوت.</string>
+    <string name="audio_conv_completed">اكتمل تحويل الصوت إلى MP3</string>
+    <string name="audio_extr_error">خطأ خلال استخراج الصوت.</string>
+    <string name="audio_conv_error">خطأ خلال تحويل الصوت</string>
+    <string name="auto_audio_extr_progress">%1$s من %2$s إكتمل إستخراج الصوت</string>
+    <string name="auto_audio_extr_completed">إكتمل إستخراج كل الصوت </string>
+    
+    <!-- ### DonateActivity ### -->
+    
+    <string name="paypal_item_name">تبرع YTD</string>
+	<string name="paypal_summary">دعم فريق مطوري YTD بتبرع</string>
+	<string name="flattr_summary">قيّم هذا التطبيق</string>
+	
+	<!-- ### FfmpegDownloadService ### -->
+	<string name="ffmpeg_install_failed">فشل تثبيت FFmpeg</string>
+	
+	<!-- ### DashboardActivity ### -->
+	<string name="json_status_completed">تمّ</string>
+	<string name="json_status_failed">فشل</string>
+	<string name="json_status_in_progress">جاري العمل</string>
+	<string name="json_status_paused">إيقاف </string>
+	<string name="json_status_imported">مستورد</string>
+	<string name="json_status_queued">قائمة الانتظار</string>
+	<string name="menu_search">بحث&#8230;</string>
+	<string name="menu_backup">نسخ احتياطي</string>
+	<string name="menu_restore">إستعادة</string>
+	<string name="menu_import_file">Import files</string>
+	<string name="menu_import_file_double">%1$s already added.</string>
+	<string name="menu_backup_info">اختيار مجلد لبيانات النسخ الاحتياطي.</string>
+	<string name="menu_restore_info">استعادة البيانات من ملف</string>
+	<string name="menu_restore_info_msg">سيتم الكتابة فوق البيانات الحالية.</string>
+	<string name="menu_import_file_info">Import files and manage them from the Dashboard</string>
+	<string name="menu_import_in_progress">Files import in progress: %1$s</string>
+	<string name="menu_backup_result_ok">نسخ إحتياطي لبيانات الواجهة الرئيسية "موافق"</string>
+	<string name="menu_backup_result_failed">حدث خطأ أثناء النسخ.</string>
+	<string name="menu_restore_result_ok">استعادة بيانات الواجهة الرئيسية.</string>
+	<string name="menu_restore_result_failed">حدث خطأ أثناء عملية الإستعادة.</string>
+	<string name="unsupported_operation">العملية غير مدعومة.</string>
+	<string name="ffmpeg_already_running">FFmpeg. قيد التشغيل بالفعل.</string>
+	<string name="invalid_data">بيانات غير صالحة.</string>
+	<string name="open_chooser_title">فتح مع:</string>
+	
+	<string-array name="dashboard_click_entries">
+	    <item>فتح</item>
+	    <item>Extract audio</item>
+        <item>Extract audio and encode to mp3</item>
+    </string-array>
+    
+	<string-array name="dashboard_click_entries_audio">
+	    <item>فتح</item>
+        <item>ترميز إلى mp3</item>
+    </string-array>
+    
+	<string-array name="dashboard_click_entries_flv">
+	    <item>Open</item>
+        <item>Extract audio and encode to mp3</item>
+    </string-array>
+    
+	<string-array name="dashboard_click_entries_vo">
+	    <item>Open</item>
+        <item>Add audio stream (already downloaded)</item>
+    </string-array>
+    
+	<string name="ao_not_found">No suitable audio-only stream found</string>
+	<string name="remove_ao_vo">Delete video-only and audio-only files afterwards\n(no confirmation!)</string>
+	<string name="ffmpeg_new_v_required">New FFmpeg version required. Download it now?</string>
+    <string name="share_file_via">مشاركة هذا الملف عبر:</string>
+	<string name="ffmpeg_not_enabled_title">FFmpeg غير مثبته أو معطل:</string>
+	<string name="ffmpeg_not_enabled_msg">فتح الإعدادات؟</string>
+	<string name="remove_video">حذف الفيديو بعد استخراج الصوت بنجاح (بدون تأكيد!)</string>
+	<string name="remove_original_audio">حذف الصوت بعد التحويل (بدون تأكيد!)</string>
+	<string name="edit_id3_tags">تحرير وسم ID3</string>
+	<string name="id3_album">البوم</string>
+	<string name="id3_artist">الفنان</string>
+	<string name="id3_title">العنوان</string>
+	<string name="id3_year">السنة</string>
+	<string name="id3_genre">النوع</string>
+	<string name="audio_extr_info">يحتوي على صوت:</string>
+	
+	<string-array name="dashboard_long_click_entries">
+	    <item>نسخ</item>
+	    <item>نقل</item>
+        <item>إعادة تسمية</item>
+        <item>إعادة تنزيل هذا الفيديو</item>
+        <item>Send</item>
+        <item>Remove from Dashboard</item>
+        <item>Remove and delete file</item>
+        <item>Pause/Resume</item>
+    </string-array>
+    
+	<string name="operation_standby">Stand-by: another operation is already in progress.</string>
+	<string name="dashboard_delete_data_cb">Delete also all listed video/audio files</string>
+    
+	<string name="move_error">خطأ خلال النقل.</string>
+    <string name="move_progress">جاري نقل الملف &#8230;</string>
+    <string name="move_ok">اكتمل نقل الملف.</string>
+    <string name="long_press_warning_title">العملية لم تبدأ:</string>
+    <string name="long_press_warning_msg">تداخل المجلدات المصدر والوجهة.</string>
+    <string name="long_press_warning_msg2">يوجد نسخة بالفعل في هذا المجلد.</string>
+    <string name="audio_extr_warning_msg">نفس ملف الصوت تم استخراجه مسبقاً.</string>
+
+	<string name="delete_video_confirm">تأكيد الرغبة في حذف هذا الفيديو؟</string>
+	<string name="remove_video_confirm">تأكيد الرغبة في حذف هذا الفيديو؟</string>
+	<string name="delete_video_ok">%1$s تم حذفه بنجاح.</string>
+	<string name="delete_video_failed">خطأ: %1$s  لم يتم حذفه.</string>
+	
+	<string name="empty_dashboard">No entries</string>
+	<string name="status_text_in_progress">Entries: %1$d (in progress: %2$d)</string>
+	<string name="status_text">Entries: %d</string>
+	
+    <!-- ### preferences ### -->
+
+    <!-- -->
+    <string name="dashboard_summary">فتح لوحة قياس YTD</string>
+
+    <!-- -->
+    <string name="settings_cat_ui">واجهة المستخدم</string>
+    <string name="lang_title">اللغة</string>
+    <string name="lang_dialog_title">اختيار لغة الواجهة:</string>
+    <string name="choose_theme_title">اختر سمة</string>
+    <string-array name="choose_theme_entries">
+        <item>غامق</item>
+        <item>فاتح</item>
+    </string-array>
+    
+    <!-- -->
+    <string name="quick_start_title">بداية سريعة</string>
+    <string name="quick_start_summ">فتح عرض تعليم سريع</string>
+    <string name="quick_start_text">هاهي فقط التفضيلات الخاصة بـ \'YouTube Downloader\'.
+\n\nالتطبيق بذاته يمكن الوصول اليه عبر زر المشاركة في تطبيق اليوتيوب، بينما تشاهدون مقطع الفيديو.
+\n\nثم اختيار \'YouTube Downloader\' وسوف تحصلون على معلومات اضافية للاستخدام.
+\n\nتستطيعون ايضاً مشاركة أي نص رابط لليوتيوب عبر تطبيقات آخرى:متصفح الانترنت.</string>
+    <string name="general_info_title">تفعيل الكيفيات العامة</string>
+    <string name="general_info_summary">عرض البرنامج التعليمي في بداية التشغيل</string>
+    <string name="show_again_checkbox">عرض في المرات القادمة</string>
+    <string name="ssh_info_title">تفعيل كيفية الـ SSH</string>
+    <string name="ssh_info_summary">عرض نصائح سريعة بخصوص التنزيل البعيد عبر SSH</string>
+    <string name="audio_tutorial_title">البرنامج التعليمي لاستخراج الصوت</string>
+    <string name="audio_tutorial_summary">فتح دليل موجز حول ميزة استخراج الصوت</string>
+    
+    <!-- -->
+    <string name="settings_cat_folder">مجلد التحميل</string>
+    <string name="standard_location_title">اختر المجلد الاساسي</string>
+    <string name="chooser_swap_title">تبديل المنتقي</string>
+    <string name="chooser_location_title">فتح منتقي-الملف</string>
+    <string name="chooser_location_summary">ضغطة طويلة لاختيار مجلد</string>
+	
+    <!-- -->
+    <string name="settings_cat_files">ملفات الفيديو</string>
+    <string name="enable_rename_title">تفعيل تغيير اسم الملف</string>
+    <string name="enable_rename_summary">إعادة تسمية ملف الفيديو قبل تنزيله (للتحميل المحلي فقط)
+</string>
+	<string name="show_thumb_title">عرض صورة العرض</string>
+    <string name="show_thumb_summary">تنزيل صورة عرض مصاحبة لقائمة الفيديو</string>
+
+    <!-- -->
+    <string name="settings_cat_advanced">متقدم</string>
+    <string name="enable_advanced_features_title">تمكين الميزات المتقدمة</string>
+    <string name="enable_advanced_features_summary">تنزيل FFmpeg \"plugin\"</string>
+    <string name="mp3_bitrate_title">معدل البت في الترميز للـ mp3:</string>
+    
+    <string name="ffmpeg_auto_title">Auto-extract audio</string>
+    <string name="ffmpeg_auto_summary">Extract or convert audio to mp3 automatically after every download</string>
+    <string name="ffmpeg_auto_cb_title">Enable automatic extraction</string>
+    <string name="ffmpeg_auto_cb_summary">Choose parameters below</string>
+    
+    <string name="audio_extraction_type_title">نوع الاستخراج</string>
+    <string-array name="audio_extraction_type_entries">
+	    <item>Extract audio only</item>
+        <item>Extract and encode audio to mp3</item>
+    </string-array>
+    
+    <string name="remove_video_title">إزالة الفيديو</string>
+    
+    <string name="enable_adaptive_title">Get secondary streams</string>
+    <string name="enable_adaptive_summary">Add video-only and/or audio-only streams (if available) to the video list</string>
+    
+    <!-- -->
+    <string name="settings_cat_notifications">إشعارات</string>
+    
+    <string name="notification_defaults_title">افتراضيات الاعلام</string>
+    <string name="notification_defaults_dialog_title">افتراضيات إعلام YTD الخاصة</string>
+    <string-array name="notification_defaults_entries">
+        <item>الصوت والاهتزاز</item>
+        <item>الصوت و الاضاءة</item>
+        <item>الاهتزاز والاضاءة</item>
+        <item>الصوت، الاهتزاز والإضاءة</item>
+        <item>الصوت</item>
+        <item>الاهتزاز</item>
+        <item>الإضاءة</item>
+        <item>لاشيء</item>
+    </string-array>
+    
+    <string name="launcher_title">Entry-point activity</string>
+    
+    <!-- -->
+    <string name="settings_cat_updates">التحديثات</string>
+    <string name="update_title">تأكد من التحديثات</string>
+    <string name="autoupdate_title">تفعيل التحديث التلقائي</string>
+    <string name="autoupdate_summary">تحقق من التحديثات خلال اول تشغيل للتطبيق في اليوم (الحزمة الجديدة سوف يتم تنزيلها تلقائياً)</string>
+
+    <!-- -->
+    <string name="settings_cat_app">التطبيق</string>
+    <string name="settings_cat_about_condensed">حول</string>
+    <string name="title_changelog">التغييرات</string>
+    <string name="settings_cat_licenses">الرخص</string>
+
+    <string name="credits_title">فريق العمل</string>
+    <string name="title_activity_credits_show">الرخص الاخرى والترجمات</string>
+        
+    <!-- -->
+    <string name="settings_cat_code">رمز المصدر</string>
+    <string name="ytd_code_git_title">YTD على GitHub</string>
+    <string name="ytd_code_hg_title">YTD على Sourceforge</string>
+
+    <!-- -->
+    <string name="settings_cat_social">إجتماعي</string>
+    <string name="share_title">مشاركة هذا التطبيق</string>
+    <string name="share_summary">عبر تويتر، فيسبوك، جي ميل، الخ#8230;</string>
+    <string name="share_warning">لاتوجد تطبيقات مناسبة.</string>
+    <string name="share_message">#YouTubeDownloader
+\nتطبيق مجاني ومفتوح المصدر للاندرويد لتنزيل ملفات فيديو من اليوتيوب!
+\nhttps://sourceforge.net/projects/ytdownloader/files/</string>
+	<string name="help_translate_title">ساعد في ترجمة هذا التطبيق</string>
+    <string name="xda_title">Thread on XDA forum</string>
+    
+    <!-- -->
+    <string name="settings_cat_ssh">SSH</string>
+    <string name="connectbot_flavour_title">نسخة ConnectBot المستخدمة</string>
+	<string name="connectbot_flavour_dialog_title">استخدام شوكة ConnectBot لارسال الفيديو عبر SSH</string>
+	<string name="enable_connectbot_short_cmd_title">تمكين امر SSH القصير</string>
+	<string name="enable_connectbot_short_cmd_summary">استخدام امر قصير نسبياً ولكن اسرع لـ
+اللصق في التحكم البعيد (سوف يعمل فقط إذا كان الكمبيوتر المستقبل يستخدم نفس الشبكة)</string>
+	<string name="ssh_to_longpress_menu_title">ارسال SSH إلى قائمة الضغط المطول</string>
+	<string name="ssh_to_longpress_menu_summary">امر نقل \"Send via SSH\" في الضغطة المطولة متوفر في قائمة الفيديو</string>
+	
+    <!-- -->
+	<string name="settings_cat_system">النظام</string>
+	<string name="enable_logging_title">تمكين السجل</string>
+	<string name="enable_logging_summary">تضمين رسلائل YTD في سجل النظام. إلزامي لارسال سجل إلى المطورين.</string>
+	<string name="clear_dashboard_title">Empty the Dashboard</string>
+	<string name="clear_dashboard_summary">Clear all dashboard\'s references (may fix some crashes)</string>
+	<string name="clear_dashboard_msg">Are you sure?\nThis will clear all the list in the Dashboard.</string>
+	<string name="clear_dashboard_ok">Dashboard cleared.</string>
+	<string name="clear_dashboard_failed">Dashboard emptying failed.</string>
+	
+</resources>

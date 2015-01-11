@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    
+	<LinearLayout
+		android:id="@+id/footer"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_alignParentBottom="true"
+		android:background="@drawable/grad_bg_gray"
+	    android:gravity="center" 
+	    android:orientation="vertical">
+	    
+<!-- 		<TextView -->
+<!-- 			android:id="@+id/filter_reset" -->
+<!-- 			android:layout_width="match_parent" -->
+<!-- 			android:layout_height="wrap_content" -->
+<!-- 			android:gravity="center_vertical" -->
+<!-- 			android:padding="10dp" -->
+<!-- 			android:text="@string/filter_header_reset" -->
+<!-- 			android:textAppearance="?android:attr/listSeparatorTextViewStyle" -->
+<!-- 			android:textColor="@android:color/holo_orange_dark" /> -->
+	    
+<!-- 	    <include layout="@layout/hor_divider_double" /> -->
+
+		<TextView
+			android:id="@+id/ALL"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:gravity="center_vertical"
+			android:paddingTop="10dp"
+			android:paddingLeft="20dp"
+			android:paddingBottom="10dp"
+			android:text="@string/filter_view_all"
+			android:textColor="@android:color/holo_orange_dark" 
+			android:textAppearance="?android:attr/textAppearanceListItemSmall" />
+    
+    </LinearLayout>
+
+    <ScrollView
+        android:id="@+id/sv"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" 
+        android:layout_above="@id/footer" >
+
+        <LinearLayout
+			android:id="@+id/all_filters"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:orientation="vertical" >
+
+			<TextView
+			    android:id="@+id/filter_title"
+			    android:layout_width="match_parent"
+			    android:layout_height="wrap_content"
+			    android:gravity="center_vertical"
+			    android:paddingTop="20dp"
+			    android:paddingLeft="10dp"
+			    android:paddingBottom="6dp"
+			    android:text="@string/filter_header_format"
+			    android:textAppearance="?android:attr/listSeparatorTextViewStyle"
+			    android:textColor="@android:color/holo_orange_light" />
+			
+			<include layout="@layout/horizontal_divider" />
+
+			<TextView
+			    android:id="@+id/MP4"
+			    android:layout_width="match_parent"
+			    android:layout_height="wrap_content"
+			    android:gravity="center_vertical"
+			    android:paddingTop="10dp"
+			    android:paddingLeft="20dp"
+			    android:paddingBottom="10dp"
+			    android:text="@string/filter_mp4"
+			    android:textAppearance="?android:attr/textAppearanceListItemSmall" />
+			
+			<!-- <include layout="@layout/hor_divider" /> -->
+
+			<TextView
+			    android:id="@+id/WEBM"
+			    android:layout_width="match_parent"
+			    android:layout_height="wrap_content"
+			    android:gravity="center_vertical"
+			    android:paddingTop="10dp"
+			    android:paddingLeft="20dp"
+			    android:paddingBottom="10dp"
+			    android:text="@string/filter_webm"
+			    android:textAppearance="?android:attr/textAppearanceListItemSmall" />
+			
+			<!-- <include layout="@layout/hor_divider" /> -->
+
+			<TextView
+			    android:id="@+id/FLV"
+			    android:layout_width="match_parent"
+			    android:layout_height="wrap_content"
+			    android:gravity="center_vertical"
+			    android:paddingTop="10dp"
+			    android:paddingLeft="20dp"
+			    android:paddingBottom="10dp"
+			    android:text="@string/filter_flv"
+			    android:textAppearance="?android:attr/textAppearanceListItemSmall" />
+			
+			<!-- <include layout="@layout/hor_divider" /> -->
+
+			<TextView
+			    android:id="@+id/_3GP"
+			    android:layout_width="match_parent"
+			    android:layout_height="wrap_content"
+			    android:gravity="center_vertical"
+			    android:paddingTop="10dp"
+			    android:paddingLeft="20dp"
+			    android:paddingBottom="10dp"
+			    android:text="@string/filter_3gp"
+			    android:textAppearance="?android:attr/textAppearanceListItemSmall" />
+
+			<TextView
+			    android:id="@+id/filter_quality"
+			    android:layout_width="match_parent"
+			    android:layout_height="wrap_content"
+			    android:gravity="center_vertical"
+			    android:paddingTop="20dp"
+			    android:paddingLeft="10dp"
+			    android:paddingBottom="6dp"
+			    android:text="@string/filter_header_quality"
+			    android:textAppearance="?android:attr/listSeparatorTextViewStyle"
+			    android:textColor="@android:color/holo_orange_light" />
+			
+			<include layout="@layout/horizontal_divider" />
+
+			<TextView
+			    android:id="@+id/HD"
+			    android:layout_width="match_parent"
+			    android:layout_height="wrap_content"
+			    android:gravity="center_vertical"
+			    android:paddingTop="10dp"
+			    android:paddingLeft="20dp"
+			    android:paddingBottom="10dp"
+			    android:text="@string/filter_hd"
+			    android:textAppearance="?android:attr/textAppearanceListItemSmall" />
+			
+			<!-- <include layout="@layout/hor_divider" /> -->
+
+			<TextView
+			    android:id="@+id/LD"
+			    android:layout_width="match_parent"
+			    android:layout_height="wrap_content"
+			    android:gravity="center_vertical"
+			    android:paddingTop="10dp"
+			    android:paddingLeft="20dp"
+			    android:paddingBottom="10dp"
+			    android:text="@string/filter_ld"
+			    android:textAppearance="?android:attr/textAppearanceListItemSmall" />
+			
+			<!-- <include layout="@layout/hor_divider" /> -->
+
+			<TextView
+			    android:id="@+id/MD"
+			    android:layout_width="match_parent"
+			    android:layout_height="wrap_content"
+			    android:gravity="center_vertical"
+			    android:paddingTop="10dp"
+			    android:paddingLeft="20dp"
+			    android:paddingBottom="10dp"
+			    android:text="@string/filter_md"
+			    android:textAppearance="?android:attr/textAppearanceListItemSmall" />
+			
+			<!-- <include layout="@layout/hor_divider" /> -->
+
+			<TextView
+			    android:id="@+id/SD"
+			    android:layout_width="match_parent"
+			    android:layout_height="wrap_content"
+			    android:gravity="center_vertical"
+			    android:paddingTop="10dp"
+			    android:paddingLeft="20dp"
+			    android:paddingBottom="10dp"
+			    android:text="@string/filter_sd"
+			    android:textAppearance="?android:attr/textAppearanceListItemSmall" />
+
+			<TextView
+			    android:id="@+id/filter_other"
+			    android:layout_width="match_parent"
+			    android:layout_height="wrap_content"
+			    android:gravity="center_vertical"
+			    android:paddingTop="20dp"
+			    android:paddingLeft="10dp"
+			    android:paddingBottom="6dp"
+			    android:text="@string/filter_header_others"
+			    android:textAppearance="?android:attr/listSeparatorTextViewStyle"
+			    android:textColor="@android:color/holo_orange_light" />
+			
+			<include layout="@layout/horizontal_divider" />
+
+			<TextView
+			    android:id="@+id/_3D"
+			    android:layout_width="match_parent"
+			    android:layout_height="wrap_content"
+			    android:gravity="center_vertical"
+			    android:paddingTop="10dp"
+			    android:paddingLeft="20dp"
+			    android:paddingBottom="10dp"
+			    android:text="@string/filter_3d"
+			    android:textAppearance="?android:attr/textAppearanceListItemSmall" />
+			
+			<!-- <include layout="@layout/hor_divider" /> -->
+
+			<TextView
+			    android:id="@+id/VO"
+			    android:layout_width="match_parent"
+			    android:layout_height="wrap_content"
+			    android:gravity="center_vertical"
+			    android:paddingTop="10dp"
+			    android:paddingLeft="20dp"
+			    android:paddingBottom="10dp"
+			    android:text="@string/filter_vo"
+			    android:textAppearance="?android:attr/textAppearanceListItemSmall" />
+			
+			<!-- <include layout="@layout/hor_divider" /> -->
+
+			<TextView
+			    android:id="@+id/AO"
+			    android:layout_width="match_parent"
+			    android:layout_height="wrap_content"
+			    android:gravity="center_vertical"
+			    android:paddingTop="10dp"
+			    android:paddingLeft="20dp"
+			    android:paddingBottom="10dp"
+			    android:text="@string/filter_ao"
+			    android:textAppearance="?android:attr/textAppearanceListItemSmall" />
+			
+        </LinearLayout>
+        
+    </ScrollView>
+
+</RelativeLayout>

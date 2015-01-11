@@ -1,0 +1,385 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="title_activity_settings">Indstillinger</string>
+    <string name="title_activity_upgrade_apk">Opgrader</string>
+    <string name="title_activity_about">Om</string>
+    <string name="title_activity_donate">Donationer</string>
+    <string name="title_activity_tutorials">Guides</string>
+    <string name="title_activity_translators_show">Oversættere</string>
+    <string name="title_activity_dashboard">Instrumentbræt</string>
+
+    <!-- ### ShareActivity ### -->
+
+    <string name="tutorial_title">Generel app-guide</string>
+	<string name="tutorial_msg_new">Nu vil du se en liste med alle de cedecs og kvaliteter, der er tilgængelige for den valgte video. Du kan:
+\n\n*) Trykke på et element for at downloade videoen lokalt (på enheden) eller sende den downloadede video via SSH til en fjernstyret PC.
+\nMaskinekrav: Bash og Wget. Yderligere SSH-info på;
+\n\n*) Hold nede for at vælge mellem at kopiere til udklipsholder eller dele link som tekst (f.eks. send til en anden app).
+\nBemærk venligst, at sådan et link (anderledes fra hvor du sender det via SSH) kan blive brugt fra den samme enhed, hvor det er blevet oprettet ELLER fra det samme LAN, hvis du deler det til andre maskiner.\n</string>
+    <string name="loading">Indlæser&#8230;</string>
+    <string name="error">Fejl!</string>
+    <string name="information">Information</string>
+    <string name="dialogs_negative">Annullér</string>
+    <string name="wait">Vent venligst&#8230;</string>
+    <string name="no_downloads_sys_app">\"Downloads\"-app er ikke fundet.</string>
+    <string name="invalid_url">Ikke muligt at hente websiden. URL\'en kan være ugyldig.</string>
+    <string name="invalid_url_short">Ikke muligt at hente websiden.</string>
+    <string name="invalid_response">Ugyldigt HTTP server-svar</string>
+    <string name="rtmpe_streams">Invalid HTTP server response.</string>
+    <string name="bad_link">Tjek det fremviste link.</string>
+    <string name="bad_link_dialog_msg">Ikke et gyldigt YouTube-link.</string>
+    <string name="no_net">Ingen tilgængelig forbindelse.</string>
+    <string name="no_net_dialog_msg">Aktiver venligst en netværksforbindelse først.</string>
+    <string name="no_market">Ingen markeds-app tilgængelig.</string>
+    <string name="no_market_dialog_msg">Installér venligst Google Play.</string>
+    <string name="list_click_dialog_title">Bekræft download for:</string>
+    <string name="list_click_download_local">Download her</string>
+    <string name="list_click_download_ssh">Send via SSH</string>
+    <string name="rename_dialog_title">Nyt filnavn:</string>
+    <string name="rename_dialog_msg">Indtast ikke filtypen (såsom .mp4 eller .flv)</string>
+    <string name="unable_save">Videoen kan ikke gemmes!</string>
+    <string name="unable_save_dialog_msg">Mappeplaceringen er IKKE tilgængelig og/eller NOT skrivbar.</string>
+    <string name="ssh_info_tutorial_title">Send via SSH-guide</string>
+    <string name="ssh_info_tutorial_msg">En enkelt, lang kommando er blevet indsat i udklipsholderen.
+\n\nVælg en profil i ConnectBot og led efter den ønskede mappe i din remote shell.
+KOPIÈR derefter kommandoen (brug menuknappen) og tryk ENTER.</string>
+    <string name="callConnectBot_dialog_title">%1$s ikke installeret!</string>
+    <string name="callConnectBot_dialog_msg">Du skal bruge denne gratis app for at sende den downloadede video via SSH.</string>
+    <string name="callConnectBot_dialog_positive">Download</string>
+    <string name="download_complete_dialog_msg1">YouTube-video:\n</string>
+    <string name="download_complete_dialog_msg2">\nDownload gennemført.</string>
+    <string name="download_complete_dialog_positive">Åbn</string>
+    <string name="downloading">Downloader&#8230;</string>
+    <string name="cancel_download_dialog_title">Annuller download?</string>
+    <string name="video_list_error_toast">Fejl i videolisten.</string>
+    <string name="codec">\n\n\tCodec:</string>
+    <string name="quality">\n\tKvalitet:</string>
+    <string name="size">\n\tStørrelse:</string>
+    <string name="notification_downloading_pt1">Downloader</string>
+    <string name="notification_downloading_pt2">Videofiler</string>
+    <string name="notification_no_downloads">Ingen igangværende downloads</string>
+    <string name="long_click_title">Håndter valgte link:</string>
+    <string name="ffmpeg_ready">FFmpeg klar.</string>
+    <string name="login_required">Login to YouTube may be required.</string>
+    <string name="encrypted_streams">Encrypted video stream</string>
+    <string name="no_video_available">Ingen video tilgængelig.</string>
+    <string name="retry_button_text">Forsøg igen</string>
+    
+    <string-array name="long_click_entries">
+        <item>Kopier til udklipsholder</item>
+        <item>Del som tekst</item>
+    </string-array>
+    
+    <string-array name="long_click_entries2">
+        <item>Kopier til udklipsholder</item>
+        <item>Del som tekst</item>
+        <item>Send via SSH</item>
+    </string-array>
+    
+    <string name="link_copied">Link copied into clipboard</string>
+    <string name="share_link_via">Share this link via:</string>
+    
+    <string name="filter_header_reset">Reset filters</string>
+    <string name="filter_view_all">View all</string>
+    <string name="filter_header_format">Filter by format</string>
+    <string name="filter_header_quality">Filter by quality</string>
+    <string name="filter_header_others">Other filters</string>
+
+    <string name="filter_ld">Large</string>
+    <string name="filter_md">Medium</string>
+    <string name="filter_sd">Small</string>
+    <string name="filter_vo">Video-only</string>
+    <string name="filter_ao">Audio-only</string>
+    
+    <!-- ### SettingsActivity ### -->
+
+    <string name="attention">Vær opmærksom!</string>
+    <string name="system_warning_title">Dette er en systemmappe</string>
+    <string name="system_warning_msg">Den valgte sti vil falde tilbage til download-mappen i standard-hukommelseskortet.</string>
+    <string name="sdcard_unmounted_warning">Hukommelseskort er IKKE sat i.</string>
+    <string name="update_disabled_summary">Fandt anden signatur (F-Droid?)</string>
+    <string name="failed_download">Det mislykkede download er fjernet</string>
+    <string name="new_v_download">fundet. Downloader&#8230;</string>
+    <string name="new_v_install">downloadet. Klik for at installere.</string>
+    <string name="ffmpeg_download_dialog_title">En yderligere fil er nødvendig. Download den nu?</string>
+    <string name="ffmpeg_download_dialog_msg">URL-adresse:</string>
+    <string name="ffmpeg_device_not_supported">Enheden understøttes ikke endnu.</string>
+    <string name="ffmpeg_support_mail">Send e-mail til udvikleren?
+\nDu vil gennemgå alle oplysninger i dit e-mail-program, før du sender nogen data.</string>
+    <string name="ffmpeg_download_notification">Downloader FFmpeg</string>
+    <string name="ffmpeg_install">Installerer FFmpeg-binær&#8230;</string>
+    <string name="email_via">Send e-mail via:</string>
+    <string name="file_already_added">File already added.</string>
+    
+    <!-- ### UpgradeApkActivity ### -->
+    
+    <string name="upgrade_button_init">Opdater</string>
+    <string name="upgrade_button_download">Download\nog installer</string>
+    <string name="upgrade_uppertext_searching">Søger&#8230;</string>
+    <string name="upgrade_uppertext_init">Installeret version:\n</string>
+
+    <string name="upgrade_latest">Seneste:\t</string>
+    <string name="upgrade_installed">\nInstalleret:\t</string>
+    <string name="upgraded_dialog_msg">Ny version gemt i standard sdcard \'Download\'-mappe.\n\nInstaller nu?</string>
+    <string name="upgraded_dialog_negative">Senere\n(manuelt)</string>
+    <string name="upgrade_latest_installed">Seneste version er allerede installeret!</string>
+    <string name="upgrade_network_error">Ikke muligt at hente opdateret data.\nPrøv senere.</string>
+    <string name="upgrade_bad_md5_dialog_msg">Den downloadede pakke er korrupt.\nDen vil blive slettet nu.\nTryk OK for at downloade den igen.</string>
+    
+    <!-- ### ### -->
+    
+    <string name="ytd_video">YTD-video</string>
+    <string name="copy_error">Fejl under kopiering.</string>
+    <string name="copy_progress">Filkopiering i gang&#8230;</string>
+    <string name="copy_ok">Filkopiering gennemført.</string>
+    <string name="download_remove_failed">Fejl: Den midlertidigt downloadede fil er ikke fjernet!</string>
+    <string name="download_failed">Download mislykket!</string>
+    <string name="audio_extr_progress">Lydekstration i gang&#8230;</string>
+    <string name="audio_conv_progress">Lydkodning til mp3 i gang&#8230;</string>
+    <string name="audio_extr_completed">Lydekstraktion gennemført.</string>
+    <string name="audio_conv_completed">Lydkodning til mp3 gennemført.</string>
+    <string name="audio_extr_error">Fejl under lydekstration.</string>
+    <string name="audio_conv_error">Fejl under lydkodning til mp3.</string>
+    <string name="auto_audio_extr_progress">%1$s of %2$s audio extractions completed</string>
+    <string name="auto_audio_extr_completed">All audio extractions completed</string>
+    
+    <!-- ### DonateActivity ### -->
+    
+    <string name="paypal_item_name">YTD-donation</string>
+	<string name="paypal_summary">Støt YTD\'s udviklere med en donation</string>
+	<string name="flattr_summary">Flattr this App</string>
+	
+	<!-- ### FfmpegDownloadService ### -->
+	<string name="ffmpeg_install_failed">Installation af FFmpeg mislykkedes.</string>
+	
+	<!-- ### DashboardActivity ### -->
+	<string name="json_status_completed">Gennemført</string>
+	<string name="json_status_failed">Mislykket</string>
+	<string name="json_status_in_progress">I gang</string>
+	<string name="json_status_paused">Paused</string>
+	<string name="json_status_imported">Imported</string>
+	<string name="json_status_queued">Queued</string>
+	<string name="menu_search">søg&#8230;</string>
+	<string name="menu_backup">Backup</string>
+	<string name="menu_restore">Restore</string>
+	<string name="menu_import_file">Import files</string>
+	<string name="menu_import_file_double">%1$s already added.</string>
+	<string name="menu_backup_info">Choose a folder to Backup Dashboard\'s data</string>
+	<string name="menu_restore_info">Restore Dashboard\'s data from file</string>
+	<string name="menu_restore_info_msg">Present data will be overwritten.</string>
+	<string name="menu_import_file_info">Import files and manage them from the Dashboard</string>
+	<string name="menu_import_in_progress">Files import in progress: %1$s</string>
+	<string name="menu_backup_result_ok">Dashboard data backup OK.</string>
+	<string name="menu_backup_result_failed">Error during backup.</string>
+	<string name="menu_restore_result_ok">Dashboard data restored.</string>
+	<string name="menu_restore_result_failed">Error during restore.</string>
+	<string name="unsupported_operation">Unsupported operation.</string>
+	<string name="ffmpeg_already_running">FFmpeg is already running.</string>
+	<string name="invalid_data">Invalid data.</string>
+	<string name="open_chooser_title">Open with:</string>
+	
+	<string-array name="dashboard_click_entries">
+	    <item>Open</item>
+	    <item>Extract audio</item>
+        <item>Extract audio and encode to mp3</item>
+    </string-array>
+    
+	<string-array name="dashboard_click_entries_audio">
+	    <item>Open</item>
+        <item>Encode to mp3</item>
+    </string-array>
+    
+	<string-array name="dashboard_click_entries_flv">
+	    <item>Open</item>
+        <item>Extract audio and encode to mp3</item>
+    </string-array>
+    
+	<string-array name="dashboard_click_entries_vo">
+	    <item>Open</item>
+        <item>Add audio stream (already downloaded)</item>
+    </string-array>
+    
+	<string name="ao_not_found">No suitable audio-only stream found</string>
+	<string name="remove_ao_vo">Delete video-only and audio-only files afterwards\n(no confirmation!)</string>
+	<string name="ffmpeg_new_v_required">New FFmpeg version required. Download it now?</string>
+    <string name="share_file_via">Share this file via:</string>
+	<string name="ffmpeg_not_enabled_title">FFmpeg er ikke installeret eller aktiveret:</string>
+	<string name="ffmpeg_not_enabled_msg">Åbn indstillinger?</string>
+	<string name="remove_video">Slet video efter lydekstration (ingen bekræftelse!)</string>
+	<string name="remove_original_audio">Delete audio after conversion (no confirmation!)</string>
+	<string name="edit_id3_tags">Slet ID3-tags</string>
+	<string name="id3_album">Album</string>
+	<string name="id3_artist">Artist</string>
+	<string name="id3_title">Title</string>
+	<string name="id3_year">Year</string>
+	<string name="id3_genre">Genre</string>
+	<string name="audio_extr_info">Contained audio stream:</string>
+	
+	<string-array name="dashboard_long_click_entries">
+	    <item>Kopier</item>
+	    <item>Flyt</item>
+        <item>Omdøb</item>
+        <item>Re-download the video</item>
+        <item>Send</item>
+        <item>Remove from Dashboard</item>
+        <item>Remove and delete file</item>
+        <item>Pause/Resume</item>
+    </string-array>
+    
+	<string name="operation_standby">Stand-by: another operation is already in progress.</string>
+	<string name="dashboard_delete_data_cb">Delete also all listed video/audio files</string>
+    
+	<string name="move_error">Fejl under flytning</string>
+    <string name="move_progress">Flytning af fil i gang&#8230;</string>
+    <string name="move_ok">Flytning af fil gennemført.</string>
+    <string name="long_press_warning_title">Handlingen er ikke udført:</string>
+    <string name="long_press_warning_msg">Overlapning af kilde- og placeringsmapper.</string>
+    <string name="long_press_warning_msg2">En kopi eksisterer allerede i denne mappe.</string>
+    <string name="audio_extr_warning_msg">Same audio file already extracted.</string>
+
+	<string name="delete_video_confirm">Bekræft, at du vil slette denne video.</string>
+	<string name="remove_video_confirm">Confirm you want to remove this video?</string>
+	<string name="delete_video_ok">%1$s succesfuldt slettet.</string>
+	<string name="delete_video_failed">Fejl: %1$s er ikke slettet.</string>
+	
+	<string name="empty_dashboard">No entries</string>
+	<string name="status_text_in_progress">Entries: %1$d (in progress: %2$d)</string>
+	<string name="status_text">Entries: %d</string>
+	
+    <!-- ### preferences ### -->
+
+    <!-- -->
+    <string name="dashboard_summary">Åbn YTD\'s instrumentbræt</string>
+
+    <!-- -->
+    <string name="settings_cat_ui">Brugerflade</string>
+    <string name="lang_title">Sprog</string>
+    <string name="lang_dialog_title">Vælg sprog for brugerflade:</string>
+    <string name="choose_theme_title">Vælg tema</string>
+    <string-array name="choose_theme_entries">
+        <item>Mørk</item>
+        <item>Lys</item>
+    </string-array>
+    
+    <!-- -->
+    <string name="quick_start_title">Hurtig start</string>
+    <string name="quick_start_summ">Åbn en hurtigstartsguide</string>
+    <string name="quick_start_text">Her er indstillingerne for \'YouTube Downloader\'.
+\n\nSelve app\'en kan tilgås via del-knappen i YouTube-app\'en, mens du ser en video.
+\n\nVælg derefter \'YouTube Downloader\', og du vil se yderligere informationer.
+\n\nDu kan også dele ethvert YouTube-link via alle andre apps, f.eks. din browser.</string>
+    <string name="general_info_title">Aktiver generel guide.</string>
+    <string name="general_info_summary">Vis en general app-guide ved opstart.</string>
+    <string name="show_again_checkbox">Vis igen næste gang.</string>
+    <string name="ssh_info_title">Aktiver SSH-guide</string>
+    <string name="ssh_info_summary">Vis et hurtigt tip om fjernstyring af download via SSH</string>
+    <string name="audio_tutorial_title">Guide til lydekstration</string>
+    <string name="audio_tutorial_summary">Åbn en kort guide om funktionen til lydekstration</string>
+    
+    <!-- -->
+    <string name="settings_cat_folder">Download-mappe</string>
+    <string name="standard_location_title">Vælg en stadardmappe</string>
+    <string name="chooser_swap_title">Udskiftsvælger</string>
+    <string name="chooser_location_title">Åbn filvælger</string>
+    <string name="chooser_location_summary">Hold nede for at vælge en mappe</string>
+	
+    <!-- -->
+    <string name="settings_cat_files">Videofiler</string>
+    <string name="enable_rename_title">Aktiver omdøbning af filer</string>
+    <string name="enable_rename_summary">Omdøb videofilen før download (kun for den lokale download)</string>
+	<string name="show_thumb_title">Vis forhåndsvisninger af billeder</string>
+    <string name="show_thumb_summary">Download forhåndsvisning af billede sammen med videolisten</string>
+
+    <!-- -->
+    <string name="settings_cat_advanced">Avanceret</string>
+    <string name="enable_advanced_features_title">Aktiver avancerede funktioner</string>
+    <string name="enable_advanced_features_summary">Download FFmpeg \"plugin\"</string>
+    <string name="mp3_bitrate_title">Mp3 encoding bitrate:</string>
+    
+    <string name="ffmpeg_auto_title">Auto-extract audio</string>
+    <string name="ffmpeg_auto_summary">Extract or convert audio to mp3 automatically after every download</string>
+    <string name="ffmpeg_auto_cb_title">Enable automatic extraction</string>
+    <string name="ffmpeg_auto_cb_summary">Choose parameters below</string>
+    
+    <string name="audio_extraction_type_title">Ekstraktionstype</string>
+    <string-array name="audio_extraction_type_entries">
+	    <item>Extract audio only</item>
+        <item>Extract and encode audio to mp3</item>
+    </string-array>
+    
+    <string name="remove_video_title">Fjernelse af video</string>
+    
+    <string name="enable_adaptive_title">Get secondary streams</string>
+    <string name="enable_adaptive_summary">Add video-only and/or audio-only streams (if available) to the video list</string>
+    
+    <!-- -->
+    <string name="settings_cat_notifications">Notifikationer</string>
+    
+    <string name="notification_defaults_title">Standardnotifikation</string>
+    <string name="notification_defaults_dialog_title">YTD\'s egen standardnotifikation</string>
+    <string-array name="notification_defaults_entries">
+        <item>Lyd og vibration</item>
+        <item>Lyd og lys</item>
+        <item>Vibration og lyd</item>
+        <item>Lyd, vibration og lys</item>
+        <item>Lyd</item>
+        <item>Vibration</item>
+        <item>Lyde</item>
+        <item>Ingenting</item>
+    </string-array>
+    
+    <string name="launcher_title">Entry-point activity</string>
+    
+    <!-- -->
+    <string name="settings_cat_updates">Opdateringer</string>
+    <string name="update_title">Tjek for opdateringer</string>
+    <string name="autoupdate_title">Aktiver automatiske opdateringer</string>
+    <string name="autoupdate_summary">Tjek efter opdateringer ved dagens første åbning af applikationen (den nye pakke vil blive downloadet automatisk)</string>
+
+    <!-- -->
+    <string name="settings_cat_app">Applikation</string>
+    <string name="settings_cat_about_condensed">Om</string>
+    <string name="title_changelog">Ændringslog</string>
+    <string name="settings_cat_licenses">Licenser</string>
+
+    <string name="credits_title">Kreditter</string>
+    <string name="title_activity_credits_show">Andre licenser og oversættelser</string>
+        
+    <!-- -->
+    <string name="settings_cat_code">Kildekode</string>
+    <string name="ytd_code_git_title">YTD på GitHub</string>
+    <string name="ytd_code_hg_title">YTD på Sourceforge</string>
+
+    <!-- -->
+    <string name="settings_cat_social">Social</string>
+    <string name="share_title">Del denne app</string>
+    <string name="share_summary">via Twitter, Facebook, Gmail osv.&#8230;</string>
+    <string name="share_warning">Ingen passende apps fundet.</string>
+    <string name="share_message">#YouTubeDownloader
+\nGratis og open source Android-app til at downloade YouTube-videoer!
+\nhttps://sourceforge.net/projects/ytdownloader/files/</string>
+	<string name="help_translate_title">Hjælp med at oversætte denne app</string>
+    <string name="xda_title">Thread on XDA forum</string>
+    
+    <!-- -->
+    <string name="settings_cat_ssh">SSH</string>
+    <string name="connectbot_flavour_title">Påkrævet ConnectBot-version</string>
+	<string name="connectbot_flavour_dialog_title">Vælg ConnectBot til at sende video via SSH</string>
+	<string name="enable_connectbot_short_cmd_title">Aktiver SSH kort kommando</string>
+	<string name="enable_connectbot_short_cmd_summary">Brug en anelse kortere, men hurtigere kommando til
+at indsætte i remote shell (vil KUN virke, hvis placerings-PC\'en er bosat det samme LAN)</string>
+	<string name="ssh_to_longpress_menu_title">Menu for SSH-send til langt tryk</string>
+	<string name="ssh_to_longpress_menu_summary">Flyt \"Send via SSH\"-handling ind i langt tryk-menuen ud fra videolisten</string>
+	
+    <!-- -->
+	<string name="settings_cat_system">System</string>
+	<string name="enable_logging_title">Aktiver logning</string>
+	<string name="enable_logging_summary">Inkluder YTD\'s beseder i system-loggen. Obligatorisk for at sende en logcat til udvikleren.</string>
+	<string name="clear_dashboard_title">Empty the Dashboard</string>
+	<string name="clear_dashboard_summary">Clear all dashboard\'s references (may fix some crashes)</string>
+	<string name="clear_dashboard_msg">Are you sure?\nThis will clear all the list in the Dashboard.</string>
+	<string name="clear_dashboard_ok">Dashboard cleared.</string>
+	<string name="clear_dashboard_failed">Dashboard emptying failed.</string>
+	
+</resources>

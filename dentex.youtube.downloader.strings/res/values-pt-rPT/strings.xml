@@ -1,0 +1,385 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="title_activity_settings">Definições</string>
+    <string name="title_activity_upgrade_apk">Atualizar</string>
+    <string name="title_activity_about">Sobre</string>
+    <string name="title_activity_donate">Doações</string>
+    <string name="title_activity_tutorials">Tutoriais</string>
+    <string name="title_activity_translators_show">Tradutores</string>
+    <string name="title_activity_dashboard">Painel de controle</string>
+
+    <!-- ### ShareActivity ### -->
+
+    <string name="tutorial_title">Tutorial geral da aplicação</string>
+	<string name="tutorial_msg_new">Agora irá ver uma lista com todos os codecs e qualidades disponiveis para o video seleccionado. Poderá:
+\n\n*) Pressionar num item para fazer download do video localmente (no dispositivo) ou para enviar o download via SSH para um computador remoto.
+\nRequisitos da mauquina de destino: Bash e Wget. Informação SSH adicional mais a frente;
+\n\n*) Pressionar mais tempo num item e escolher entre copiar para a area de transferencia ou partilhar link  como texto (ex. enviar para outra aplicação).
+\nPor favor repare que tal link (diferente de quando se envia por SSH) so pode ser utilizado no mesmo dispositivo em que foi criado OU na mesma LAN, se o partilhar para outra maquina.\n</string>
+    <string name="loading">Carregando&#8230;</string>
+    <string name="error">Erro!</string>
+    <string name="information">Informação</string>
+    <string name="dialogs_negative">Cancelar</string>
+    <string name="wait">Por favor aguarde&#8230;</string>
+    <string name="no_downloads_sys_app">\"Transferências\" Aplicação de sistema não encontrada</string>
+    <string name="invalid_url">Incapaz de proceder á extração da pagina web. URL poderá ser invalido."</string>
+    <string name="invalid_url_short">Incapaz de proceder á extração da pagina web.</string>
+    <string name="invalid_response">Resposta do servidor HTTP inválida.</string>
+    <string name="rtmpe_streams">Resposta do servidor HTTP inválida.</string>
+    <string name="bad_link">Reveja o link fornecido.</string>
+    <string name="bad_link_dialog_msg">Não é um link do YouTube válido.</string>
+    <string name="no_net">Nenhuma coneção disponivel.</string>
+    <string name="no_net_dialog_msg">Por favor, habilite uma coneção de rede primeiro.</string>
+    <string name="no_market">Nenhuma aplicação no market disponivel.</string>
+    <string name="no_market_dialog_msg">Por favor, instale o Google Play</string>
+    <string name="list_click_dialog_title">Confirme o Download para:</string>
+    <string name="list_click_download_local">Download aqui</string>
+    <string name="list_click_download_ssh">Enviar via SSH</string>
+    <string name="rename_dialog_title">Novo nome de ficheiro:</string>
+    <string name="rename_dialog_msg">Não escreva a extenção de ficheiro (como .mp4 ou .flv).</string>
+    <string name="unable_save">Incapaz de guardar o video!</string>
+    <string name="unable_save_dialog_msg">Pasta de destino NÃO disponivel e/ou NÃO permite a escrita.</string>
+    <string name="ssh_info_tutorial_title">Como enviar via SSH</string>
+    <string name="ssh_info_tutorial_msg">Um unico comando longo foi carregado na area de tranferencia.
+		\n\nEscolha um perfil no ConnectBot e quando na sua Shell remota, navegue para o desejado 
+		destino, COLE o comando (use o botão do menu) e faça ENTER.</string>
+    <string name="callConnectBot_dialog_title">%1$s não instalado!</string>
+    <string name="callConnectBot_dialog_msg">Precisa desta aplicação gratis para enviar o download do video via SSH.</string>
+    <string name="callConnectBot_dialog_positive">Transferência</string>
+    <string name="download_complete_dialog_msg1">Video Youtube:\n</string>
+    <string name="download_complete_dialog_msg2">\nDescarregado com Sucesso.</string>
+    <string name="download_complete_dialog_positive">Abrir</string>
+    <string name="downloading">Transferindo&#8230;</string>
+    <string name="cancel_download_dialog_title">Cancelar transferência?</string>
+    <string name="video_list_error_toast">Erro na lista de videos.</string>
+    <string name="codec">\n\n\tCodec:</string>
+    <string name="quality">\n\tQualidade:</string>
+    <string name="size">\n\tTamanho:</string>
+    <string name="notification_downloading_pt1">A descarregar</string>
+    <string name="notification_downloading_pt2">Ficheiros de video</string>
+    <string name="notification_no_downloads">Nenhuma transferência em progresso</string>
+    <string name="long_click_title">Manuseie link selecionado:</string>
+    <string name="ffmpeg_ready">FFmpeg pronto.</string>
+    <string name="login_required">Login no YouTube pode ser necessário.</string>
+    <string name="encrypted_streams">Stream de video encriptado</string>
+    <string name="no_video_available">Nenhum video disponível.</string>
+    <string name="retry_button_text">Repetir</string>
+    
+    <string-array name="long_click_entries">
+        <item>Copiar para o clipboard</item>
+        <item>Ações como texto</item>
+    </string-array>
+    
+    <string-array name="long_click_entries2">
+        <item>Copy to clipboard</item>
+        <item>Share as text</item>
+        <item>Send via SSH</item>
+    </string-array>
+    
+    <string name="link_copied">Link copiado para a área de transferência</string>
+    <string name="share_link_via">Partilhar o link via:</string>
+    
+    <string name="filter_header_reset">Redefinir filtros</string>
+    <string name="filter_view_all">Ver todos</string>
+    <string name="filter_header_format">Filtrar por formato</string>
+    <string name="filter_header_quality">Filtrar por qualidade</string>
+    <string name="filter_header_others">Outros filtros</string>
+
+    <string name="filter_ld">Grande</string>
+    <string name="filter_md">Médio</string>
+    <string name="filter_sd">Pequeno</string>
+    <string name="filter_vo">Só video</string>
+    <string name="filter_ao">Só audio</string>
+    
+    <!-- ### SettingsActivity ### -->
+
+    <string name="attention">Atenção!</string>
+    <string name="system_warning_title">Esta é uma pasta de sistema</string>
+    <string name="system_warning_msg">Caminho escolhido vai cair de volta na pasta padrão sdcard Download.</string>
+    <string name="sdcard_unmounted_warning">Cartão SD NÃO montado</string>
+    <string name="update_disabled_summary">Assinatura diferente encontrada (F-Droid?)</string>
+    <string name="failed_download">Download falhou removido</string>
+    <string name="new_v_download">encontrado. Download&#8230;</string>
+    <string name="new_v_install">baixado. Clique para instalar.</string>
+    <string name="ffmpeg_download_dialog_title">Um ficheiro adicional é necessario. Fazer download agora?</string>
+    <string name="ffmpeg_download_dialog_msg">Link da web:</string>
+    <string name="ffmpeg_device_not_supported">Dispositivo ainda não suportado.</string>
+    <string name="ffmpeg_support_mail">Enviar email ao desenvolvedor?
+\nVai poder consultar toda a informação antes de ser enviada.</string>
+    <string name="ffmpeg_download_notification">A transferir FFmpeg</string>
+    <string name="ffmpeg_install">A instalar o binário do FFmpeg&#8230;</string>
+    <string name="email_via">Enviar email via:</string>
+    <string name="file_already_added">Ficheiro já foi adicionado.</string>
+    
+    <!-- ### UpgradeApkActivity ### -->
+    
+    <string name="upgrade_button_init">Actualizar</string>
+    <string name="upgrade_button_download">Download\ninstalação nand</string>
+    <string name="upgrade_uppertext_searching">Procurando&#8230;</string>
+    <string name="upgrade_uppertext_init">Versão instalada:\n</string>
+
+    <string name="upgrade_latest">Mais recente:\t</string>
+    <string name="upgrade_installed">\nInstalda:\t</string>
+    <string name="upgraded_dialog_msg">Nova versão armazenada no cartão SD prédefinido, pasta \'Download\'.\n\nInstalar agora?</string>
+    <string name="upgraded_dialog_negative">Mais tarde\n(manualmente)</string>
+    <string name="upgrade_latest_installed">A versão mais recente ja está instalada!</string>
+    <string name="upgrade_network_error">Incapaz de proceder à extração das informações de actualização.\nTente de novo mais tarde.</string>
+    <string name="upgrade_bad_md5_dialog_msg">Pacote transferido está corrompido.\nSerá apagado agora.\nPressione OK para transferir de novo</string>
+    
+    <!-- ### ### -->
+    
+    <string name="ytd_video">YTD video</string>
+    <string name="copy_error">Erro durante a cópia</string>
+    <string name="copy_progress">Cópia de ficheiro em progresso&#8230;</string>
+    <string name="copy_ok">Cópia do ficheiro completa</string>
+    <string name="download_remove_failed">Erro: ficheiro temporário transferido não removido!</string>
+    <string name="download_failed">Baixe falhou!</string>
+    <string name="audio_extr_progress">Extração de audio em progresso&#8230;</string>
+    <string name="audio_conv_progress">Conversão do audio para mp3 em progresso&#8230;</string>
+    <string name="audio_extr_completed">Extração de audio completa. </string>
+    <string name="audio_conv_completed">Conversão do audio para mp3 completa.</string>
+    <string name="audio_extr_error">Erro durante a extração do audio.</string>
+    <string name="audio_conv_error">Erro durante a conversão do audio para mp3.</string>
+    <string name="auto_audio_extr_progress">%1$s de %2$s extração de audio concluído </string>
+    <string name="auto_audio_extr_completed">Todas as extrações de audio completas</string>
+    
+    <!-- ### DonateActivity ### -->
+    
+    <string name="paypal_item_name">Fazer donação a YTD</string>
+	<string name="paypal_summary">Ajudar o desenvolvedor do YTD com uma doação </string>
+	<string name="flattr_summary">Flattr esta aplicação</string>
+	
+	<!-- ### FfmpegDownloadService ### -->
+	<string name="ffmpeg_install_failed">Instalação do FFmpeg falhada.</string>
+	
+	<!-- ### DashboardActivity ### -->
+	<string name="json_status_completed">Concluído</string>
+	<string name="json_status_failed">Falhado</string>
+	<string name="json_status_in_progress">Em Progresso</string>
+	<string name="json_status_paused">Pausado</string>
+	<string name="json_status_imported">Importado</string>
+	<string name="json_status_queued">Em fila</string>
+	<string name="menu_search">procurar&#8230;</string>
+	<string name="menu_backup">Cópia de segurança</string>
+	<string name="menu_restore">Restaurar</string>
+	<string name="menu_import_file">Import files</string>
+	<string name="menu_import_file_double">%1$s already added.</string>
+	<string name="menu_backup_info">Escolha uma pasta para os dados do Painel de Cópia de Segurança</string>
+	<string name="menu_restore_info">Restaurar dados do painel a partir do ficheiro</string>
+	<string name="menu_restore_info_msg">Os dados presentes serão substituídos.</string>
+	<string name="menu_import_file_info">Import files and manage them from the Dashboard</string>
+	<string name="menu_import_in_progress">Files import in progress: %1$s</string>
+	<string name="menu_backup_result_ok">Dashboard data backup OK.</string>
+	<string name="menu_backup_result_failed">Error during backup.</string>
+	<string name="menu_restore_result_ok">Dashboard data restored.</string>
+	<string name="menu_restore_result_failed">Error during restore.</string>
+	<string name="unsupported_operation">Unsupported operation.</string>
+	<string name="ffmpeg_already_running">FFmpeg is already running.</string>
+	<string name="invalid_data">Invalid data.</string>
+	<string name="open_chooser_title">Open with:</string>
+	
+	<string-array name="dashboard_click_entries">
+	    <item>Open</item>
+	    <item>Extract audio</item>
+        <item>Extract audio and encode to mp3</item>
+    </string-array>
+    
+	<string-array name="dashboard_click_entries_audio">
+	    <item>Open</item>
+        <item>Encode to mp3</item>
+    </string-array>
+    
+	<string-array name="dashboard_click_entries_flv">
+	    <item>Open</item>
+        <item>Extract audio and encode to mp3</item>
+    </string-array>
+    
+	<string-array name="dashboard_click_entries_vo">
+	    <item>Open</item>
+        <item>Add audio stream (already downloaded)</item>
+    </string-array>
+    
+	<string name="ao_not_found">No suitable audio-only stream found</string>
+	<string name="remove_ao_vo">Delete video-only and audio-only files afterwards\n(no confirmation!)</string>
+	<string name="ffmpeg_new_v_required">New FFmpeg version required. Download it now?</string>
+    <string name="share_file_via">Share this file via:</string>
+	<string name="ffmpeg_not_enabled_title">FFmpeg not installed or enabled:</string>
+	<string name="ffmpeg_not_enabled_msg">Open settings?</string>
+	<string name="remove_video">Delete video after audio extraction (no confirmation!)</string>
+	<string name="remove_original_audio">Delete audio after conversion (no confirmation!)</string>
+	<string name="edit_id3_tags">Edit ID3 tags</string>
+	<string name="id3_album">Album</string>
+	<string name="id3_artist">Artist</string>
+	<string name="id3_title">Title</string>
+	<string name="id3_year">Year</string>
+	<string name="id3_genre">Genre</string>
+	<string name="audio_extr_info">Contained audio stream:</string>
+	
+	<string-array name="dashboard_long_click_entries">
+	    <item>Copy</item>
+	    <item>Move</item>
+        <item>Rename</item>
+        <item>Re-download the video</item>
+        <item>Send</item>
+        <item>Remove from Dashboard</item>
+        <item>Remove and delete file</item>
+        <item>Pause/Resume</item>
+    </string-array>
+    
+	<string name="operation_standby">Stand-by: another operation is already in progress.</string>
+	<string name="dashboard_delete_data_cb">Delete also all listed video/audio files</string>
+    
+	<string name="move_error">Error during move.</string>
+    <string name="move_progress">File move in progress&#8230;</string>
+    <string name="move_ok">File move completed.</string>
+    <string name="long_press_warning_title">Operation not executed:</string>
+    <string name="long_press_warning_msg">Source and destination folders overlap.</string>
+    <string name="long_press_warning_msg2">A copy already exists in this folder.</string>
+    <string name="audio_extr_warning_msg">Same audio file already extracted.</string>
+
+	<string name="delete_video_confirm">Confirm you want to delete this video?</string>
+	<string name="remove_video_confirm">Confirm you want to remove this video?</string>
+	<string name="delete_video_ok">%1$s successfully deleted.</string>
+	<string name="delete_video_failed">Error: %1$s not deleted.</string>
+	
+	<string name="empty_dashboard">No entries</string>
+	<string name="status_text_in_progress">Entries: %1$d (in progress: %2$d)</string>
+	<string name="status_text">Entries: %d</string>
+	
+    <!-- ### preferences ### -->
+
+    <!-- -->
+    <string name="dashboard_summary">Open YTD\'s Dashboard</string>
+
+    <!-- -->
+    <string name="settings_cat_ui">Interface de Utilizador</string>
+    <string name="lang_title">Idioma</string>
+    <string name="lang_dialog_title">Choose UI language:</string>
+    <string name="choose_theme_title">Escolher tema</string>
+    <string-array name="choose_theme_entries">
+        <item>Escuro</item>
+        <item>Claro</item>
+    </string-array>
+    
+    <!-- -->
+    <string name="quick_start_title">Começo rapido</string>
+    <string name="quick_start_summ">Abrir um tutorial de começo rapido</string>
+    <string name="quick_start_text">Aqui estão só as preferencias para o \"YouTube Downloader\".
+		\n\nA verdadeira aplicação pode ser acedida através do botão de partilha na aplicação dp YouTube, enquanto vendo um video.
+		\n\nDepois simplesmente escolha \"YouTube Downloader\" e terá mais informação de uso.
+		\n\nTambem pode partilhar qualquer link do YouTube em texto através de qualquer outra aplicação: como por exemplo o seu browser.</string>
+    <string name="general_info_title">Ligar dicas gerais sobre como utilizar</string>
+    <string name="general_info_summary">Mostrar um toturail geral da aplicação ao arrancar</string>
+    <string name="show_again_checkbox">Mostrar de novo da proxima vez</string>
+    <string name="ssh_info_title">Ligar como utilzar o SSH</string>
+    <string name="ssh_info_summary">Mostrar dica rapida sobre como fazer downloads remotos via SSH</string>
+    <string name="audio_tutorial_title">Como extrair áudio</string>
+    <string name="audio_tutorial_summary">Abrir um pequeno guia sobre a extração de áudio</string>
+    
+    <!-- -->
+    <string name="settings_cat_folder">Pasta de download</string>
+    <string name="standard_location_title">Escolher pasta pré-definida</string>
+    <string name="chooser_swap_title">Trocar escolhedor</string>
+    <string name="chooser_location_title">Abrir escolhedor de ficheiros</string>
+    <string name="chooser_location_summary">Pressionar um pouco para escolher uma pasta</string>
+	
+    <!-- -->
+    <string name="settings_cat_files">Ficheiros de video</string>
+    <string name="enable_rename_title">Habilitar o renomeamento do ficheiro</string>
+    <string name="enable_rename_summary">Renomear o ficheiro de video antes do download(apenas para downloads locais)</string>
+	<string name="show_thumb_title">Mostrar imagem de pré-visualização</string>
+    <string name="show_thumb_summary">Baixar uma imagem de pré-visualização, juntamente com a lista de vídeos</string>
+
+    <!-- -->
+    <string name="settings_cat_advanced">Avançado</string>
+    <string name="enable_advanced_features_title">Enable Advanced Features</string>
+    <string name="enable_advanced_features_summary">Download FFmpeg \"plugin\"</string>
+    <string name="mp3_bitrate_title">Mp3 encoding bitrate:</string>
+    
+    <string name="ffmpeg_auto_title">Auto-extract audio</string>
+    <string name="ffmpeg_auto_summary">Extract or convert audio to mp3 automatically after every download</string>
+    <string name="ffmpeg_auto_cb_title">Enable automatic extraction</string>
+    <string name="ffmpeg_auto_cb_summary">Choose parameters below</string>
+    
+    <string name="audio_extraction_type_title">Tipo de extração</string>
+    <string-array name="audio_extraction_type_entries">
+	    <item>Extract audio only</item>
+        <item>Extract and encode audio to mp3</item>
+    </string-array>
+    
+    <string name="remove_video_title">Remover vídeos</string>
+    
+    <string name="enable_adaptive_title">Get secondary streams</string>
+    <string name="enable_adaptive_summary">Add video-only and/or audio-only streams (if available) to the video list</string>
+    
+    <!-- -->
+    <string name="settings_cat_notifications">Notificações</string>
+    
+    <string name="notification_defaults_title">Notificações</string>
+    <string name="notification_defaults_dialog_title">YTD\'s own notification defaults</string>
+    <string-array name="notification_defaults_entries">
+        <item>Som e vibração</item>
+        <item>Som e luz</item>
+        <item>Vibração e luzes</item>
+        <item>Som, vibração e luz</item>
+        <item>Som</item>
+        <item>Vibração</item>
+        <item>Luz</item>
+        <item>Nada</item>
+    </string-array>
+    
+    <string name="launcher_title">Entry-point activity</string>
+    
+    <!-- -->
+    <string name="settings_cat_updates">Actualizar</string>
+    <string name="update_title">Procurar actualizações</string>
+    <string name="autoupdate_title">Ativar atualização automática</string>
+    <string name="autoupdate_summary">Verificar se há atualizações na execução do aplicativo primeira do dia (o novo pacote será automaticamente baixado)</string>
+
+    <!-- -->
+    <string name="settings_cat_app">Aplicação</string>
+    <string name="settings_cat_about_condensed">Sobre</string>
+    <string name="title_changelog">Changelog</string>
+    <string name="settings_cat_licenses">Licenças</string>
+
+    <string name="credits_title">Créditos</string>
+    <string name="title_activity_credits_show">Outras licenças e traduções</string>
+        
+    <!-- -->
+    <string name="settings_cat_code">Código Fonte</string>
+    <string name="ytd_code_git_title">YTD no GitHub</string>
+    <string name="ytd_code_hg_title">YTD no Sourceforge</string>
+
+    <!-- -->
+    <string name="settings_cat_social">Social</string>
+    <string name="share_title">Partilhar esta aplicação</string>
+    <string name="share_summary">através de Twitter, Facebook, Gmail, etc&#8230;</string>
+    <string name="share_warning">Nenhumas aplicações adequadas encontradas.</string>
+    <string name="share_message">#YouTubeDownloader
+	 	\nFree and Open-Source Android App to download YouTube video!
+	 	\nhttps://sourceforge.net/projects/ytdownloader/files/</string>
+	<string name="help_translate_title">Ajudar a traduzir YTD</string>
+    <string name="xda_title">Thread on XDA forum</string>
+    
+    <!-- -->
+    <string name="settings_cat_ssh">SSH</string>
+    <string name="connectbot_flavour_title">ConnectBot version to use</string>
+	<string name="connectbot_flavour_dialog_title">Choose ConnectBot fork to send video via SSH</string>
+	<string name="enable_connectbot_short_cmd_title">Enable SSH short cmd</string>
+	<string name="enable_connectbot_short_cmd_summary">Use a slightly shorter but faster command to 
+	    paste into the remote shell (will ONLY work if the destination PC resides within the same LAN)</string>
+	<string name="ssh_to_longpress_menu_title">SSH-send to long-press menu</string>
+	<string name="ssh_to_longpress_menu_summary">Move \"Send via SSH\" action into the long-press menu available from the video list</string>
+	
+    <!-- -->
+	<string name="settings_cat_system">System</string>
+	<string name="enable_logging_title">Ativar registos</string>
+	<string name="enable_logging_summary">Incluir mensagens do YTD no log de sistema. Necessario para enviar um logcat ao desenvolvedor.</string>
+	<string name="clear_dashboard_title">Empty the Dashboard</string>
+	<string name="clear_dashboard_summary">Clear all dashboard\'s references (may fix some crashes)</string>
+	<string name="clear_dashboard_msg">Are you sure?\nThis will clear all the list in the Dashboard.</string>
+	<string name="clear_dashboard_ok">Dashboard cleared.</string>
+	<string name="clear_dashboard_failed">Dashboard emptying failed.</string>
+	
+</resources>

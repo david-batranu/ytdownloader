@@ -1,0 +1,742 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="changelog">
+        \n v3.5.4 - Dic 17 2013
+        \n-----------------------------------
+        \n[x] possibility to import into Dashboard multiple files at once
+        \n[x] Dashboard bottom status bar
+        \n
+        \n v3.5.3 - Dic 12 2013
+        \n-----------------------------------
+        \n[x] auto-update bug fix
+        \n
+        \n v3.5.2 - Dic 11 2013
+        \n-----------------------------------
+        \n[x] fixed missing progress bars during mux
+        \n[x] Dashboard backup file can be renamed
+        \n[x] indicator for Dashboard background jobs
+        \n
+        \n v3.5.1 - Dic 09 2013
+        \n-----------------------------------
+        \n[x] fixed two small bugs
+        \n
+        \n v3.5 - Dic 09 2013
+        \n-----------------------------------
+        \n[x] Dashboard option to mux video-only and audio-only streams
+        \n[x] new FFmpeg builds from latest v2.1 (with NEON support) available for download
+        \n[x] option to choose between Settings or Dashboard as app entry-point-activity
+        \n[x] "Send" option into Dashboard items long-click menu
+        \n[x] all "in-progress" operations visible from Dashboard
+        \n[x] fixed Dark and Light themes appearance
+        \n[x] Android 4.4 target and many other optimizations
+        \n[x] Czech translation
+        \n
+        \n v3.4.1 - Nov 19 2013
+        \n-----------------------------------
+        \n[x] encrypted signature patch (7)
+        \n[x] layout fix for Samsung GT-P5110 and GT-N8000 devices
+        \n
+        \n v3.4 - Nov 18 2013
+        \n-----------------------------------
+        \n[x] video list filters via sliding menu
+        \n[x] encrypted signature patch (6)
+        \n[x] option to clear Dashboard into its menu (with checkbox to delete also data)
+        \n[x] removed support for MP4 1080p and FLV 480p "hidden" streams (not working anymore) 
+        \n
+        \n v3.3.1 - Nov 06 2013
+        \n-----------------------------------
+        \n[x] fix for storage free space check
+        \n
+        \n v3.3 - Nov 04 2013
+        \n-----------------------------------
+        \n[x] MP4 1080p and FLV 480p "hidden" streams support
+        \n[x] again, better support for "secondary" YouTube streams
+        \n[x] fixed important bugs on resumed downloads and storage free space (thanks Christophelaures from XDA)
+        \n
+        \n v3.2 - Oct 30 2013
+        \n-----------------------------------
+        \n[x] better support for "secondary" YouTube streams
+        \n[x] support for audio files import into Dashboard
+        \n[x] other optimizations
+        \n
+        \n v3.1 - Oct 26 2013
+        \n-----------------------------------
+        \n[x] option to auto-enqueue FFmpeg tasks on downloads completion
+        \n[x] support for FLV video import into Dashboard
+        \n[x] support for video-only and audio-only "secondary" streams from YouTube (experimental)
+        \n[x] various bug fixes
+        \n
+        \n v3.0.2 - Oct 11 2013
+        \n-----------------------------------
+        \n[x] small fix
+        \n
+        \n v3.0.1 - Oct 10 2013
+        \n-----------------------------------
+        \n[x] layout fix for API 14,15,16
+        \n[x] other bug fixes
+        \n
+        \n v3.0 - Oct 08 2013
+        \n-----------------------------------
+        \n[x] Dashboard for interaction with downloaded video:
+        \n    - show status/progress/speed
+        \n    - click to:
+        \n      ^ open video/audio file
+        \n      ^ audio extraction/conversion
+        \n    - long-click to manage files:
+        \n      ^ copy
+        \n      ^ move
+        \n      ^ rename
+        \n      ^ redownload
+        \n      ^ remove
+        \n      ^ delete
+        \n      ^ pause/resume
+        \n[x] Custom download manager supporting:
+        \n    - pause/resume
+        \n    - YouTube link validation on resume through different networks and/or expire time
+        \n[x] new translations:
+        \n    - Slovak
+        \n    - Slovenian
+        \n    - Vietnamese 
+        \n    - Finnish
+        \n
+        \n v2.7 - Aug 20 2013
+        \n-----------------------------------
+        \n[x] auto-patch experimental signature changes
+        \n[x] Android 4.3 target
+        \n
+        \n v2.6.2 - Aug 08 2013
+        \n-----------------------------------
+        \n[x] encrypted signature patch (5)
+        \n
+        \n v2.6.1 - Jul 26 2013
+        \n-----------------------------------
+        \n[x] option to show resolutions into the video list
+        \n[x] encrypted signature patch (4)
+        \n
+        \n v2.6 - Jul 17 2013
+        \n-----------------------------------
+        \n[x] fix for exp. signature parsing
+        \n[x] new translations:
+        \n    - Arabic
+        \n    - Danish
+        \n    - Greek
+        \n
+        \n v2.5.2 - Jul 14 2013
+        \n-----------------------------------
+        \n[x] auto-fetch gantt\'s script to parse experimental signatures
+        \n
+        \n v2.5.1 - Jul 12 2013
+        \n-----------------------------------
+        \n[x] encrypted signature patch (3)
+        \n
+        \n v2.5 - Jul 11 2013
+        \n-----------------------------------
+        \n[x] encrypted signature patch (2)
+        \n[x] other small bugs fixed
+        \n
+        \n v2.4 - Jul 02 2013
+        \n-----------------------------------
+        \n[x] new launcher and notification icons by Sam Plane
+        \n
+        \n v2.3.2 - Jun 28 2013
+        \n-----------------------------------
+        \n[x] small bugs fixed
+        \n
+        \n v2.3.1 - Jun 27 2013
+        \n-----------------------------------
+        \n[x] encrypted signature patch
+        \n
+        \n v2.3 - Jun 25 2013
+        \n-----------------------------------
+        \n[x] encrypted signature support (thanks Gantt@userscripts.org)
+        \n[x] other bug/stability fixes
+        \n
+        \n v2.2 - May 12 2013
+        \n-----------------------------------
+        \n[x] fixed a bunch of BUUUUUGS !!!
+        \n[x] handles direct link clicks
+        \n
+        \n v2.1 - May 11 2013
+        \n-----------------------------------
+        \n[x] code optimizations
+        \n[x] mediaScanner bug fix (thanks Wolfram!)
+        \n[x] new translations:
+        \n    - Chinese (China)
+        \n    - Chinese (Hong Kong)
+        \n
+        \n v2.0.6 - May 09 2013
+        \n-----------------------------------
+        \n[x] dialog/toast when Downloads system app is not found
+        \n[x] Chinese (Taiwan) translation
+        \n
+        \n v2.0.5 - May 09 2013
+        \n-----------------------------------
+        \n[x] bug fix (FC when Downloads system app is not found)(3)
+        \n
+        \n v2.0.4 - May 08 2013
+        \n-----------------------------------
+        \n[x] bug fix (FC when Downloads system app is not found)(2)
+        \n[x] Hungarian translation
+        \n
+        \n v2.0.3 - May 08 2013
+        \n-----------------------------------
+        \n[x] bug fix (FC when Downloads system app is not found)
+        \n
+        \n v2.0.2 - May 07 2013
+        \n-----------------------------------
+        \n[x] bug fix
+        \n
+        \n v2.0.1 - May 06 2013
+        \n-----------------------------------
+        \n[x] bug fix
+        \n
+		\n v2.0 - May 06 2013
+		\n-----------------------------------
+		\n[x] audio extraction from downloaded video with optional conversion to mp3 (with FFmpeg)
+		\n[x] PayPal donation menu
+		\n[x] BugSense integration
+		\n[x] on the fly language switch
+		\n[x] fixed locale change to default
+		\n[x] 3 new option on SSH:
+		\n    - use other ConnectBot forks
+		\n    - use link inside same LAN
+		\n    - SSH-send to long-press menu
+		\n[x] up-navigation for ativities
+		\n[x] nice translators list
+		\n[x] new translations:
+		\n    - German
+		\n    - Hebrew
+		\n    - Polish (Poland)
+		\n    - Portuguese (Brazil)
+		\n    - Russian
+		\n    - Spanish
+		\n    - Western Farsi (Iran)
+		\n 
+		\n v1.9 - Mar 23 2013
+		\n-----------------------------------
+		\n[x] YT web page parsing improved
+		\n[x] fixed notif. error when remove downloads not yet started
+		\n[x] 4K and 3D video support
+		\n[x] re-organized menus
+		\n[x] on the fly theme switch
+		\n[x] progress bar for video list
+		\n[x] option to enable logging
+		\n[x] Korean translation
+		\n
+		\n v1.8.2 - Mar 15 2013
+		\n-----------------------------------
+		\n[x] dark/light theme switcher
+		\n[x] option to show all the file sizes into the video list
+		\n[x] French translation
+		\n
+		\n v1.8.1 - Mar 14 2013
+		\n-----------------------------------
+		\n[x] notification bug fix
+		\n
+		\n v1.8 - Mar 12 2013
+		\n-----------------------------------
+		\n[x] extSdCard support
+		\n[x] long-press on video list item: menu to copy/share link
+		\n[x] auto update-check once a day
+		\n[x] new notification icon
+		\n[x] landscape orientation support
+		\n[x] YT video thumbnail preview
+		\n[x] entire row in v.list clickable
+		\n[x] Turkish translation
+		\n[x] Dutch translation
+		\n
+		\n v1.7 - Mar 03 2012
+		\n-----------------------------------
+		\n[x] translations:
+		\n    - Italian
+		\n    - Portuguese (Portugal)
+		\n[x] option to force the locale
+		\n
+		\n v1.6 - Mar 01 2013
+		\n-----------------------------------
+		\n[x] own YTD notification bar
+		\n[x] options for own and sys notif.
+		\n[x] added some credits
+		\n
+		\n v1.5.2 - Feb 25 2013
+		\n-----------------------------------
+		\n[x] better fix on bad video list
+		\n[x] remove stop download on click
+		\n[x] open DM on notif. bar click (still not working in CM ROM)
+		\n
+		\n v1.5.1 - Feb 24 2013
+		\n-----------------------------------
+		\n[x] fixed crash if no net is available
+		\n[x] fixed crash on bad video list
+		\n
+		\n v1.5 - Feb 22 2013
+		\n-----------------------------------
+		\n[x] online update check
+		\n[x] option to fetch filesizes
+		\n[x] stop download on click (maybe not working in CM 10.1)
+		\n[x] DownloadManager quick links
+		\n[x] settings and DM overflow menu
+		\n[x] reordered preferences
+		\n[x] small fixes
+		\n
+		\n v1.4 - Jan 29 2013
+		\n-----------------------------------
+		\n[x] licenses and code links
+		\n[x] Share this App option
+		\n
+		\n v1.3.1 - Jan 19 2013
+		\n-----------------------------------
+		\n[x] handle again http|https links (thanks Reiner!)
+		\n
+		\n v1.3 - Jan 18 2013
+		\n-----------------------------------
+		\n[x] share via mobile links support
+		\n
+		\n v1.2 - Dec 25 2012
+		\n-----------------------------------
+		\n[x] fix for YouTube webpage changes
+		\n
+		\n v1.1.1 - Dec 16 2012
+		\n-----------------------------------
+		\n[x] preferences fix
+		\n
+		\n v1.1 - Dec 13 2012
+		\n-----------------------------------
+		\n[x] all text strings exported
+		\n[x] preferences modification
+		\n[x] quick start tutorial
+		\n
+		\n v1.0.1 - Dec 11 2012
+		\n-----------------------------------
+		\n[x] bad typo fixed
+		\n[x] file-chooser new folder icons
+		\n
+		\n v1.0 - Dec 11 2012
+		\n-----------------------------------
+		\n[x] FIRST PUBLIC RELEASE
+		\n[x] send download via SSH
+		\n[x] SSH send how-to dialog
+		\n[x] standard download locations
+		\n[x] file-chooser for download dest.
+		\n[x] add quality suffix options
+		\n[x] file renaming options
+		\n-----------------------------------
+	</string>
+		
+    <string name="gpl_title">GPL-3.0</string>
+    <string name="gpl_summary">YouTubeDownloader\nFFmpeg</string>
+
+    <string name="mit_title">MIT</string>
+    <string name="mit_summary">android-filechooser</string>
+    
+    <string name="lgpl_title">LGPL-3.0</string>
+    <string name="lgpl_summary">liblame</string>
+    
+    <string name="apache_title">Apache</string>
+    <string name="apache_summary">SlidingMenu\nPicasso\nMyID3 &amp; Jakarta</string>
+    
+    <string name="cc_title">CC BY-NC-ND 3.0</string>
+    <string name="cc_summary">App\'s icons\nStack Overflow\'s snippets</string>
+    
+    <string name="mpl_title">MPL-2.0</string>
+    <string name="mpl_summary">Rhino</string>
+		
+    <string name="gpl_text">GNU GENERAL PUBLIC LICENSE
+		\n\n
+		This program is free software: you can redistribute it and/or modify
+		it under the terms of the GNU General Public License as published by
+		the Free Software Foundation, either version 3 of the License, or
+		(at your option) any later version.
+		\n\n
+		This program is distributed in the hope that it will be useful,
+		but WITHOUT ANY WARRANTY; without even the implied warranty of
+		MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+		GNU General Public License for more details.
+		\n\n
+		You should have received a copy of the GNU General Public License
+		along with this program. If not, see <http>http://www.gnu.org/licenses</http></string>
+		
+    <string name="lgpl_text">GNU LESSER GENERAL PUBLIC LICENSE
+		\n\n
+		This library is free software; you can redistribute it and/or
+		modify it under the terms of the GNU Lesser General Public
+		License as published by the Free Software Foundation; either
+		version 2 of the License, or (at your option) any later version.
+		\n\n
+		This library is distributed in the hope that it will be useful,
+		but WITHOUT ANY WARRANTY; without even the implied warranty of
+		MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+		Lesser General Public License for more details.
+		\n\n
+		You should have received a copy of the GNU General Public License
+    	along with this program.  If not, see <http>http://www.gnu.org/licenses</http></string>
+
+    <string name="mit_text">The MIT License (MIT)
+		\n\n
+		Permission is hereby granted, free of charge, to any person obtaining a copy of
+		this software and associated documentation files (the "Software"), to deal in
+		the Software without restriction, including without limitation the rights to
+		use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of
+		the Software, and to permit persons to whom the Software is furnished to do so,
+		subject to the following conditions:
+		\n\n
+		The above copyright notice and this permission notice shall be included in all
+		copies or substantial portions of the Software.
+		\n\n
+		THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+		IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS
+		FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR
+		COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER
+		IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
+		CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.</string>
+		
+    <string name="apache_text">Apache licence 2.0
+        \n\n
+        Licensed under the Apache License, Version 2.0 (the "License");
+		you may not use this file except in compliance with the License.
+		You may obtain a copy of the License at
+		\n\n
+		\t <http>http://www.apache.org/licenses/LICENSE-2.0</http>
+		\n\n
+		Unless required by applicable law or agreed to in writing, software
+		distributed under the License is distributed on an "AS IS" BASIS,
+		WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+		See the License for the specific language governing permissions and
+		limitations under the License.
+    </string>
+    
+    <string name="cc_text">Attribution-NonCommercial-NoDerivs 3.0 Unported
+		\n
+		\nThis is a human-readable summary of the Legal Code 
+			(the full license: 
+			<http>http://www.creativecommons.org/licenses/by-nc-nd/3.0/legalcode/</http>).
+		\n
+		\nYou are free:
+		\n
+		\n\tto Share - to copy, distribute and transmit the work
+		\n
+		\nUnder the following conditions:
+		\n
+		\n\tAttribution - You must attribute the work in the manner specified by the author or licensor 
+			(but not in any way that suggests that they endorse you or your use of the work).
+		\n
+		\n\tNoncommercial - You may not use this work for commercial purposes.
+		\n
+		\n\tNo Derivative Works - You may not alter, transform, or build upon this work.
+		\n
+		\nWith the understanding that:
+		\n
+		\n\tWaiver - Any of the above conditions can be waived if you get permission from the copyright holder.
+		\n\tPublic Domain - Where the work or any of its elements is in the public domain under applicable law, 
+			that status is in no way affected by the license.
+		\n\tOther Rights - In no way are any of the following rights affected by the license:
+		\n\t\tYour fair dealing or fair use rights, or other applicable copyright exceptions and limitations;
+		\n\t\tThe author\'s moral rights;
+		\n\t\tRights other persons may have either in the work itself or in how the work is used, such as publicity or privacy rights.
+		\n\tNotice - For any reuse or distribution, you must make clear to others the license terms of this work. 
+			The best way to do this is with a link to this web page.
+    </string>
+    
+    <string name="mpl_text">This Source Code Form is subject to the terms of the Mozilla Public License, v2.0. 
+        If a copy of the MPL was not distributed with this file, You can obtain one at 
+        <http>http://mozilla.org/MPL/2.0</http>.</string>
+		
+    <string name="ytd_code_git_summary">https://github.com/dentex/ytdownloader/</string>
+    <string name="ytd_code_hg_summary">https://sourceforge.net/projects/ytdownloader/</string>
+    
+    <string name="credits_text">
+        \tMain Licenses
+        \n
+        \nThis App is released under the GPL-3.0.
+        \n(YouTubeDownloader for Android Copyright &#169; 2012-2013 Samuele Rini)
+        \n
+        \nThe FFmpeg binary (http://www.ffmpeg.org/index.html), 
+        	used for the audio extraction feature, is released under the GPL-3.0.
+        \n(FFmpeg version 2.0.1 Copyright &#169; 2000-2013 the FFmpeg developers)
+    	\n
+    	\nThe filechooser library is released under the MIT license.
+    	\n(android-filechooser Copyright &#169; 2012 Hai Bison)
+    	\n
+    	\nThe SlidingMenu library is released under the Apache License.
+    	\n(Copyright &#169; 2012 Jeremy Feinstein)
+    	\n
+    	\nThe liblame library, used to compile FFmpeg, is released under the LGPL.
+    		A GitHub project, https://github.com/intervigilium/liblame, 
+    		has been used to compile the lame libraries for Android.
+    	\n(liblame Copyright &#169; 2010 Ethan Chen)
+    	\n(LAME Copyright &#169; 1999-2007 The LAME Project,
+		\nCopyright &#169; 1999-2001 Mark Taylor,
+		\nCopyright &#169; 1998 Micheal Cheng)
+    	\n(mpglib Copyright &#169; 1995-1997 Michael Hipp)
+    	\n
+    	\nYTD\'s mp3 tags are written with MyID3: a Java ID3 Tag Library
+    		(http://www.fightingquaker.com/myid3 and https://sites.google.com/site/eternalsandbox/myid3-for-android) 
+    		released under the Apache license, as its dependency Jakarta Regexp library.
+    	\n(MyID3 Copyright &#169; 2008 Charles M. Chen, adapted for Android by Romulus Urakagi Ts\'ai)
+    	\n
+		\nPicasso: Image downloading and caching library
+			 - Copyright 2013 Square, Inc. - http://square.github.io/picasso/
+		\n
+		\nLauncher and notification icons by Sam Plane: 
+			http://samplane123.deviantart.com/, released under the CC BY-NC-ND 
+			(http://creativecommons.org/licenses/by-nc-nd/3.0)
+		\n
+		\nCredits for the custom download manager to  Hiroshi Matsunaga (matsuhiro): 
+		    https://github.com/matsuhiro/AndroidDownloadManger
+		    (released "unlicensed"). 
+		\n
+		\n
+    	\tCode excerpts Licenses
+        \n
+        \nStack Overflow (http://stackoverflow.com), a question and answer site for programmers where all 
+        	the content is CC BY-SA 3.0 licensed (see http://creativecommons.org/licenses/by-sa/3.0)
+        \n
+        \ncheckMD5(&#8230;) and calculateMD5(&#8230;): 
+        	https://github.com/CyanogenMod/android_packages_apps_CMUpdater
+        	 - Copyright &#169; 2012 The CyanogenMod Project, 
+        	licensed under the GNU GPLv2 license
+        \n
+        \nFfmpegController.java: GPL-3.0 - Copyright &#169; 2009, Nathan Freitas, Orbot / The Guardian Project
+        	 - http://openideals.com/guardian
+        	 - https://github.com/guardianproject/android-ffmpeg-java
+        \n
+		\nObserver.java -  reference: https://gist.github.com/shirou/659180
+        \n
+		\nSectionedAdapter.java: GPL-3.0
+			 - Copyright &#169; 2008-2010 CommonsWare, LLC
+			 - portions Copyright &#169; 2008 Jeffrey Sharkey
+        \n
+		\nUtils.getCpuInfo(): http://www.roman10.net/how-to-get-cpu-information-on-android/
+			 - by Liu Feipeng
+        \n
+		\nUtils.scanMedia(&#8230;): 
+			http://www.grokkingandroid.com/adding-files-to-androids-media-library-using-the-mediascanner/
+			 - by Wolfram Rittmeyer
+        \n
+		\nDashboardAdapter.java and DashboardListItem.java: code adapted from 
+			https://github.com/survivingwithandroid/Surviving-with-android/ - by Francesco Azzola (JFrankie)
+        \n
+		\nRhino.jar: open-source implementation of JavaScript written entirely in Java; 
+			https://developer.mozilla.org/en-US/docs/Rhino - license: http://www.mozilla.org/MPL/2.0/
+        \n
+		\nJavascript function \"decryptSignature\" from the Greasemonkey script 
+			http://userscripts.org/scripts/show/25105 (MIT License) - by Gantt
+		\n
+		\nQueueThread.java -  reference: http://mindtherobot.com/blog/159/android-guts-intro-to-loopers-and-handlers/
+		\nby Ivan Memruk
+		\n
+	    \n
+	    For more details, look for comments in YTD\'s Java code.
+	    \n
+	    \n
+	    \tTranslations
+        \n\nFor more info go to:
+        \n<http>www.getlocalization.com/ytdownloader</http>
+        \n<http>forum.xda-developers.com/showthread.php?p=37708791</http>
+    </string>
+    
+    <string name="help_translate_summary">www.getlocalization.com/ytdownloader</string>
+    <string name="xda_summary">forum.xda-developers.com/showthread.php?p=37708791</string>
+    
+    <string name="paypal_title">PayPal</string>
+	<string name="flattr_title">Flattr</string>
+
+    <string name="paypal_user">samuele.rini76\@gmail.com</string>
+    <string name="paypal_currency_code">EUR</string>
+    
+    <string name="flattr_user">dentex</string>
+    
+    <string name="tweet_title">Twitter</string>
+    <string name="tweet_summary">\@twidentex</string>    
+    
+    <string name="thumb_preview_descr">Video thumbnail</string>
+    <string name="dashboard_longclick_item_icon_descr">longclick list item\'s icon</string>
+    <string name="bkg_img_descr">Background image</string>
+	
+    <string name="app_name">YouTube Downloader</string>
+    <string name="title_activity_share">YouTube Downloader</string>
+    
+    <string name="json_ext">.json</string>
+    <string name="dividers_descr">Divider</string>
+    
+    <string-array name="standard_location_entries">
+        <item>Downloads</item>
+        <item>DCIM</item>
+        <item>Movies</item>
+    </string-array>
+    
+    <string-array name="standard_location_entry_values">
+        <item>Downloads</item>
+        <item>DCIM</item>
+        <item>Movies</item>
+    </string-array>
+    
+    <string name="standard_location_default">Downloads</string>
+    
+    <string-array name="connectbot_flavour_entries">
+        <item>ConnectBot</item>
+        <item>VX ConnectBot</item>
+        <item>Irssi ConnectBot</item>
+    </string-array>
+    
+    <string-array name="connectbot_flavour_entry_values">
+        <item>org.connectbot</item>
+        <item>sk.vx.connectbot</item>
+        <item>org.woltage.irssiconnectbot</item>
+    </string-array>
+    
+    <string name="connectbot_flavour_default">org.connectbot</string>
+    
+    <string-array name="choose_theme_entry_values">
+        <item>D</item>
+        <item>L</item>
+    </string-array>
+    
+    <string name="choose_theme_default">D</string>
+    
+    <string-array name="mp3_bitrate_entry_values">
+        <item>128k</item>
+        <item>160k</item>
+        <item>192k</item>
+        <item>256k</item>
+        <item>7</item>
+        <item>6</item>
+        <item>5</item>
+        <item>4</item>
+        <item>3</item>
+        <item>2</item>
+        <item>1</item>
+        <item>0</item>
+    </string-array>
+    
+    <string-array name="mp3_bitrate_entries">
+        <item>128k (CBR)</item>
+        <item>160k (CBR)</item>
+        <item>192k (CBR)</item>
+        <item>256k (CBR)</item>
+        <item>100k (VBR)</item>
+        <item>115k (VBR)</item>
+        <item>130k (VBR)</item>
+        <item>165k (VBR)</item>
+        <item>175k (VBR)</item>
+        <item>190k (VBR)</item>
+        <item>225k (VBR)</item>
+        <item>245k (VBR)</item>
+    </string-array>
+    
+    <string name="mp3_bitrate_default">192k</string>
+    
+    <string-array name="audio_extraction_type_entry_values">
+        <item>extr</item>
+        <item>conv</item>
+    </string-array>
+    
+    <string name="audio_extraction_type_default">conv</string>
+    
+    <string name="apk_upgrade_sourceforge_link">http://sourceforge.net/projects/ytdownloader/files/</string>
+    <string name="apk_download_sourceforge_link">http://sourceforge.net/projects/ytdownloader/files/dentex.youtube.downloader_v%1$s.apk/download</string>
+	<string name="apk_filename">dentex.youtube.downloader_v%1$s.apk</string>
+    
+    <string name="ffmpeg_download_dialog_msg_link">http://sourceforge.net/projects/ytdownloader/files/ffmpeg/2.1/ffmpeg_%1$s/download</string>
+    
+<!--     <string name="ffmpeg_download_dialog_msg_link_test">http://sourceforge.net/projects/ytdownloader/files/ffmpeg/ffmpeg_armv7a_v2.1/download</string> -->
+<!--     <string name="ffmpeg_download_dialog_msg_link_no_red">http://optimate.dl.sourceforge.net/project/ytdownloader/files/ffmpeg/ffmpeg_arm%1$s</string> -->
+    
+    <string name="ffmpeg_size_armv7">7.0 MB</string>
+    <string name="ffmpeg_size_armv5">6.6 MB</string>
+    
+    <string-array name="notification_defaults_entry_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+    </string-array>
+    
+    <string name="notification_defaults_default">5</string>
+    
+    <string-array name="lang_entries">
+        <item>Default</item>
+        <item>English</item>
+        <item>Arabic</item>
+        <item>Chinese (China)</item>
+        <item>Chinese (Hong Kong)</item>
+        <item>Chinese (Taiwan)</item>
+        <item>Czech (Czech Republic)</item>
+        <item>Danish</item>
+        <item>Dutch</item>
+        <item>Finnish</item>
+        <item>French</item>
+        <item>German</item>
+        <item>Greek</item>
+        <item>Hebrew</item>
+        <item>Hungarian (Hungary)</item>
+        <item>Italian</item>
+        <item>Korean</item>
+        <item>Polish (Poland)</item>
+        <item>Portuguese (Brazil)</item>
+        <item>Portuguese (Portugal)</item>
+        <item>Russian</item>
+        <item>Slovak</item>
+        <item>Slovenian</item>
+        <item>Spanish</item>
+        <item>Turkish</item>
+        <item>Vietnamese</item>
+        <item>Western Farsi (Iran)</item>
+    </string-array>
+    
+    <string-array name="lang_entry_values">
+        <item>default</item>
+        <item>en</item>
+        <item>ar</item>
+        <item>zh_CN</item>
+        <item>zh_HK</item>
+        <item>zh_TW</item>
+        <item>cs_CZ</item>
+        <item>da</item>
+        <item>nl</item>
+        <item>fi</item>
+        <item>fr</item>
+        <item>de</item>
+        <item>el_GR</item>
+        <item>iw</item>
+        <item>hu_HU</item>
+        <item>it</item>
+        <item>ko</item>
+        <item>pl_PL</item>
+        <item>pt_BR</item>
+        <item>pt_PT</item>
+        <item>ru</item>
+        <item>sk</item>
+        <item>sl</item>
+        <item>es</item>
+        <item>tr_TR</item>
+        <item>vi</item>
+        <item>fa</item>
+    </string-array>
+    
+    <string name="lang_default">default</string>
+    
+    <string name="filter_mp4">MP4</string>
+    <string name="filter_webm">WEBM</string>
+    <string name="filter_flv">FLV</string>
+    <string name="filter_3gp">3GP</string>
+    <string name="filter_hd">HD</string>
+    <string name="filter_3d">3D</string>
+    
+    <string-array name="launcher_entry_values">
+        <item>settings</item>
+        <item>dashboard</item>
+	</string-array>
+	
+    <string-array name="launcher_entries">
+        <item>@string/title_activity_settings</item>
+        <item>@string/title_activity_dashboard</item>
+	</string-array>
+	
+    <string name="launcher_default">settings</string>
+
+</resources>

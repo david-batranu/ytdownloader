@@ -1,0 +1,385 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="title_activity_settings">Ayarlar</string>
+    <string name="title_activity_upgrade_apk">Yükselt</string>
+    <string name="title_activity_about">Hakkinda</string>
+    <string name="title_activity_donate">Bağışlar</string>
+    <string name="title_activity_tutorials">Rehberler</string>
+    <string name="title_activity_translators_show">Tercüme Edenler</string>
+    <string name="title_activity_dashboard">Kontrol Paneli</string>
+
+    <!-- ### ShareActivity ### -->
+
+    <string name="tutorial_title">Genel Uygulama Yardımcısı</string>
+	<string name="tutorial_msg_new">Şimdi seçilen video için kullanılabilecek kodek ve nitelikleriyle alakalı bir liste göreceksiniz. Yapılabilir:
+\n\n*) Video’yu yerel diske (cihazınızda) kaydetmek veya SSH kullanarak uzakt bilgisayara göndermek için İtem\'e basınız.
+\nHedef makine gereklilikleri: Başh ve Wget.  SSH’e ek olarak;
+\n\n*) İtem’e uzunca basın ve kopyalamak yada metin olarak paylaşmak için seçim yapın. ( ya da başka uygulamaya gönderin).
+\n Lütfen şunu unutmayın: Linkler  (SSH ile gönderdiğinden farklı) sadece oluşturulduğu cihazda ya da paylaştığınız makinede kullanılabilir.\n</string>
+    <string name="loading">Yükleniyor&#8230;</string>
+    <string name="error">Hata!</string>
+    <string name="information">Bilgi</string>
+    <string name="dialogs_negative">Iptal</string>
+    <string name="wait">Lütfen bekleyiniz&#8230;</string>
+    <string name="no_downloads_sys_app">\"İndirme\" işlemi için sistem uygulaması bulunamadı.</string>
+    <string name="invalid_url">Web sayfası alınamadı. URL geçersiz olabilir.</string>
+    <string name="invalid_url_short">Web sayfası alınamadı.</string>
+    <string name="invalid_response">Geçersiz HTTP sunucusu yanıtı.</string>
+    <string name="rtmpe_streams">Geçersiz HTTP sunucusu yanıtı.</string>
+    <string name="bad_link">Verilen bağlantıyı kontrol edin.</string>
+    <string name="bad_link_dialog_msg">Geçerli olmayan YouTube bağlantısı.</string>
+    <string name="no_net">Kullanılabilir bağlantı yok.</string>
+    <string name="no_net_dialog_msg">Lütfen, öncelikle bir ağ bağlantısı kurun.</string>
+    <string name="no_market">Kullanılabilir market uygulaması mevcut değil.</string>
+    <string name="no_market_dialog_msg">Lütfen, Google Play\'i yükleyiniz</string>
+    <string name="list_click_dialog_title">Karşıdan yüklemeyi onaylayın:</string>
+    <string name="list_click_download_local">Buraya indir</string>
+    <string name="list_click_download_ssh">SSH ile gönder</string>
+    <string name="rename_dialog_title">Yeni dosya adı:</string>
+    <string name="rename_dialog_msg">Dosya uzantısı girmeyin (.mp4 veya .flv gibi).</string>
+    <string name="unable_save">Video kaydedilemiyor!</string>
+    <string name="unable_save_dialog_msg">Hedef klasörü kullanılabilir değil ve / veya yazılabilir değil.</string>
+    <string name="ssh_info_tutorial_title">SSH ile nasıl gönderilir</string>
+    <string name="ssh_info_tutorial_msg">Uzun basılı tutarak panoya kopyalayın.
+		\n\nConnectBot\'dan bir profil seçin ve uzak kabuk içinde (remote shell)  indirmek istediğiniz
+		dizine YAPIŞTIRIN (menü butonunu kullanarak) ve ENTER tuşlayın.</string>
+    <string name="callConnectBot_dialog_title">%1$s yüklü değil!</string>
+    <string name="callConnectBot_dialog_msg">Video\'yu SSH ile indirebilmek için bu ücretsiz uygulamayı yüklemeniz gerekiyor.</string>
+    <string name="callConnectBot_dialog_positive">İndir</string>
+    <string name="download_complete_dialog_msg1">YouTube Video:\n</string>
+    <string name="download_complete_dialog_msg2">\nBaşarıyla indirildi.</string>
+    <string name="download_complete_dialog_positive">Aç</string>
+    <string name="downloading">İndiriliyor&#8230;</string>
+    <string name="cancel_download_dialog_title">İndirmeyi iptal et?</string>
+    <string name="video_list_error_toast">Video listesinde hata.</string>
+    <string name="codec">\n\n\tKodek:</string>
+    <string name="quality">\n\tKalite:</string>
+    <string name="size">\n\tBoyut:</string>
+    <string name="notification_downloading_pt1">İndiriliyor</string>
+    <string name="notification_downloading_pt2">Video dosyaları</string>
+    <string name="notification_no_downloads">Devam etmekte olan bir indirme mevcut değil</string>
+    <string name="long_click_title">Seçilen bağlantı kolu:</string>
+    <string name="ffmpeg_ready">FFmpeg hazır.</string>
+    <string name="login_required">YouTube\'a giriş yapmanız gerekebilir.</string>
+    <string name="encrypted_streams">Şifreli video akışı</string>
+    <string name="no_video_available">Video yok.</string>
+    <string name="retry_button_text">Yeniden dene</string>
+    
+    <string-array name="long_click_entries">
+        <item>Panoya kopyala</item>
+        <item>Metin olarak paylaş</item>
+    </string-array>
+    
+    <string-array name="long_click_entries2">
+        <item>Panoya kopyala</item>
+        <item>Metin olarak paylaş</item>
+        <item>SSH ile gönder</item>
+    </string-array>
+    
+    <string name="link_copied">Bağlantı panoya kopyalandı</string>
+    <string name="share_link_via">Bağlantıyı paylaş:</string>
+    
+    <string name="filter_header_reset">Süzgeçleri sıfırla</string>
+    <string name="filter_view_all">Tümünü gör</string>
+    <string name="filter_header_format">Türe göre süz</string>
+    <string name="filter_header_quality">Kaliteye göre süz</string>
+    <string name="filter_header_others">Diğer süzgeçler</string>
+
+    <string name="filter_ld">Büyük</string>
+    <string name="filter_md">Orta</string>
+    <string name="filter_sd">Küçük</string>
+    <string name="filter_vo">Sadece görüntü</string>
+    <string name="filter_ao">Sadece ses</string>
+    
+    <!-- ### SettingsActivity ### -->
+
+    <string name="attention">Dikkat!</string>
+    <string name="system_warning_title">Bu bir sistem dosyasıdır.</string>
+    <string name="system_warning_msg">Seçilen yol standart sd kart\'ın Download klasörüne geri döndürülecek.</string>
+    <string name="sdcard_unmounted_warning">Sd kard mount (tanıtılmamış) edilmemiş.</string>
+    <string name="update_disabled_summary">Farklı imza bulundu(F-Droid?)</string>
+    <string name="failed_download">Başarısız indirme temizlendi</string>
+    <string name="new_v_download">bulundu. İndiriliyor&#8230;</string>
+    <string name="new_v_install">indirildi. Yüklemek için tıklayın.</string>
+    <string name="ffmpeg_download_dialog_title">İlave dosya gerekli. Şimdi indirilsin mi?</string>
+    <string name="ffmpeg_download_dialog_msg">Web link:</string>
+    <string name="ffmpeg_device_not_supported">Cihaz henüz desteklenmiyor.</string>
+    <string name="ffmpeg_support_mail">Geliştiriciye e-posta gönder?
+\nE-posta gönderilmeden önce göndereceğiniz bilgileri gözden geçireceksiniz.</string>
+    <string name="ffmpeg_download_notification">İndiriliyor FFmpeg</string>
+    <string name="ffmpeg_install">FFmpeg binary yükleniyor&#8230;</string>
+    <string name="email_via">E-posta gönder:</string>
+    <string name="file_already_added">Dosya zaten eklenmiş durumda.</string>
+    
+    <!-- ### UpgradeApkActivity ### -->
+    
+    <string name="upgrade_button_init">Güncelle</string>
+    <string name="upgrade_button_download">İndir\nve yükle</string>
+    <string name="upgrade_uppertext_searching">Arıyor&#8230;</string>
+    <string name="upgrade_uppertext_init">Yüklü sürüm:\n</string>
+
+    <string name="upgrade_latest">En son:\t</string>
+    <string name="upgrade_installed">\nYüklenen:\t</string>
+    <string name="upgraded_dialog_msg">Yeni sürüm standart sdcard  \'Download\' klasörüne depolandı.\n\nŞimdi yükle?</string>
+    <string name="upgraded_dialog_negative">Sonra\n(el ile)</string>
+    <string name="upgrade_latest_installed">En son sürüm zaten yüklü!</string>
+    <string name="upgrade_network_error">Güncelleme verisi alınamadı.\nDaha sonra tekrar deneyiniz.</string>
+    <string name="upgrade_bad_md5_dialog_msg">İndirilen paket bozuk.\nŞimdi silinecek.\nYeniden indirmek için OK tıklayın.</string>
+    
+    <!-- ### ### -->
+    
+    <string name="ytd_video">YTD video</string>
+    <string name="copy_error">Kopyalama hatası.</string>
+    <string name="copy_progress">Dosya kopyalama devam ediyor&#8230;</string>
+    <string name="copy_ok">Kopyalama tamamlandı.</string>
+    <string name="download_remove_failed">Hata: Geçici indirilen dosya silinemedi!</string>
+    <string name="download_failed">İndirme Başarısız!</string>
+    <string name="audio_extr_progress">Ses ayıklaması devam ediyor&#8230;</string>
+    <string name="audio_conv_progress">Ses dosyasının  mp3 kodlanması devam ediyor&#8230;</string>
+    <string name="audio_extr_completed">Ses oluşturma tamamlandı.</string>
+    <string name="audio_conv_completed">Mp3 kodlaması tamamlandı.</string>
+    <string name="audio_extr_error">Ses ayıklaması sırasında hata meydana geldi.</string>
+    <string name="audio_conv_error">Ses dosyasının mp3\'e dönüştürülmesi sırasında hata meydana geldi.</string>
+    <string name="auto_audio_extr_progress">%1$s / %2$s ses ayıklama tamamlandı</string>
+    <string name="auto_audio_extr_completed">Tüm ses ayıklama işlemi tamamlandı</string>
+    
+    <!-- ### DonateActivity ### -->
+    
+    <string name="paypal_item_name">YTD Bağış Yapma</string>
+	<string name="paypal_summary">YTD\'nin geliştiricisine bağış yaparak destek ol</string>
+	<string name="flattr_summary">Flattr this App</string>
+	
+	<!-- ### FfmpegDownloadService ### -->
+	<string name="ffmpeg_install_failed">FFmpeg yüklemesi başarısız oldu.</string>
+	
+	<!-- ### DashboardActivity ### -->
+	<string name="json_status_completed">Tamamlandı</string>
+	<string name="json_status_failed">Başarısız</string>
+	<string name="json_status_in_progress">Devam ediyor</string>
+	<string name="json_status_paused">Durduruldu</string>
+	<string name="json_status_imported">İçe aktarıldı</string>
+	<string name="json_status_queued">Sıraya alındı</string>
+	<string name="menu_search">ara&#8230;</string>
+	<string name="menu_backup">Yedekle</string>
+	<string name="menu_restore">Geri Yükle</string>
+	<string name="menu_import_file">Dosyaları içe aktar</string>
+	<string name="menu_import_file_double">%1$s zaten eklenmiş durumda.</string>
+	<string name="menu_backup_info">Panel bilgilerinin yedeğini almak için bir klasör seçin</string>
+	<string name="menu_restore_info">Panel bilgilerini yedekten geri yükle</string>
+	<string name="menu_restore_info_msg">Mevcut bilgilerin üzerine yazılacak.</string>
+	<string name="menu_import_file_info">Dosyaları içe aktar ve düzenle</string>
+	<string name="menu_import_in_progress">Dosya içe aktarma işlemi sürüyor: %1$s</string>
+	<string name="menu_backup_result_ok">Kontrol panel bilgileri yedeklendi.</string>
+	<string name="menu_backup_result_failed">Yedekleme hatası.</string>
+	<string name="menu_restore_result_ok">Kontrol panel bilgileri geri yüklendi.</string>
+	<string name="menu_restore_result_failed">Geri yükleme hatası.</string>
+	<string name="unsupported_operation">Desteklenmeyen işlem.</string>
+	<string name="ffmpeg_already_running">FFmpeg şu anda çalışıyor.</string>
+	<string name="invalid_data">Geçersiz bilgi.</string>
+	<string name="open_chooser_title">Şununla aç:</string>
+	
+	<string-array name="dashboard_click_entries">
+	    <item>Aç</item>
+	    <item>Sesi dışa aktar</item>
+        <item>Sesi dışa aktar ve Mp3\'e çevir</item>
+    </string-array>
+    
+	<string-array name="dashboard_click_entries_audio">
+	    <item>Aç</item>
+        <item>Mp3\'e çevir</item>
+    </string-array>
+    
+	<string-array name="dashboard_click_entries_flv">
+	    <item>Aç</item>
+        <item>Sesi dışa aktar ve Mp3\'e çevir</item>
+    </string-array>
+    
+	<string-array name="dashboard_click_entries_vo">
+	    <item>Aç</item>
+        <item>Ses akışı ekle (indirilen)</item>
+    </string-array>
+    
+	<string name="ao_not_found">Uygun ses akışı bulunamadı</string>
+	<string name="remove_ao_vo">Daha sonra sadece-video ve sadece-ses dosyalarını sil (onay istenmez!)</string>
+	<string name="ffmpeg_new_v_required">Yeni FFmpeg sürümü gerekiyor. Şimdi indirmek ister misiniz?</string>
+    <string name="share_file_via">Bu dosyayı şununla paylaş:</string>
+	<string name="ffmpeg_not_enabled_title">FFmpeg yüklü ya da aktif değil:</string>
+	<string name="ffmpeg_not_enabled_msg">Ayarlar açılsın mı?</string>
+	<string name="remove_video">Başarılı ses ayıklama işleminden sonra video dosyasını sil (dikkat: onay istemeden video silinir)</string>
+	<string name="remove_original_audio">Çeviri sonrasında sesi sil (onay almaz!)</string>
+	<string name="edit_id3_tags">ID3 etiketlerini düzenle</string>
+	<string name="id3_album">Albüm</string>
+	<string name="id3_artist">Sanatçı</string>
+	<string name="id3_title">Başlık</string>
+	<string name="id3_year">Yıl</string>
+	<string name="id3_genre">Tür</string>
+	<string name="audio_extr_info">Ses akışı içerir:</string>
+	
+	<string-array name="dashboard_long_click_entries">
+	    <item>Kopyala</item>
+	    <item>Taşı</item>
+        <item>Yeniden Adlandır</item>
+        <item>Videoyu yeniden indir</item>
+        <item>Gönder</item>
+        <item>Panelden Kaldır</item>
+        <item>Dosyayı çıkar ve sil</item>
+        <item>Durdur/Devam et</item>
+    </string-array>
+    
+	<string name="operation_standby">Lütfen bekleyin: şu anda başka bir işlem yapılıyor.</string>
+	<string name="dashboard_delete_data_cb">Listelenen tüm görüntü/ses dosyalarını sil</string>
+    
+	<string name="move_error">Taşıma hatası.</string>
+    <string name="move_progress">Dosya taşıma devam ediyor&#8230;</string>
+    <string name="move_ok">Dosya taşıma tamamlandı.</string>
+    <string name="long_press_warning_title">Yürütülemeyen işlemler:</string>
+    <string name="long_press_warning_msg">Kaynak ve hedef dizinleri aynı.</string>
+    <string name="long_press_warning_msg2">Bu klasörde zaten bir kopya var.</string>
+    <string name="audio_extr_warning_msg">Aynı ses dosyası daha önce çıkarıldı.</string>
+
+	<string name="delete_video_confirm">Bu dosyayı silmek istiyor musunuz?</string>
+	<string name="remove_video_confirm">Bu video dosyasını silmek istiyor musunuz?</string>
+	<string name="delete_video_ok">%1$s silindi.</string>
+	<string name="delete_video_failed">Hata: %1$s silinemedi.</string>
+	
+	<string name="empty_dashboard">Kayıt yok</string>
+	<string name="status_text_in_progress">Kayıt: %1$d (işlem gören: %2$d)</string>
+	<string name="status_text">Kayıt: %d</string>
+	
+    <!-- ### preferences ### -->
+
+    <!-- -->
+    <string name="dashboard_summary">YTD Kontrol Panelini Aç</string>
+
+    <!-- -->
+    <string name="settings_cat_ui">Kullanıcı Arabirimi</string>
+    <string name="lang_title">Lisan</string>
+    <string name="lang_dialog_title">Program dilini seçiniz:</string>
+    <string name="choose_theme_title">Tema seç</string>
+    <string-array name="choose_theme_entries">
+        <item>Koyu</item>
+        <item>Açık</item>
+    </string-array>
+    
+    <!-- -->
+    <string name="quick_start_title">Hızlı başlangıç</string>
+    <string name="quick_start_summ">Hızlı başlangıç rehberini aç</string>
+    <string name="quick_start_text">Burada sadece \'YouTube Downloader\' ayarları mevcut.
+		\n\nGerçek uygulamaya YouTube üzerinde video izlediğiniz sırada, paylaş butonu ile ulaşabilirsiniz.
+		\n\nSonra \'YouTube Downloaderni\' seçin ve daha fazla kullanım bilgisine ulaşın.
+		\n\nAyrıca herhangi bir YouTube düz metin bağlantısını  herhangi başka bir uygulama paylaşabilirsiniz: Mesajlaşma, Tarayıcı&#8230;</string>
+    <string name="general_info_title">Genel Nasıl yapılırı Etkinleştir</string>
+    <string name="general_info_summary">Açlışta genel yardımı göster</string>
+    <string name="show_again_checkbox">Bir dahaki sefer tekrar göster</string>
+    <string name="ssh_info_title">Nasıl SSH yapılır etkinleştir</string>
+    <string name="ssh_info_summary">SSH üzerinden uzaktan indirme hakkında hızlı bir ipucu göster</string>
+    <string name="audio_tutorial_title">Ses ayıklama öğreticisi</string>
+    <string name="audio_tutorial_summary">Ses ayıklama rehberini aç</string>
+    
+    <!-- -->
+    <string name="settings_cat_folder">İndirme Klasörü</string>
+    <string name="standard_location_title">Standart klasör seçin</string>
+    <string name="chooser_swap_title">Seçiciyi değiştir</string>
+    <string name="chooser_location_title">Dosya seçiciyi aç</string>
+    <string name="chooser_location_summary">Dosyayı seçmek için uzun bas</string>
+	
+    <!-- -->
+    <string name="settings_cat_files">Video dosyaları</string>
+    <string name="enable_rename_title">Dosya yeniden adlandırmayı etkinleştir</string>
+    <string name="enable_rename_summary">Video dosyasını indirmeden önce yeniden adlandır (sadece yerel indirmeler için)</string>
+	<string name="show_thumb_title">Önizleme resmi göster</string>
+    <string name="show_thumb_summary">Video listesi ile birlikte bir önizleme resmi indir</string>
+
+    <!-- -->
+    <string name="settings_cat_advanced">Advanced</string>
+    <string name="enable_advanced_features_title">Gelişmiş Özellikleri Aktif et</string>
+    <string name="enable_advanced_features_summary">FFmpeg \"eklenti\" indir</string>
+    <string name="mp3_bitrate_title">Mp3 çeviri kalitesi:</string>
+    
+    <string name="ffmpeg_auto_title">Sesi otomatik dışa aktar</string>
+    <string name="ffmpeg_auto_summary">Her indirme sonrası sesi otomatik olarak MP3 formatında dışa aktar </string>
+    <string name="ffmpeg_auto_cb_title">Otomatik dışa aktarmayı etkinleştir</string>
+    <string name="ffmpeg_auto_cb_summary">Aşağıdan parametreleri seçin</string>
+    
+    <string name="audio_extraction_type_title">Çıkarma türü</string>
+    <string-array name="audio_extraction_type_entries">
+	    <item>Sadece sesi dışa aktar</item>
+        <item>Sesi dışa aktar ve Mp3\'e çevir</item>
+    </string-array>
+    
+    <string name="remove_video_title">Video removal</string>
+    
+    <string name="enable_adaptive_title">İkinci akışı al</string>
+    <string name="enable_adaptive_summary">Sadece görüntü ve/veya sadece ses akışını görüntü listesine ekle</string>
+    
+    <!-- -->
+    <string name="settings_cat_notifications">Bildirimler</string>
+    
+    <string name="notification_defaults_title">Bildirim varsayılanları</string>
+    <string name="notification_defaults_dialog_title">YTD\'nin kendi bildirim varsayılanları</string>
+    <string-array name="notification_defaults_entries">
+        <item>Ses ve titreşim</item>
+        <item>Ses ve ışıklar</item>
+        <item>Titreşim ve ışıklar</item>
+        <item>Ses, Titreşim ve Işıklar</item>
+        <item>Ses</item>
+        <item>Titreşim</item>
+        <item>Işıklar</item>
+        <item>Hiçbiri</item>
+    </string-array>
+    
+    <string name="launcher_title">Giriş noktası etkinliği</string>
+    
+    <!-- -->
+    <string name="settings_cat_updates">Güncelle</string>
+    <string name="update_title">Güncelleme kontrolü</string>
+    <string name="autoupdate_title">Otomatik güncelleştirmeyi etkinleştir</string>
+    <string name="autoupdate_summary">Uygulamayı çalıştırdığınız zaman güncellemeleri kontrol et (her gün sadece ilk çalıştırmada, ve güncelleme otomatik indirilir)</string>
+
+    <!-- -->
+    <string name="settings_cat_app">Uygulama</string>
+    <string name="settings_cat_about_condensed">Hakkında</string>
+    <string name="title_changelog">Değişiklikler</string>
+    <string name="settings_cat_licenses">Lisanslar</string>
+
+    <string name="credits_title">Emeği Geçenler</string>
+    <string name="title_activity_credits_show">Diğer Lisanslar ve Çeviriler</string>
+        
+    <!-- -->
+    <string name="settings_cat_code">Kaynak Kod</string>
+    <string name="ytd_code_git_title">GitHub\'da YTD </string>
+    <string name="ytd_code_hg_title">Sourceforge\'de YTD</string>
+
+    <!-- -->
+    <string name="settings_cat_social">Sosyal</string>
+    <string name="share_title">Uygulamayı Paylaş</string>
+    <string name="share_summary">Twitter, Facebook, Gmail&#8230; ile&#8230;</string>
+    <string name="share_warning">Uygun uygulama bulunamadı.</string>
+    <string name="share_message">#YouTube Downloader
+		\nÜcretsiz ve Açık kaynaklı YouTube video indirme  Android uygulaması!
+		\nhttps://sourceforge.net/projects/ytdownloader/files/</string>
+	<string name="help_translate_title">Uygulamanın Çevirisine Destek Ol</string>
+    <string name="xda_title">XDA forum tartışma sayfası</string>
+    
+    <!-- -->
+    <string name="settings_cat_ssh">SSH</string>
+    <string name="connectbot_flavour_title">Kullanılacak ConnectBot sürümü</string>
+	<string name="connectbot_flavour_dialog_title">Videoyu SSH ile göndermek için ConnectBot\'u seçiniz</string>
+	<string name="enable_connectbot_short_cmd_title">SSH kısa komutunu etkinleştir</string>
+	<string name="enable_connectbot_short_cmd_summary">Uzak bağlantıya yapıştırmak için biraz daha kısa ama hızlı komutları kullanın
+(hedef PC aynı AĞ içinde bulunuyorsa çalışır)</string>
+	<string name="ssh_to_longpress_menu_title">SSH-gönder menüsü</string>
+	<string name="ssh_to_longpress_menu_summary">\"SSH ile Gönder\" eylemini uzun tıklama menüsüne taşı</string>
+	
+    <!-- -->
+	<string name="settings_cat_system">Sistem</string>
+	<string name="enable_logging_title">Günlük tutmayı etkinleştir</string>
+	<string name="enable_logging_summary">YTD\'s mesajlarını sistem günlüğüne ekle. Geliştiriciye sistem günlüğünü göndermek gereklidir.</string>
+	<string name="clear_dashboard_title">Kontrol Paneli Temizle</string>
+	<string name="clear_dashboard_summary">Tüm kontrol paneli referanslarını temizle (program çökmelerine engel olabilir)</string>
+	<string name="clear_dashboard_msg">Emin misiniz?\nBu işlem kontrol paneldeki tüm listeleri silecektir.</string>
+	<string name="clear_dashboard_ok">Kontrol Paneli temizlendi.</string>
+	<string name="clear_dashboard_failed">Kontrol panel temizleme işlemi başarısız.</string>
+	
+</resources>
